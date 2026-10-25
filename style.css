@@ -100,7 +100,7 @@ footer { text-align: center; padding: 2rem 1.25rem 3rem; color: var(--muted); fo
 .eyebrow.dark { color: var(--accent); }
 .lead.left { text-align: left; max-width: 46rem; margin: 0 0 1.5rem; }
 .toc { display: flex; flex-wrap: wrap; gap: .6rem; margin-bottom: 1rem; }
-.toc a { text-decoration: none; color: var(--fg); background: color-mix(in srgb, var(--paper) 55%, var(--bg)); border: 1px solid var(--border); border-radius: 999px; padding: .4rem .9rem; font-size: .9rem; font-weight: 600; }
+.toc a { text-decoration: none; color: var(--fg); background: color-mix(in srgb, var(--fg) 7%, transparent); border: 1px solid var(--border); border-radius: 999px; padding: .4rem .9rem; font-size: .9rem; font-weight: 600; }
 .toc a:hover { border-color: var(--accent); color: var(--accent); }
 .shop section { padding: 2.5rem 0 0; }
 .shop h2 { text-align: left; }
