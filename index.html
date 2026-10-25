@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seungho Lee</title>
+  <meta name="description" content="Personal page of Seungho Lee.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Seungho Lee</h1>
+    <p class="tagline">Engineer · autonomous driving · planning &amp; control</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Hi, I'm Seungho. I work on motion planning and decision-making software for
+        autonomous vehicles. This page is a small home for things I build and write
+        outside of work.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="cards">
+        <li>
+          <h3>Project one</h3>
+          <p>One-line description of what it does and why it exists.</p>
+          <a href="#">Link</a>
+        </li>
+        <li>
+          <h3>Project two</h3>
+          <p>One-line description of what it does and why it exists.</p>
+          <a href="#">Link</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul class="links">
+        <li><a href="https://github.com/wckorealsh">GitHub</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="mailto:you@example.com">Email</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Seungho Lee</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
