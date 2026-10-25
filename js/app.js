@@ -108,17 +108,22 @@ async function changeQty(id, d) {
   if (it.qty + d <= 0) return deleteDoc(doc(db, "users", user.uid, "cart", id));
   return updateDoc(doc(db, "users", user.uid, "cart", id), { qty: increment(d) });
 }
-async function addToCart(card) {
+async function addToCart(card, n = 1) {
   if (!user) return openAuth("Sign in to save items to your cart.");
   const id = card.dataset.id;
   const ref = doc(db, "users", user.uid, "cart", id);
-  if (cart.has(id)) await updateDoc(ref, { qty: increment(1) });
-  else await setDoc(ref, { name: card.dataset.name, brand: card.dataset.brand, price: card.dataset.price, img: card.dataset.img, qty: 1, addedAt: serverTimestamp() });
-  const btn = card.querySelector(".add"); btn.classList.add("done"); btn.textContent = "Added ✓";
-  setTimeout(() => { btn.classList.remove("done"); btn.textContent = "+ Cart"; }, 1200);
+  if (cart.has(id)) await updateDoc(ref, { qty: increment(n) });
+  else await setDoc(ref, { name: card.dataset.name, brand: card.dataset.brand, price: card.dataset.price, img: card.dataset.img, qty: n, addedAt: serverTimestamp() });
+  const btn = card.querySelector(".add"), label = btn.textContent;
+  btn.classList.add("done"); btn.textContent = "Added ✓";
+  setTimeout(() => { btn.classList.remove("done"); btn.textContent = label; }, 1200);
   openDrawer();
 }
-document.querySelectorAll(".card .add").forEach((b) => b.addEventListener("click", () => addToCart(b.closest(".card"))));
+document.addEventListener("click", (e) => {
+  const b = e.target.closest("button.add"); if (!b) return;
+  const box = b.closest("[data-id]"), qty = box.querySelector("input#qty");
+  addToCart(box, qty ? Math.max(1, parseInt(qty.value, 10) || 1) : 1);
+});
 
 function openDrawer() { drawer.classList.add("open"); backdrop.hidden = false; }
 function closeDrawer() { drawer.classList.remove("open"); backdrop.hidden = true; }

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product · The Lees</title>
+  <meta name="description" content="Product details, live lowest price and shipping to the U.S.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+  <header class="topbar">
+    <a class="brand" href="index.html">The Lees</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shopping.html" class="active">Shop</a>
+    </nav>
+    <div class="acct">
+      <button id="cart-btn" class="icon-btn" type="button" aria-label="Cart">🛒<span id="cart-count" class="pill" hidden>0</span></button>
+      <button id="auth-btn" class="btn" type="button">Sign in</button>
+      <span id="user-box" hidden><span id="user-name"></span> · <button id="signout-btn" class="link" type="button">Sign out</button></span>
+    </div>
+  </header>
+  <p id="setup-banner" class="banner" hidden>Accounts aren't connected yet — Firebase config is missing in <code>js/firebase-config.js</code>.</p>
+
+  <main id="product" class="product">
+    <p class="note">Loading…</p>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> The Lees · <a href="index.html">Home</a> · <a href="shopping.html">Shop</a> · <a href="https://github.com/wckorealsh">GitHub</a></p>
+    <p class="fine">Price guarantee covers the identical item sold by a Korean retailer, compared at the time of purchase, excluding shipping and promotions requiring membership. Live prices refresh weekly.</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+  <dialog id="auth-dialog">
+    <form id="auth-form" method="dialog">
+      <h3 id="auth-title">Sign in</h3>
+      <button id="google-btn" class="btn google" type="button">Continue with Google</button>
+      <p class="or">or with email</p>
+      <input name="email" type="email" placeholder="Email" required autocomplete="email">
+      <input name="password" type="password" placeholder="Password (6+ characters)" required minlength="6" autocomplete="current-password">
+      <p id="auth-error" class="err" aria-live="polite"></p>
+      <div class="row">
+        <button id="auth-cancel" class="link" type="button">Cancel</button>
+        <button id="auth-submit" class="btn primary" type="submit">Sign in</button>
+      </div>
+      <button id="auth-toggle" class="link small" type="button">New here? Create an account</button>
+    </form>
+  </dialog>
+
+  <div id="backdrop" hidden></div>
+  <aside id="cart" class="drawer" aria-label="Shopping cart">
+    <header><h3>Your cart</h3><button id="cart-close" class="icon-btn" type="button" aria-label="Close">×</button></header>
+    <p id="cart-empty" class="note">Nothing here yet — tap <b>Add to cart</b> on any item.</p>
+    <ul id="cart-list"></ul>
+    <footer><span>Total</span><strong id="cart-total"></strong></footer>
+    <p class="note small">Wish-list only — nothing is purchased. Prices are the low end of each range.</p>
+  </aside>
+  <script src="js/product.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
