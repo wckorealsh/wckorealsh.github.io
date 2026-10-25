@@ -3,14 +3,73 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Welcome</title>
+  <title>The Lees</title>
+  <meta name="description" content="Seungho's personal page — our family.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="welcome">
-  <main>
-    <h1>Welcome</h1>
-    <p>This is Seungho's personal page. Something will appear here soon.</p>
-    <p class="muted">Under construction · <a href="https://github.com/wckorealsh">GitHub</a></p>
-  </main>
+<body>
+  <section class="hero">
+    <img class="hero-img" src="img/family-1.jpg" alt="Our family of four standing on a golf course at dusk">
+    <div class="hero-overlay"></div>
+    <div class="hero-text">
+      <p class="eyebrow">Welcome to</p>
+      <h1>The Lees</h1>
+      <p class="sub">Seungho · and the three people who make everything worth it</p>
+      <a class="scroll" href="#family" aria-label="Scroll down">↓</a>
+    </div>
+  </section>
+
+  <section id="family" class="family">
+    <h2><span class="script">Meet the crew</span></h2>
+    <p class="lead">Four of us, one camera roll that never ends.</p>
+
+    <ul class="members">
+      <li class="member">
+        <div class="avatar" style="--bg:#f4c95d">👨‍💻</div>
+        <h3>Dad</h3>
+        <p>Seungho. Builds software for self-driving cars, loses at every board game.</p>
+      </li>
+      <li class="member">
+        <div class="avatar" style="--bg:#f28c8c">🌸</div>
+        <h3>Mom</h3>
+        <p>The planner, the photographer, the reason we ever leave the house on time.</p>
+      </li>
+      <li class="member">
+        <div class="avatar" style="--bg:#8fd3c7">🎨</div>
+        <h3>Big sister</h3>
+        <p>Quietly brilliant. Has opinions about music you haven't heard of yet.</p>
+      </li>
+      <li class="member">
+        <div class="avatar" style="--bg:#a7c7f2">⚡</div>
+        <h3>Little sister</h3>
+        <p>Biggest smile in every photo. Runs everywhere, walks nowhere.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="moments" class="moments">
+    <h2><span class="script">Moments</span></h2>
+    <div class="polaroids">
+      <figure class="polaroid" style="--tilt:-3deg">
+        <img src="img/family-1.jpg" alt="Family on the golf course">
+        <figcaption>Golden hour, all in white</figcaption>
+      </figure>
+      <figure class="polaroid placeholder" style="--tilt:2deg">
+        <div class="ph">more photos<br>coming soon</div>
+        <figcaption>&nbsp;</figcaption>
+      </figure>
+      <figure class="polaroid placeholder" style="--tilt:-1.5deg">
+        <div class="ph">✦</div>
+        <figcaption>&nbsp;</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> The Lees · <a href="https://github.com/wckorealsh">GitHub</a></p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
