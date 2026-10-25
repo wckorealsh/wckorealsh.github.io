@@ -1,12 +1,11 @@
 name: Refresh prices
 on:
   schedule:
-    - cron: "0 18 * * *"      # daily 03:00 KST — Naver
-    - cron: "30 18 * * 1"     # Mondays — add Google Shopping (SerpApi free tier is 100/month)
+    - cron: "30 18 * * 1"     # Mondays 03:30 KST; engine alternates weekly (SerpApi free tier is 100/month, 30 per pass)
   workflow_dispatch:
     inputs:
       engines:
-        description: "Engines to query (google costs 30 SerpApi searches)"
+        description: "Engines to query (each costs 30 SerpApi searches)"
         default: "naver"
 permissions:
   contents: write
@@ -19,14 +18,12 @@ jobs:
         with: { python-version: "3.12" }
       - name: Fetch prices
         env:
-          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
-          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             python scripts/fetch_prices.py ${{ inputs.engines }}
-          elif [ "${{ github.event.schedule }}" = "30 18 * * 1" ]; then
-            python scripts/fetch_prices.py naver google
+          elif [ $(( $(date +%V) % 2 )) -eq 0 ]; then
+            python scripts/fetch_prices.py google
           else
             python scripts/fetch_prices.py naver
           fi

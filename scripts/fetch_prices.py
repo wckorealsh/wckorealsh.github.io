@@ -1,13 +1,12 @@
 """Query price-comparison engines for every item in data/items.json and write data/prices.json.
 
-Engines: Naver Shopping (official API) and Google Shopping (SerpApi).
-Danawa and Coupang expose no public price API (both are JS apps behind bot protection),
-so the page links to their search pages instead of scraping them.
-Keys come from env: NAVER_CLIENT_ID / NAVER_CLIENT_SECRET, SERPAPI_KEY (optional).
+Engines: Google Shopping and Naver Shopping, both via SerpApi (Naver closed its own
+Shopping Search API on 2026-07-31). Danawa and Coupang expose no public price API
+(both are JS apps behind bot protection), so the page links to their search pages instead.
+Key comes from env: SERPAPI_KEY. Free tier is 100 searches/month, one search per item.
 """
 import json, os, re, statistics, sys, time, urllib.parse, urllib.request
 from datetime import datetime, timezone
-from html import unescape
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
@@ -41,34 +40,36 @@ def pick(q, offers):
     return min((o for o in offers if o["price"] in keep), key=lambda o: o["price"])
 
 
-def naver(q):
-    cid, sec = os.environ.get("NAVER_CLIENT_ID"), os.environ.get("NAVER_CLIENT_SECRET")
-    if not cid or not sec:
+def serpapi(params):
+    key = os.environ.get("SERPAPI_KEY")
+    if not key:
         return None
-    url = "https://openapi.naver.com/v1/search/shop.json?display=40&sort=sim&query=" + urllib.parse.quote(q)
-    items = json.loads(get(url, {"X-Naver-Client-Id": cid, "X-Naver-Client-Secret": sec}))["items"]
-    offers = [{"price": int(i["lprice"]), "mall": i["mallName"] or "Naver", "title": re.sub("<.*?>", "", unescape(i["title"])), "link": i["link"]}
-              for i in items if i.get("lprice") and int(i["lprice"]) > 0]
+    return json.loads(get("https://serpapi.com/search.json?api_key=" + key + "&" + urllib.parse.urlencode(params)))
+
+
+def price_int(v):
+    m = re.search(r"[\d,]+", str(v or ""))
+    return int(m.group().replace(",", "")) if m else 0
+
+
+def naver(q):
+    res = serpapi({"engine": "naver", "where": "nexearch", "query": q})
+    if res is None:
+        return None
+    offers = [{"price": price_int(r.get("price")), "mall": str(r.get("stores") or "Naver"), "title": r.get("title", ""), "link": r.get("link", "")}
+              for r in res.get("shopping_results", []) if price_int(r.get("price")) > 0]
     best = pick(q, offers)
     return {"engine": "naver", **best} if best else None
 
 
 def google(q):
-    key = os.environ.get("SERPAPI_KEY")
-    if not key:
+    res = serpapi({"engine": "google_shopping", "gl": "kr", "hl": "ko", "q": q})
+    if res is None:
         return None
-    url = ("https://serpapi.com/search.json?engine=google_shopping&gl=kr&hl=ko&api_key=" + key
-           + "&q=" + urllib.parse.quote(q))
-    res = json.loads(get(url)).get("shopping_results", [])
-    offers = []
-    for r in res:
-        m = re.search(r"[\d,]+", r.get("price", "") or "")
-        if m:
-            offers.append({"price": int(m.group().replace(",", "")), "mall": r.get("source", "Google"), "title": r.get("title", ""), "link": r.get("product_link") or r.get("link", "")})
+    offers = [{"price": price_int(r.get("price")), "mall": r.get("source", "Google"), "title": r.get("title", ""), "link": r.get("product_link") or r.get("link", "")}
+              for r in res.get("shopping_results", []) if price_int(r.get("price")) > 0]
     best = pick(q, offers)
     return {"engine": "google", **best} if best else None
-
-
 
 
 def main():
