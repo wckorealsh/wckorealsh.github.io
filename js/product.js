@@ -33,7 +33,7 @@
 
     <section class="p-top" data-id="${p.id}" data-name="${esc(p.name)}" data-brand="${esc(p.brand)}" data-price="${esc(range(p.price))}" data-img="${p.img}">
       <figure class="p-gallery">
-        <div class="p-img"><img src="${p.img}" alt="${esc(p.name)}" width="640" height="480"><span class="p-cap"></span></div>
+        <div class="p-img"><img src="${p.img}" alt="${esc(p.name)}" width="640" height="480"></div>
         <div class="p-thumbs">
           <button type="button" class="on" data-src="${p.img}" data-cap=""><img src="${p.img}" alt="Product"></button>
           ${(p.scenes || []).map((cap, i) => `<button type="button" data-src="img/use/${p.id}-${i + 1}.jpg" data-cap="${esc(cap)}"><img src="img/use/${p.id}-${i + 1}.jpg" alt="${esc(cap)}"></button>`).join("")}
@@ -129,11 +129,9 @@
   root.querySelectorAll(".p-cart .qty button").forEach((b) => b.addEventListener("click", () => {
     qty.value = Math.min(9, Math.max(1, (parseInt(qty.value, 10) || 1) + Number(b.dataset.d)));
   }));
-  const main = root.querySelector(".p-img img"), cap = root.querySelector(".p-cap"), thumbs = root.querySelectorAll(".p-thumbs button");
+  const main = root.querySelector(".p-img img"), thumbs = root.querySelectorAll(".p-thumbs button");
   thumbs.forEach((b) => b.addEventListener("click", () => {
     thumbs.forEach((t) => t.classList.toggle("on", t === b));
     main.src = b.dataset.src; main.alt = b.dataset.cap || p.name;
-    cap.textContent = b.dataset.cap; cap.hidden = !b.dataset.cap;
   }));
-  cap.hidden = true;
 })();

@@ -1,2 +1,5 @@
 preview*.png
 __pycache__/
+img/chars/
+img/use_test/
+preview*.jpg
