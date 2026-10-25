@@ -84,7 +84,8 @@ def main():
             try:
                 r = globals()[name](it["q"])
             except Exception as e:  # keep the previous value for this engine
-                print(f"{it['id']} {name}: {e}", file=sys.stderr); r = None
+                body = e.read()[:200].decode("utf-8", "ignore") if isinstance(e, urllib.error.HTTPError) else ""
+                print(f"{it['id']} {name}: {e} {body}", file=sys.stderr); r = None
             if r:
                 r["checked"] = now
                 entry["sources"][name] = r
