@@ -137,3 +137,45 @@ footer { text-align: center; padding: 2rem 1.25rem 3rem; color: var(--muted); fo
 .note.small { font-size: .85rem; }
 .credits ul { columns: 3; font-size: .78rem; }
 @media (max-width: 760px) { .credits ul { columns: 1; } }
+
+/* ---------- account + cart ---------- */
+.topbar { gap: 1rem; }
+.acct { display: flex; align-items: center; gap: .6rem; font-size: .9rem; margin-left: auto; }
+.topbar nav { margin-left: auto; }
+.topbar nav + .acct { margin-left: 0; }
+.btn { font: inherit; font-weight: 600; font-size: .9rem; padding: .45rem 1rem; border-radius: 999px; border: 1px solid var(--border); background: var(--paper); color: var(--fg); cursor: pointer; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.google { width: 100%; }
+.link { font: inherit; background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; font-weight: 600; }
+.link.small { font-size: .82rem; font-weight: 400; margin-top: .9rem; }
+.icon-btn { position: relative; font: inherit; font-size: 1.2rem; background: none; border: 0; cursor: pointer; color: var(--fg); padding: .2rem .3rem; }
+.pill { position: absolute; top: -.3rem; right: -.4rem; background: var(--accent); color: #fff; font-size: .65rem; font-weight: 600; border-radius: 999px; min-width: 1.1rem; height: 1.1rem; display: grid; place-items: center; padding: 0 .25rem; }
+#user-name { color: var(--muted); }
+.banner { max-width: 64rem; margin: 0 auto; padding: .6rem 1.5rem; color: #8a5a00; background: #fff3d6; border-radius: 10px; font-size: .88rem; }
+.add { font: inherit; font-size: .8rem; font-weight: 600; padding: .4rem .8rem; border-radius: 999px; border: 1px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer; transition: all .2s; }
+.add:hover, .add.done { background: var(--accent); color: #fff; }
+
+dialog { border: 0; border-radius: 16px; padding: 1.5rem; width: min(22rem, 92vw); background: var(--paper); color: #22252b; box-shadow: var(--shadow); }
+dialog::backdrop { background: rgba(0,0,0,.45); }
+dialog h3 { margin: 0 0 1rem; }
+dialog input { width: 100%; font: inherit; padding: .6rem .8rem; border: 1px solid #ddd; border-radius: 10px; margin-bottom: .6rem; background: #fff; color: #22252b; }
+dialog .or { text-align: center; color: #888; font-size: .8rem; margin: .8rem 0; }
+dialog .row { display: flex; justify-content: space-between; align-items: center; margin-top: .4rem; }
+dialog .err { color: #c0392b; font-size: .85rem; min-height: 1.2em; margin: 0 0 .4rem; }
+
+#backdrop { position: fixed; inset: 0; background: rgba(0,0,0,.4); z-index: 20; }
+.drawer { position: fixed; top: 0; right: 0; height: 100vh; width: min(24rem, 100vw); background: var(--bg); color: var(--fg); z-index: 21; transform: translateX(100%); transition: transform .3s ease; display: flex; flex-direction: column; padding: 1.25rem; box-shadow: var(--shadow); }
+.drawer.open { transform: none; }
+.drawer header { display: flex; justify-content: space-between; align-items: center; }
+.drawer header h3 { margin: 0; }
+#cart-list { list-style: none; margin: 0; padding: 0; flex: 1; overflow-y: auto; }
+#cart-list li { display: grid; grid-template-columns: 56px 1fr auto auto; gap: .7rem; align-items: center; padding: .7rem 0; border-bottom: 1px solid var(--border); }
+#cart-list img { width: 56px; height: 56px; object-fit: cover; border-radius: 8px; }
+#cart-list h4 { margin: 0; font-size: .9rem; line-height: 1.25; }
+#cart-list .price { font-size: .82rem; }
+.qty { display: flex; align-items: center; gap: .3rem; }
+.qty button, .rm { font: inherit; width: 1.6rem; height: 1.6rem; border-radius: 50%; border: 1px solid var(--border); background: var(--paper); color: #22252b; cursor: pointer; }
+.rm { color: var(--muted); border: 0; background: none; font-size: 1.2rem; }
+.drawer footer { display: flex; justify-content: space-between; padding: 1rem 0 .3rem; font-size: 1.05rem; border-top: 2px solid var(--border); margin-top: .5rem; color: var(--fg); }
+@media (max-width: 760px) { .topbar { flex-wrap: wrap; } #user-name { display: none; } }
+[hidden] { display: none !important; }

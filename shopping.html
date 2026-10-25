@@ -16,7 +16,13 @@
       <a href="index.html">Home</a>
       <a href="shopping.html" class="active">Shopping</a>
     </nav>
+    <div class="acct">
+      <button id="cart-btn" class="icon-btn" type="button" aria-label="Cart">🛒<span id="cart-count" class="pill" hidden>0</span></button>
+      <button id="auth-btn" class="btn" type="button">Sign in</button>
+      <span id="user-box" hidden><span id="user-name"></span> · <button id="signout-btn" class="link" type="button">Sign out</button></span>
+    </div>
   </header>
+  <p id="setup-banner" class="banner" hidden>Accounts aren't connected yet — Firebase config is missing in <code>js/firebase-config.js</code>.</p>
 
   <main class="shop">
     <p class="eyebrow dark">From Korea, with love</p>
@@ -40,103 +46,103 @@
       </div>
       <p class="note">Korea's stationery-and-gift category grew ~17% a year in 2024–25, and 29CM's stationery sales rose 54% in 2025 — adults buying "because they like it, not because they need it."</p>
       <div class="grid">
-        <article class="card">
+        <article class="card" data-id="s1" data-name="153 premium / limited-edition ballpoint" data-brand="Monami" data-price="₩15,000–50,000" data-img="img/shop/s1.jpg">
           <div class="card-img"><span class="badge hot">Best 1</span><img src="img/shop/s1.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Monami</p>
             <h3>153 premium / limited-edition ballpoint</h3>
             <p class="why">The 300-won classic reborn in metal and seasonal colours — Korea's most collectible pen</p>
-            <div class="card-foot"><span class="price">₩15,000–50,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩15,000–50,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Monami Store</span><span>Kyobo Hottracks</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="s2" data-name="Q-Knock gel pen" data-brand="Dong-A" data-price="₩1,500" data-img="img/shop/s2.jpg">
           <div class="card-img"><span class="badge hot">Best 2</span><img src="img/shop/s2.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Dong-A</p>
             <h3>Q-Knock gel pen</h3>
             <p class="why">The everyday gel pen Koreans reach for; smooth, cheap, endless refills</p>
-            <div class="card-foot"><span class="price">₩1,500</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩1,500</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Any stationery shop</span><span>Coupang</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="s3" data-name="6-hole binder planner (A5 / A6 wide)" data-brand="Paperian, ICONIC" data-price="₩25,000–60,000" data-img="img/shop/s3.jpg">
           <div class="card-img"><span class="badge hot">Best 3</span><img src="img/shop/s3.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Paperian, ICONIC</p>
             <h3>6-hole binder planner (A5 / A6 wide)</h3>
             <p class="why">2026's planner trend swung back to refillable binders you can fully customise</p>
-            <div class="card-foot"><span class="price">₩25,000–60,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩25,000–60,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>29CM</span><span>10x10</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="s4" data-name="Index tabs &amp; sticky notes" data-brand="Plepic" data-price="₩3,000–6,000" data-img="img/shop/s4.jpg">
           <div class="card-img"><span class="badge">#4</span><img src="img/shop/s4.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Plepic</p>
             <h3>Index tabs &amp; sticky notes</h3>
             <p class="why">The organising layer for binder planners; minimal, pastel, satisfyingly thin</p>
-            <div class="card-foot"><span class="price">₩3,000–6,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩3,000–6,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Artbox</span><span>10x10</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="s5" data-name="Botanical leaf sticky notes" data-brand="Appree" data-price="₩5,000–8,000" data-img="img/shop/s5.jpg">
           <div class="card-img"><span class="badge">#5</span><img src="img/shop/s5.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Appree</p>
             <h3>Botanical leaf sticky notes</h3>
             <p class="why">Die-cut leaves that turn a desk into a tiny garden — a gift-shop staple</p>
-            <div class="card-foot"><span class="price">₩5,000–8,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩5,000–8,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Kyobo Hottracks</span><span>Appree</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="s6" data-name="Planner sticker packs" data-brand="Suatelier, Dailylike, NACOO" data-price="₩2,000–5,000" data-img="img/shop/s6.jpg">
           <div class="card-img"><span class="badge">#6</span><img src="img/shop/s6.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Suatelier, Dailylike, NACOO</p>
             <h3>Planner sticker packs</h3>
             <p class="why">Decorative "다꾸" (diary deco) culture — adults journal and decorate every day</p>
-            <div class="card-foot"><span class="price">₩2,000–5,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩2,000–5,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Artbox</span><span>Daiso</span><span>10x10</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="s7" data-name="Literature-inspired fountain pen ink" data-brand="Wearingeul, Colorverse" data-price="₩18,000–35,000" data-img="img/shop/s7.jpg">
           <div class="card-img"><span class="badge">#7</span><img src="img/shop/s7.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Wearingeul, Colorverse</p>
             <h3>Literature-inspired fountain pen ink</h3>
             <p class="why">Korean ink makers went global; small-batch colours named after novels and planets</p>
-            <div class="card-foot"><span class="price">₩18,000–35,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩18,000–35,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Wearingeul</span><span>Kyobo Hottracks</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="s8" data-name="Washi / masking tape sets" data-brand="Dailylike, ICONIC" data-price="₩3,000–7,000" data-img="img/shop/s8.jpg">
           <div class="card-img"><span class="badge">#8</span><img src="img/shop/s8.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Dailylike, ICONIC</p>
             <h3>Washi / masking tape sets</h3>
             <p class="why">Cheap, giftable, endlessly collectible</p>
-            <div class="card-foot"><span class="price">₩3,000–7,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩3,000–7,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Artbox</span><span>Dailylike</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="s9" data-name="Reading journal &amp; bookmarks" data-brand="ICONIC, Kyobo Hottracks" data-price="₩8,000–20,000" data-img="img/shop/s9.jpg">
           <div class="card-img"><span class="badge">#9</span><img src="img/shop/s9.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">ICONIC, Kyobo Hottracks</p>
             <h3>Reading journal &amp; bookmarks</h3>
             <p class="why">"Text-hip" — reading is cool again, and book goods are the fastest-growing stationery niche</p>
-            <div class="card-foot"><span class="price">₩8,000–20,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩8,000–20,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Kyobo Hottracks</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="s10" data-name="Character sticker packs &amp; desk goods" data-brand="Artbox" data-price="₩2,000–15,000" data-img="img/shop/s10.jpg">
           <div class="card-img"><span class="badge">#10</span><img src="img/shop/s10.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Artbox</p>
             <h3>Character sticker packs &amp; desk goods</h3>
             <p class="why">300+ stores; sticker packs and gift culture are what's actually growing in Korean stationery</p>
-            <div class="card-foot"><span class="price">₩2,000–15,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩2,000–15,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Artbox</span></p>
           </div>
         </article>
@@ -150,103 +156,103 @@
       </div>
       <p class="note">Knitting moved from grandmothers to the MZ generation as an "anti-dopamine" hobby; bag charms and bead keyrings doubled in search interest.</p>
       <div class="grid">
-        <article class="card">
+        <article class="card" data-id="c1" data-name="Beginner knitting / crochet kit (뜨개 키트)" data-brand="Yarn + needles + pattern" data-price="₩20,000–45,000" data-img="img/shop/c1.jpg">
           <div class="card-img"><span class="badge hot">Best 1</span><img src="img/shop/c1.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Yarn + needles + pattern</p>
             <h3>Beginner knitting / crochet kit (뜨개 키트)</h3>
             <p class="why">The #1 MZ "healing" hobby — slow, offline, and finished objects to show off</p>
-            <div class="card-foot"><span class="price">₩20,000–45,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩20,000–45,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Coupang</span><span>Naver Smart Store</span><span>Dongdaemun yarn shops</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="c2" data-name="Bead keyring / bag charm DIY set (비즈 키링)" data-brand="Beads + cord" data-price="₩8,000–20,000" data-img="img/shop/c2.jpg">
           <div class="card-img"><span class="badge hot">Best 2</span><img src="img/shop/c2.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Beads + cord</p>
             <h3>Bead keyring / bag charm DIY set (비즈 키링)</h3>
             <p class="why">Y2K bag-charm craze; make one for every bag</p>
-            <div class="card-foot"><span class="price">₩8,000–20,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩8,000–20,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Coupang</span><span>Artbox</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="c3" data-name="Colour-clay hand-building kit (도자기)" data-brand="Ceramics" data-price="₩30,000–60,000" data-img="img/shop/c3.jpg">
           <div class="card-img"><span class="badge hot">Best 3</span><img src="img/shop/c3.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Ceramics</p>
             <h3>Colour-clay hand-building kit (도자기)</h3>
             <p class="why">One-day pottery classes are booked out; take-home clay kits are the next step</p>
-            <div class="card-foot"><span class="price">₩30,000–60,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩30,000–60,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Craft Practice</span><span>Class101</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="c4" data-name="Needlepoint / embroidery kit (자수)" data-brand="Fabric + hoop + thread" data-price="₩15,000–40,000" data-img="img/shop/c4.jpg">
           <div class="card-img"><span class="badge">#4</span><img src="img/shop/c4.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Fabric + hoop + thread</p>
             <h3>Needlepoint / embroidery kit (자수)</h3>
             <p class="why">Beaded and sequinned stitching is the 2026 twist on classic embroidery</p>
-            <div class="card-foot"><span class="price">₩15,000–40,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩15,000–40,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>The Stitch Post</span><span>Coupang</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="c5" data-name="Punch needle / tufting starter" data-brand="Textile" data-price="₩25,000–70,000" data-img="img/shop/c5.jpg">
           <div class="card-img"><span class="badge">#5</span><img src="img/shop/c5.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Textile</p>
             <h3>Punch needle / tufting starter</h3>
             <p class="why">Fast, forgiving, very Instagram-friendly rugs and coasters</p>
-            <div class="card-foot"><span class="price">₩25,000–70,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩25,000–70,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Coupang</span><span>Class101</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="c6" data-name="Miniature book-nook kit" data-brand="Wood model" data-price="₩30,000–60,000" data-img="img/shop/c6.jpg">
           <div class="card-img"><span class="badge">#6</span><img src="img/shop/c6.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Wood model</p>
             <h3>Miniature book-nook kit</h3>
             <p class="why">A bookshelf diorama you build over a weekend — book culture meets craft</p>
-            <div class="card-foot"><span class="price">₩30,000–60,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩30,000–60,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Coupang</span><span>Kyobo Hottracks</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="c7" data-name="Needle-felting animal kit" data-brand="Wool" data-price="₩10,000–25,000" data-img="img/shop/c7.jpg">
           <div class="card-img"><span class="badge">#7</span><img src="img/shop/c7.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Wool</p>
             <h3>Needle-felting animal kit</h3>
             <p class="why">Low cost, no machine, oddly meditative</p>
-            <div class="card-foot"><span class="price">₩10,000–25,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩10,000–25,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Coupang</span><span>Daiso</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="c8" data-name="Artisan keycaps &amp; tactile fidgets" data-brand="Desk toys" data-price="₩5,000–30,000" data-img="img/shop/c8.jpg">
           <div class="card-img"><span class="badge">#8</span><img src="img/shop/c8.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Desk toys</p>
             <h3>Artisan keycaps &amp; tactile fidgets</h3>
             <p class="why">Trend Korea 2026: "kids' toys" like squishies and keycaps became adult collectibles</p>
-            <div class="card-foot"><span class="price">₩5,000–30,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩5,000–30,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>29CM</span><span>Naver Smart Store</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="c9" data-name="Crayons &amp; oil pastels for adults" data-brand="Art supplies" data-price="₩10,000–30,000" data-img="img/shop/c9.jpg">
           <div class="card-img"><span class="badge">#9</span><img src="img/shop/c9.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Art supplies</p>
             <h3>Crayons &amp; oil pastels for adults</h3>
             <p class="why">Nostalgia art: brands at Inventario 2026 re-pitched crayons to all ages</p>
-            <div class="card-foot"><span class="price">₩10,000–30,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩10,000–30,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Kyobo Hottracks</span><span>Artbox</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="c10" data-name="Resin keyring / charm kit" data-brand="Resin + moulds" data-price="₩15,000–35,000" data-img="img/shop/c10.jpg">
           <div class="card-img"><span class="badge">#10</span><img src="img/shop/c10.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Resin + moulds</p>
             <h3>Resin keyring / charm kit</h3>
             <p class="why">Make-your-own charms for phones, bags and AirPods</p>
-            <div class="card-foot"><span class="price">₩15,000–35,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩15,000–35,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Coupang</span></p>
           </div>
         </article>
@@ -260,103 +266,103 @@
       </div>
       <p class="note">29CM's home category sales jumped 253% year-on-year in early 2026; limited "29 Edition" drops sell out in minutes.</p>
       <div class="grid">
-        <article class="card">
+        <article class="card" data-id="l1" data-name="Doodle compact keyring pouch" data-brand="ICONIC" data-price="₩12,000–18,000" data-img="img/shop/l1.jpg">
           <div class="card-img"><span class="badge hot">Best 1</span><img src="img/shop/l1.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">ICONIC</p>
             <h3>Doodle compact keyring pouch</h3>
             <p class="why">Fits cards + AirPods, clips to a bag; the everyday Korean mini-pouch</p>
-            <div class="card-foot"><span class="price">₩12,000–18,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩12,000–18,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>ICONIC</span><span>10x10</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="l2" data-name="Table Talk ribbon mini pouch" data-brand="Antenna Shop" data-price="₩15,000–25,000" data-img="img/shop/l2.jpg">
           <div class="card-img"><span class="badge hot">Best 2</span><img src="img/shop/l2.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Antenna Shop</p>
             <h3>Table Talk ribbon mini pouch</h3>
             <p class="why">Soft, playful, gift-ready pouches from a long-running Seoul design label</p>
-            <div class="card-foot"><span class="price">₩15,000–25,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩15,000–25,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Antenna Shop</span><span>29CM</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="l3" data-name="Incense &amp; scent objects" data-brand="29edition (이구에디션)" data-price="₩20,000–45,000" data-img="img/shop/l3.jpg">
           <div class="card-img"><span class="badge hot">Best 3</span><img src="img/shop/l3.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">29edition (이구에디션)</p>
             <h3>Incense &amp; scent objects</h3>
             <p class="why">29CM's own brand — new drop on the 29th of every month, started with scent</p>
-            <div class="card-foot"><span class="price">₩20,000–45,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩20,000–45,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>29CM</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="l4" data-name="Minimal ceramic cups &amp; makgeolli set" data-brand="Idoh (이도)" data-price="₩25,000–70,000" data-img="img/shop/l4.jpg">
           <div class="card-img"><span class="badge">#4</span><img src="img/shop/l4.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Idoh (이도)</p>
             <h3>Minimal ceramic cups &amp; makgeolli set</h3>
             <p class="why">Simple Korean tableware; 29CM-exclusive gift sets</p>
-            <div class="card-foot"><span class="price">₩25,000–70,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩25,000–70,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>29CM</span><span>Idoh</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="l5" data-name="Home fabric — cushions &amp; throws" data-brand="Okitt (오끼뜨)" data-price="₩30,000–90,000" data-img="img/shop/l5.jpg">
           <div class="card-img"><span class="badge">#5</span><img src="img/shop/l5.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Okitt (오끼뜨)</p>
             <h3>Home fabric — cushions &amp; throws</h3>
             <p class="why">Did ₩6B on 29CM alone last year; the pattern-forward soft-goods brand of the moment</p>
-            <div class="card-foot"><span class="price">₩30,000–90,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩30,000–90,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>29CM</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="l6" data-name="Keyrings &amp; mini pouches" data-brand="Kitty Bunny Pony" data-price="₩10,000–30,000" data-img="img/shop/l6.jpg">
           <div class="card-img"><span class="badge">#6</span><img src="img/shop/l6.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Kitty Bunny Pony</p>
             <h3>Keyrings &amp; mini pouches</h3>
             <p class="why">Signature prints from a Seoul fabric studio; cheerful, well-made, affordable</p>
-            <div class="card-foot"><span class="price">₩10,000–30,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩10,000–30,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>KBP</span><span>29CM</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="l7" data-name=""Happy" desk goods &amp; keyrings" data-brand="Oh,lolly day! (오롤리데이)" data-price="₩8,000–25,000" data-img="img/shop/l7.jpg">
           <div class="card-img"><span class="badge">#7</span><img src="img/shop/l7.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Oh,lolly day! (오롤리데이)</p>
             <h3>"Happy" desk goods &amp; keyrings</h3>
             <p class="why">Bright, optimistic branding that became a lifestyle; big in Seongsu</p>
-            <div class="card-foot"><span class="price">₩8,000–25,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩8,000–25,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Oh</span><span>lolly day!</span><span>29CM</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="l8" data-name="Slim bi-fold wallet" data-brand="Yeonwoo Leather, Matin Kim" data-price="₩50,000–120,000" data-img="img/shop/l8.jpg">
           <div class="card-img"><span class="badge">#8</span><img src="img/shop/l8.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Yeonwoo Leather, Matin Kim</p>
             <h3>Slim bi-fold wallet</h3>
             <p class="why">Compact leather goods from online-first Korean labels</p>
-            <div class="card-foot"><span class="price">₩50,000–120,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩50,000–120,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Brand sites</span><span>29CM</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="l9" data-name="Seasonal keyrings &amp; mini pouches" data-brand="Starbucks Korea" data-price="₩15,000–30,000" data-img="img/shop/l9.jpg">
           <div class="card-img"><span class="badge">#9</span><img src="img/shop/l9.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">Starbucks Korea</p>
             <h3>Seasonal keyrings &amp; mini pouches</h3>
             <p class="why">Bearista and Peanuts collabs sell out and resell — Korea's most-hyped MD</p>
-            <div class="card-foot"><span class="price">₩15,000–30,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩15,000–30,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Starbucks Korea stores</span></p>
           </div>
         </article>
-        <article class="card">
+        <article class="card" data-id="l10" data-name="Character desk accessories" data-brand="ROMANE" data-price="₩5,000–20,000" data-img="img/shop/l10.jpg">
           <div class="card-img"><span class="badge">#10</span><img src="img/shop/l10.jpg" alt="" loading="lazy" width="640" height="480"></div>
           <div class="card-body">
             <p class="brand">ROMANE</p>
             <h3>Character desk accessories</h3>
             <p class="why">Illustrated pen trays, pouches and clips that make a desk feel personal</p>
-            <div class="card-foot"><span class="price">₩5,000–20,000</span><span class="cart" aria-hidden="true">♡</span></div>
+            <div class="card-foot"><span class="price">₩5,000–20,000</span><button class="add" type="button">+ Cart</button></div>
             <p class="where"><span>Artbox</span><span>ROMANE</span></p>
           </div>
         </article>
@@ -390,5 +396,31 @@
     <p>© <span id="year"></span> The Lees · <a href="index.html">Home</a> · <a href="https://github.com/wckorealsh">GitHub</a></p>
   </footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+  <dialog id="auth-dialog">
+    <form id="auth-form" method="dialog">
+      <h3 id="auth-title">Sign in</h3>
+      <button id="google-btn" class="btn google" type="button">Continue with Google</button>
+      <p class="or">or with email</p>
+      <input name="email" type="email" placeholder="Email" required autocomplete="email">
+      <input name="password" type="password" placeholder="Password (6+ characters)" required minlength="6" autocomplete="current-password">
+      <p id="auth-error" class="err" aria-live="polite"></p>
+      <div class="row">
+        <button id="auth-cancel" class="link" type="button">Cancel</button>
+        <button id="auth-submit" class="btn primary" type="submit">Sign in</button>
+      </div>
+      <button id="auth-toggle" class="link small" type="button">New here? Create an account</button>
+    </form>
+  </dialog>
+
+  <div id="backdrop" hidden></div>
+  <aside id="cart" class="drawer" aria-label="Shopping cart">
+    <header><h3>Your cart</h3><button id="cart-close" class="icon-btn" type="button" aria-label="Close">×</button></header>
+    <p id="cart-empty" class="note">Nothing here yet — tap <b>+ Cart</b> on any item.</p>
+    <ul id="cart-list"></ul>
+    <footer><span>Total</span><strong id="cart-total"></strong></footer>
+    <p class="note small">Wish-list only — nothing is purchased. Prices are the low end of each range.</p>
+  </aside>
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>
