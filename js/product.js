@@ -82,14 +82,6 @@
       ${p.highlights.map((h) => `<div class="hl-card"><span class="hl-icon">${h.icon}</span><h3>${esc(h.title)}</h3><p>${esc(h.text)}</p></div>`).join("")}
     </section>
 
-    ${p.real ? `<section class="p-real">
-      <h2><span class="script">In your life</span></h2>
-      <div class="real-grid">
-        ${p.real.map((cap, i) => `<figure><img src="img/real/${p.id}-${i + 1}.jpg" alt="${esc(cap)}" loading="lazy" width="1152" height="640"><figcaption>${esc(cap)}</figcaption></figure>`).join("")}
-      </div>
-      <p class="note small">Styled renders of the product type, not official brand photos.</p>
-    </section>` : ""}
-
     <section class="p-body">
       <article class="p-story">
         <h2><span class="script">The story</span></h2>

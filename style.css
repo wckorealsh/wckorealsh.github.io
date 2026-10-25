@@ -289,15 +289,6 @@ dialog .err { color: #c0392b; font-size: .85rem; min-height: 1.2em; margin: 0 0 
 .hl-icon { font-size: 1.6rem; line-height: 1; display: block; margin-bottom: .5rem; }
 .hl-card h3 { margin: 0 0 .25rem; font-size: .98rem; }
 .hl-card p { margin: 0; font-size: .85rem; color: var(--muted); }
-.p-real { margin-top: 3.5rem; }
-.p-real h2 { margin: 0 0 1rem; }
-.real-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
-.real-grid figure { margin: 0; position: relative; border-radius: 20px; overflow: hidden; box-shadow: var(--shadow); background: #e9e5de; aspect-ratio: 16 / 9; }
-.real-grid figure:first-child { grid-column: 1 / -1; aspect-ratio: 2 / 1; }
-.real-grid img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .6s ease; }
-.real-grid figure:hover img { transform: scale(1.04); }
-.real-grid figcaption { position: absolute; left: 1rem; bottom: 1rem; padding: .45rem .85rem; border-radius: 12px; background: rgba(20, 22, 27, .55); color: #fff; backdrop-filter: blur(6px); font-family: Caveat, cursive; font-size: 1.3rem; line-height: 1.15; }
-.p-real .note { margin-top: .6rem; }
 .p-body { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 2.5rem; margin-top: 3rem; }
 .p-story h2, .p-ship h2, .p-related h2 { text-align: left; }
 .p-story p { color: var(--fg); font-size: 1.02rem; line-height: 1.7; }
@@ -323,8 +314,6 @@ dialog .err { color: #c0392b; font-size: .85rem; min-height: 1.2em; margin: 0 0 
 .card-img a { display: block; height: 100%; }
 @media (max-width: 760px) {
   .p-top, .p-body { grid-template-columns: 1fr; gap: 1.5rem; }
-  .real-grid { grid-template-columns: 1fr; }
-  .real-grid figure:first-child { aspect-ratio: 16 / 9; }
   .p-price { grid-template-columns: 1fr; gap: .6rem; }
   .route { grid-template-columns: repeat(2, 1fr); gap: 1.25rem 0; }
   .route::before { display: none; }
