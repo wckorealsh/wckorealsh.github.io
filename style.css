@@ -112,3 +112,12 @@ td:nth-child(5) { white-space: nowrap; }
 .sources ul { margin: 0; padding-left: 1.2rem; color: var(--muted); font-size: .88rem; columns: 2; column-gap: 2rem; }
 .sources li { break-inside: avoid; margin-bottom: .25rem; }
 @media (max-width: 760px) { .sources ul { columns: 1; } }
+td.thumb { width: 56px; padding-right: 0; }
+td.thumb img { width: 56px; height: 56px; border-radius: 8px; object-fit: cover; display: block; box-shadow: 0 2px 6px rgba(0,0,0,.12); }
+td:nth-child(3) { font-weight: 600; }
+td:nth-child(2) { font-weight: 400; }
+td:nth-child(6) { white-space: nowrap; }
+td:nth-child(5) { white-space: normal; }
+.note.small { font-size: .85rem; }
+.credits ul { columns: 3; font-size: .78rem; }
+@media (max-width: 760px) { .credits ul { columns: 1; } }
