@@ -6,8 +6,6 @@
   const won = (n) => "₩" + Number(n).toLocaleString("en-US");
   const range = ([a, b]) => (a === b ? won(a) : `${won(a)}–${won(b).slice(1)}`);
   const day = (iso) => new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric" });
-  const engineName = { naver: "Naver Shopping", google: "Google Shopping" };
-  const enc = encodeURIComponent;
 
   let data, prices = { items: {} };
   try { data = await (await fetch("data/products.json")).json(); } catch { root.innerHTML = "<p class='note'>Could not load products.</p>"; return; }
@@ -19,7 +17,6 @@
   const live = prices.items[id] || {};
   const low = live.lowest;
   const sources = Object.values(live.sources || {});
-  const q = live.q || `${p.brand} ${p.name}`;
   document.title = `${p.name} · ${p.brand} · The Lees`;
 
   // price-range bar: typical range as a track, live offers as dots
@@ -29,12 +26,6 @@
   const pct = (v) => Math.round(((v - base) / span) * 100);
   const saving = low && low.price < lo ? Math.round((1 - low.price / lo) * 100) : 0;
 
-  const compare = [
-    ["Naver", `https://search.shopping.naver.com/search/all?query=${enc(q)}&sort=price_asc`],
-    ["Google", `https://www.google.com/search?tbm=shop&hl=ko&gl=kr&q=${enc(q)}`],
-    ["Danawa", `https://search.danawa.com/dsearch.php?query=${enc(q)}`],
-    ["Coupang", `https://www.coupang.com/np/search?q=${enc(q)}&sorter=salePriceAsc`],
-  ];
   const related = p.related.map((r) => data.items.find((x) => x.id === r)).filter(Boolean);
 
   root.innerHTML = `
@@ -56,16 +47,16 @@
         <p class="tagline">${esc(p.tagline)}</p>
 
         <div class="p-price">
-          ${low ? `<div class="p-low"><span class="deal-label">Lowest found</span><span class="deal-price big">${won(low.price)}</span>
+          ${low ? `<div class="p-low"><span class="deal-label">Our price</span><span class="deal-price big">${won(low.price)}</span>
                      ${saving ? `<span class="save">−${saving}% vs typical</span>` : ""}
-                     <span class="deal-meta">${esc(low.mall)} · ${engineName[low.engine] || low.engine} · checked ${day(low.checked)}</span></div>`
+                     <span class="deal-meta">lowest we found in Korea · checked ${day(low.checked)}</span></div>`
                 : `<div class="p-low"><span class="deal-label muted">No live price yet — checked weekly</span></div>`}
           <div class="p-typical"><span class="deal-label">Typical price in Korea</span><span>${range(p.price)}</span></div>
         </div>
 
         <div class="p-bar" aria-label="Price range">
           <div class="track"><div class="fill" style="left:${pct(lo)}%;width:${Math.max(pct(hi) - pct(lo), 1)}%"></div>
-            ${sources.map((s) => `<a class="dot ${s === low ? "best" : ""}" style="left:${pct(s.price)}%" href="${s.link}" target="_blank" rel="noopener" title="${esc(s.mall)} · ${won(s.price)}"></a>`).join("")}
+            ${sources.map((s) => `<span class="dot ${s === low ? "best" : ""}" style="left:${pct(s.price)}%" title="${won(s.price)}"></span>`).join("")}
           </div>
           <div class="ticks"><span>${won(base)}</span><span>typical range</span><span>${won(base + span)}</span></div>
           <p class="legend"><i class="sw sw-fill"></i> typical Korean retail &nbsp; <i class="sw sw-dot"></i> live listing we found &nbsp; <i class="sw sw-dot sw-best"></i> lowest</p>
@@ -78,9 +69,8 @@
         <ul class="p-promise">
           <li>🏷️ <b>Lowest price guaranteed</b> — found it cheaper at a Korean retailer within 7 days? We refund the difference.</li>
           <li>✈️ <b>Direct from Seoul to the U.S.</b> — tracked air shipping, 5–10 business days.</li>
-          <li>🔁 Prices re-checked weekly against Google Shopping and Naver Shopping.</li>
+          <li>🔁 Prices re-checked weekly across Korea's major shopping sites.</li>
         </ul>
-        <p class="deal-compare">Compare yourself: ${compare.map(([n, u]) => `<a href="${u}" target="_blank" rel="noopener">${n}</a>`).join(" · ")}</p>
       </div>
     </section>
 

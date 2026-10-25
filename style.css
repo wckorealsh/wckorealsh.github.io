@@ -187,12 +187,7 @@ dialog .err { color: #c0392b; font-size: .85rem; min-height: 1.2em; margin: 0 0 
 .deal-label.muted { font-weight: 400; text-transform: none; letter-spacing: 0; }
 .deal-price { font-weight: 600; font-size: 1.05rem; color: #c0392b; }
 .deal-meta { grid-column: 1 / -1; font-size: .75rem; color: var(--muted); }
-.deal-best:hover .deal-price { text-decoration: underline; }
-.deal-compare { font-size: .74rem; color: var(--muted); }
-.deal-compare a { color: var(--accent); text-decoration: none; }
-.deal-compare a:hover { text-decoration: underline; }
 .price { color: var(--muted); font-weight: 400; font-size: .9rem; }
-@media (max-width: 480px) { .deal-compare { display: none; } }
 
 /* ---------- storefront home ---------- */
 .home .topbar .btn.primary { text-decoration: none; margin-left: auto; white-space: nowrap; }
@@ -285,7 +280,6 @@ dialog .err { color: #c0392b; font-size: .85rem; min-height: 1.2em; margin: 0 0 
 .add.primary:hover { filter: brightness(1.08); }
 .p-promise { list-style: none; margin: 1.25rem 0 0; padding: 0; display: grid; gap: .45rem; font-size: .88rem; color: var(--muted); }
 .p-promise b { color: var(--fg); }
-.p-buy .deal-compare { margin-top: 1rem; display: block; }
 .p-highlights { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); margin-top: 3rem; }
 .hl-card { padding: 1.1rem 1.1rem 1rem; border-radius: 16px; border: 1px solid var(--border); background: color-mix(in srgb, var(--paper) 55%, var(--bg)); }
 .hl-icon { font-size: 1.6rem; line-height: 1; display: block; margin-bottom: .5rem; }
