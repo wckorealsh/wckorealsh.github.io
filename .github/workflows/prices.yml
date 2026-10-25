@@ -4,6 +4,10 @@ on:
     - cron: "0 18 * * *"      # daily 03:00 KST — Naver
     - cron: "30 18 * * 1"     # Mondays — add Google Shopping (SerpApi free tier is 100/month)
   workflow_dispatch:
+    inputs:
+      engines:
+        description: "Engines to query (google costs 30 SerpApi searches)"
+        default: "naver"
 permissions:
   contents: write
 jobs:
@@ -19,7 +23,9 @@ jobs:
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: |
-          if [ "${{ github.event.schedule }}" = "30 18 * * 1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python scripts/fetch_prices.py ${{ inputs.engines }}
+          elif [ "${{ github.event.schedule }}" = "30 18 * * 1" ]; then
             python scripts/fetch_prices.py naver google
           else
             python scripts/fetch_prices.py naver
