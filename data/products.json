@@ -65,9 +65,9 @@
     "note": "Limited editions routinely sell out on release day and resell above retail."
    },
    "related": [
-    "s2",
     "s7",
-    "s9"
+    "s9",
+    "s13"
    ],
    "scenes": [
     "Journaling with a metal 153 — the click is the same, the weight is new",
@@ -76,247 +76,189 @@
    ]
   },
   {
-   "id": "s2",
+   "id": "s13",
    "cat": "stationery",
-   "rank": 2,
-   "name": "Q-Knock gel pen",
-   "brand": "Dong-A",
+   "name": "Choonsik desk & stationery set",
+   "brand": "Kakao Friends",
    "price": [
-    1500,
-    1500
+    10000,
+    35000
    ],
-   "img": "img/shop/s2.jpg",
-   "tagline": "The pen every Korean student has in their bag.",
+   "tagline": "Korea's most-loved character, on your desk.",
    "story": [
-    "Dong-A's Q-Knock is the quiet best-seller of Korean stationery: a retractable gel pen with a soft grip, a clean quick-drying line and a price so low you buy them by the box. It's the pen that fills exam halls and office drawers across the country.",
-    "What makes it loved is consistency — the same smooth line from the first page to the last, in a 0.4 mm that suits Hangul's tight strokes. Refills are everywhere, and the colour range runs well beyond black and blue."
+    "Choonsik is the sweet-potato-loving stray cat adopted by Ryan, the lion of Kakao Friends — the characters built into KakaoTalk, the messenger every Korean uses. Since 2020 Choonsik has outsold every other character in the line-up.",
+    "Official goods — pen holders, memo pads, mouse pads, keyrings, mini plush — are sold through Kakao Friends stores and the KakaoTalk gift shop, which don't ship abroad. That makes them one of the most requested 'can you bring me…' items from Korea."
    ],
    "highlights": [
     {
-     "icon": "✒️",
-     "title": "Smooth gel line",
-     "text": "Quick-drying ink, no smudge for left-handers."
+     "icon": "🐱",
+     "title": "Choonsik",
+     "text": "Korea's top character since 2020."
     },
     {
-     "icon": "🤏",
-     "title": "Soft grip",
-     "text": "Rubber grip for long writing sessions."
+     "icon": "🖥️",
+     "title": "Full desk set",
+     "text": "Pen holder, memo pad, mouse pad, clips and a mini plush."
     },
     {
-     "icon": "🌈",
-     "title": "Colour range",
-     "text": "Black, blue, red plus pastel and vivid sets."
-    },
-    {
-     "icon": "💸",
-     "title": "Pocket price",
-     "text": "About ₩1,500 — stock up."
-    }
-   ],
-   "specs": {
-    "Brand": "Dong-A Pencil (동아연필), Korea",
-    "Type": "Retractable gel pen",
-    "Tip": "0.4 mm (also 0.5 mm)",
-    "Refill": "Q-Knock refill, widely available",
-    "Where Koreans buy": "Any stationery shop, Coupang"
-   },
-   "heat": {
-    "score": 3,
-    "note": "Steady best-seller rather than a fad — the pen Koreans reach for by default."
-   },
-   "related": [
-    "s1",
-    "s4",
-    "s6"
-   ],
-   "scenes": [
-    "Smooth gel ink for long note-taking sessions",
-    "One in every Korean pencil case",
-    "Fine 0.5 mm tip for tidy lists and planners"
-   ]
-  },
-  {
-   "id": "s3",
-   "cat": "stationery",
-   "rank": 3,
-   "name": "6-hole binder planner (A5 / A6 wide)",
-   "brand": "Paperian, ICONIC",
-   "price": [
-    25000,
-    60000
-   ],
-   "img": "img/shop/s3.jpg",
-   "tagline": "The planner you build yourself.",
-   "story": [
-    "In 2026 the Korean planner trend swung away from bound yearly diaries toward refillable 6-ring binders. The appeal is control: pick the cover, choose weekly or daily inserts, add dot-grid pages for notes, swap sections as the year changes.",
-    "Paperian and ICONIC lead the category with soft PU and vegan-leather covers in muted colours, and a deep ecosystem of inserts, dividers and pockets. The A6-wide format — slightly wider than A6 so the rings don't eat the page — is the Korean favourite."
-   ],
-   "highlights": [
-    {
-     "icon": "🔄",
-     "title": "Refillable",
-     "text": "Six rings; swap inserts, keep the cover for years."
-    },
-    {
-     "icon": "📐",
-     "title": "A5 or A6 wide",
-     "text": "A6 wide is the Korean sweet spot: bag-sized, writable."
-    },
-    {
-     "icon": "🧩",
-     "title": "Ecosystem",
-     "text": "Weekly, daily, dot-grid inserts, dividers, zip pockets."
-    },
-    {
-     "icon": "🎀",
-     "title": "Giftable covers",
-     "text": "Vegan leather in dusty pastels and neutrals."
-    }
-   ],
-   "specs": {
-    "Brand": "Paperian (페이퍼리안) / ICONIC (아이코닉), Seoul",
-    "Format": "A5 or A6 wide, 6-ring",
-    "Cover": "PU / vegan leather",
-    "Inserts": "Sold separately — weekly, daily, grid, blank",
-    "Where Koreans buy": "29CM, 10x10"
-   },
-   "heat": {
-    "score": 4,
-    "note": "Planner creators on YouTube and Instagram drove a binder revival in 2025–26."
-   },
-   "related": [
-    "s4",
-    "s6",
-    "s8"
-   ],
-   "scenes": [
-    "Build your own planner — pages in, pages out",
-    "A6-wide fits a cafe table and a tote bag",
-    "Swap inserts: weekly, monthly, notes, budget"
-   ]
-  },
-  {
-   "id": "s4",
-   "cat": "stationery",
-   "rank": 4,
-   "name": "Index tabs & sticky notes",
-   "brand": "Plepic",
-   "price": [
-    3000,
-    6000
-   ],
-   "img": "img/shop/s4.jpg",
-   "tagline": "The organising layer for your binder.",
-   "story": [
-    "Plepic makes the small pieces that make a planner work: translucent index tabs, slim sticky flags, minimal pastel notes. They're thin enough not to bulk up a binder and quiet enough not to shout over your handwriting.",
-    "Koreans buy them in sets — one for colour-coding subjects, one for marking book pages, one for the fridge. The design language is restrained, which is exactly why they pair with every planner on this list."
-   ],
-   "highlights": [
-    {
-     "icon": "🏷️",
-     "title": "Translucent tabs",
-     "text": "See the page through the tab; label with a fine pen."
-    },
-    {
-     "icon": "📎",
-     "title": "Slim flags",
-     "text": "Mark pages without adding thickness."
-    },
-    {
-     "icon": "🎨",
-     "title": "Pastel sets",
-     "text": "Coordinated palettes for colour-coding."
-    },
-    {
-     "icon": "🧷",
-     "title": "Repositionable",
-     "text": "Low-tack adhesive, no residue."
-    }
-   ],
-   "specs": {
-    "Brand": "Plepic (플레픽), Korea",
-    "Type": "Index tabs, sticky flags, sticky notes",
-    "Adhesive": "Repositionable, low-tack",
-    "Where Koreans buy": "Artbox, 10x10"
-   },
-   "heat": {
-    "score": 3,
-    "note": "Rides the binder-planner wave — the standard add-on purchase."
-   },
-   "related": [
-    "s3",
-    "s5",
-    "s6"
-   ],
-   "scenes": [
-    "Tabs mark the months and sections at a glance",
-    "Sticky notes for tasks that move around",
-    "Reminders on the monitor, the mirror, the fridge"
-   ]
-  },
-  {
-   "id": "s5",
-   "cat": "stationery",
-   "rank": 5,
-   "name": "Botanical leaf sticky notes",
-   "brand": "Appree",
-   "price": [
-    5000,
-    8000
-   ],
-   "img": "img/shop/s5.jpg",
-   "tagline": "Sticky notes shaped like real leaves.",
-   "story": [
-    "Appree's leaf notes are a small Korean design classic: die-cut sticky notes printed as ginkgo, maple, birch and other leaves, realistic enough that a desk covered in them looks like autumn arrived indoors.",
-    "They've been a gift-shop staple for over a decade and are one of the most-exported Korean stationery items. Use them as bookmarks, labels or just to leave a nicer note."
-   ],
-   "highlights": [
-    {
-     "icon": "🍁",
-     "title": "Die-cut leaves",
-     "text": "Ginkgo, maple, birch and more; printed both sides."
-    },
-    {
-     "icon": "📖",
-     "title": "Bookmark-friendly",
-     "text": "Stick to a page edge; peel off cleanly."
+     "icon": "🏪",
+     "title": "Store-only",
+     "text": "Official goods sold only in Korea."
     },
     {
      "icon": "🎁",
      "title": "Gift favourite",
-     "text": "The thing visitors to Seoul bring home."
-    },
-    {
-     "icon": "🌿",
-     "title": "Seasonal sets",
-     "text": "Spring greens to autumn reds."
+     "text": "The default KakaoTalk birthday gift."
     }
    ],
    "specs": {
-    "Brand": "Appree (어프리), Korea",
-    "Type": "Die-cut sticky notes",
-    "Designs": "Ginkgo, maple, birch, oak and seasonal leaves",
-    "Where Koreans buy": "Kyobo Hottracks, Appree"
+    "Brand": "Kakao Friends (카카오프렌즈), Seoul",
+    "Character": "Choonsik (춘식이)",
+    "Items": "Pen holder, memo pad, mouse pad, keyring, mini plush (sets vary)",
+    "Material": "ABS / paper / polyester",
+    "Where Koreans buy": "Kakao Friends flagship stores, KakaoTalk Gift"
    },
    "heat": {
-    "score": 3,
-    "note": "Evergreen gift item; spikes every autumn."
+    "score": 5,
+    "note": "New seasonal Choonsik drops queue around the block at the Gangnam flagship."
    },
-   "related": [
-    "s4",
-    "s9",
-    "s8"
-   ],
+   "img": "img/shop/s13.jpg",
    "scenes": [
-    "Leaf notes mark your favourite pages",
-    "Grows into a little plant on your wall",
-    "A gentle reminder that looks like a houseplant"
+    "A desk full of Choonsik",
+    "Keyring on every Korean bag",
+    "Korea's favourite character, in a box"
+   ],
+   "rank": 2,
+   "related": [
+    "s1",
+    "s11",
+    "s12"
+   ]
+  },
+  {
+   "id": "s11",
+   "cat": "stationery",
+   "name": "10-Minute Planner (study planner)",
+   "brand": "Motemote (모트모트)",
+   "price": [
+    12000,
+    18000
+   ],
+   "tagline": "The planner behind every Korean study vlog.",
+   "story": [
+    "Open any Korean 'study with me' video and the same planner is on the desk: Motemote's Ten Minute Planner. Each day is a grid of 10-minute blocks; you write your tasks, then colour the blocks as you finish them, so a productive day literally fills with colour.",
+    "It started as a tool for exam students and spread to office workers, language learners and anyone who likes seeing their time. There is nothing like it on US shelves — American planners are weekly or hourly; this one is about the ten minutes you actually have."
+   ],
+   "highlights": [
+    {
+     "icon": "⏱️",
+     "title": "10-minute grid",
+     "text": "Every day broken into 10-minute blocks you colour in — progress you can see."
+    },
+    {
+     "icon": "🎯",
+     "title": "Goal pages",
+     "text": "Monthly goals, D-Day countdowns and weekly reviews built in."
+    },
+    {
+     "icon": "📚",
+     "title": "Study-vlog icon",
+     "text": "The planner in thousands of Korean study-with-me videos."
+    },
+    {
+     "icon": "🗓️",
+     "title": "Undated",
+     "text": "Start any week — 31, 100 or 200-day editions."
+    }
+   ],
+   "specs": {
+    "Brand": "Motemote (모트모트), Seoul",
+    "Format": "Undated, A5 or B6, 100 / 200-day editions",
+    "Layout": "Daily 10-minute time grid + to-do + review",
+    "Cover": "Thick pastel PU or paper cover, many colours",
+    "Where Koreans buy": "Motemote online store, Kyobo Hottracks"
+   },
+   "heat": {
+    "score": 5,
+    "note": "Sells out before every exam season; new colours drop monthly."
+   },
+   "img": "img/shop/s11.jpg",
+   "scenes": [
+    "Plan the day in 10-minute blocks",
+    "The planner behind every Korean study vlog",
+    "Tick off the day and see it fill up"
+   ],
+   "rank": 3,
+   "related": [
+    "s1",
+    "s13",
+    "s12"
+   ]
+  },
+  {
+   "id": "s12",
+   "cat": "stationery",
+   "name": "Plus Pen 3000 — 36-colour set",
+   "brand": "Monami",
+   "price": [
+    18000,
+    40000
+   ],
+   "tagline": "Korea's fineliner since 1976.",
+   "story": [
+    "If the 153 is Korea's ballpoint, the Plus Pen 3000 is its felt-tip. Launched in 1976, the slim black-capped pen with the fine 0.4 mm tip has been used for signing documents, marking up textbooks and drawing in planners ever since — over four billion sold.",
+    "The colour sets are where it gets fun: 12, 24, 36 and 60-colour boxes with a tidy row of pastel and vivid caps, loved for colour-coding notes and simple line drawings. It is a Korea-only product; US fineliner sets are a different pen entirely."
+   ],
+   "highlights": [
+    {
+     "icon": "✒️",
+     "title": "0.4 mm fine tip",
+     "text": "Crisp lines for notes, lettering and planner doodles."
+    },
+    {
+     "icon": "🌈",
+     "title": "Up to 60 colours",
+     "text": "Rainbow sets with pastel, neon and metallic ranges."
+    },
+    {
+     "icon": "💧",
+     "title": "Water-based ink",
+     "text": "Quick-drying, low odour, safe for kids."
+    },
+    {
+     "icon": "🏛️",
+     "title": "Since 1976",
+     "text": "Four billion sold in Korea alone."
+    }
+   ],
+   "specs": {
+    "Brand": "Monami (모나미), Seoul",
+    "Type": "Water-based felt-tip, 0.4 mm",
+    "Sets": "12 / 24 / 36 / 60 colours, clear case",
+    "Length": "150 mm, capped",
+    "Where Koreans buy": "Monami Store, Kyobo Hottracks, Artbox"
+   },
+   "heat": {
+    "score": 4,
+    "note": "A back-to-school staple; 36-colour sets are the most gifted."
+   },
+   "img": "img/shop/s12.jpg",
+   "scenes": [
+    "Fine 0.4 mm lines in every colour",
+    "Colour-code notes and planners",
+    "Korea's drawing pen for all ages"
+   ],
+   "rank": 4,
+   "related": [
+    "s1",
+    "s13",
+    "s11"
    ]
   },
   {
    "id": "s6",
    "cat": "stationery",
-   "rank": 6,
+   "rank": 5,
    "name": "Planner sticker packs",
    "brand": "Suatelier, Dailylike, NACOO",
    "price": [
@@ -362,9 +304,9 @@
     "note": "Diary-deco content is one of the biggest stationery genres on Korean social media."
    },
    "related": [
-    "s8",
     "s3",
-    "s10"
+    "s10",
+    "s1"
    ],
    "scenes": [
     "다꾸 — decorating the day's diary page",
@@ -375,7 +317,7 @@
   {
    "id": "s7",
    "cat": "stationery",
-   "rank": 7,
+   "rank": 6,
    "name": "Literature-inspired fountain pen ink",
    "brand": "Wearingeul, Colorverse",
    "price": [
@@ -432,68 +374,69 @@
    ]
   },
   {
-   "id": "s8",
+   "id": "s3",
    "cat": "stationery",
-   "rank": 8,
-   "name": "Washi / masking tape sets",
-   "brand": "Dailylike, ICONIC",
+   "rank": 7,
+   "name": "6-hole binder planner (A5 / A6 wide)",
+   "brand": "Paperian, ICONIC",
    "price": [
-    3000,
-    7000
+    25000,
+    60000
    ],
-   "img": "img/shop/s8.jpg",
-   "tagline": "Cheap, giftable, endlessly collectible.",
+   "img": "img/shop/s3.jpg",
+   "tagline": "The planner you build yourself.",
    "story": [
-    "Masking tape is the glue of Korean diary culture — literally. Dailylike's fabric-inspired patterns and ICONIC's minimal lines come in slim 10–15 mm rolls that tear by hand, write-on-able with a pen, and lift off without damaging paper.",
-    "Sets of three to five coordinated rolls are how most people buy them: one floral, one grid, one plain colour. They end up on planners, gift wrap, laptops and fridge notes."
+    "In 2026 the Korean planner trend swung away from bound yearly diaries toward refillable 6-ring binders. The appeal is control: pick the cover, choose weekly or daily inserts, add dot-grid pages for notes, swap sections as the year changes.",
+    "Paperian and ICONIC lead the category with soft PU and vegan-leather covers in muted colours, and a deep ecosystem of inserts, dividers and pockets. The A6-wide format — slightly wider than A6 so the rings don't eat the page — is the Korean favourite."
    ],
    "highlights": [
     {
-     "icon": "🧵",
-     "title": "Fabric-style prints",
-     "text": "Dailylike's signature textile patterns."
+     "icon": "🔄",
+     "title": "Refillable",
+     "text": "Six rings; swap inserts, keep the cover for years."
     },
     {
-     "icon": "✂️",
-     "title": "Tears by hand",
-     "text": "No scissors; repositions cleanly."
+     "icon": "📐",
+     "title": "A5 or A6 wide",
+     "text": "A6 wide is the Korean sweet spot: bag-sized, writable."
     },
     {
-     "icon": "✍️",
-     "title": "Writable surface",
-     "text": "Label with ballpoint or fine liner."
+     "icon": "🧩",
+     "title": "Ecosystem",
+     "text": "Weekly, daily, dot-grid inserts, dividers, zip pockets."
     },
     {
-     "icon": "🎁",
-     "title": "Sets of 3–5",
-     "text": "Coordinated palettes ready to gift."
+     "icon": "🎀",
+     "title": "Giftable covers",
+     "text": "Vegan leather in dusty pastels and neutrals."
     }
    ],
    "specs": {
-    "Brand": "Dailylike (데일리라이크) / ICONIC (아이코닉), Korea",
-    "Width": "10–15 mm typical",
-    "Length": "~10 m per roll",
-    "Where Koreans buy": "Artbox, Dailylike"
+    "Brand": "Paperian (페이퍼리안) / ICONIC (아이코닉), Seoul",
+    "Format": "A5 or A6 wide, 6-ring",
+    "Cover": "PU / vegan leather",
+    "Inserts": "Sold separately — weekly, daily, grid, blank",
+    "Where Koreans buy": "29CM, 10x10"
    },
    "heat": {
-    "score": 3,
-    "note": "Permanent fixture of the diary-deco scene."
+    "score": 4,
+    "note": "Planner creators on YouTube and Instagram drove a binder revival in 2025–26."
    },
    "related": [
     "s6",
-    "s4",
-    "s10"
+    "s1",
+    "s13"
    ],
    "scenes": [
-    "Wrap gifts and seal envelopes",
-    "Decorate planner pages and borders",
-    "A jar of patterns on every desk"
+    "Build your own planner — pages in, pages out",
+    "A6-wide fits a cafe table and a tote bag",
+    "Swap inserts: weekly, monthly, notes, budget"
    ]
   },
   {
    "id": "s9",
    "cat": "stationery",
-   "rank": 9,
+   "rank": 8,
    "name": "Reading journal & bookmarks",
    "brand": "ICONIC, Kyobo Hottracks",
    "price": [
@@ -540,13 +483,73 @@
    },
    "related": [
     "s7",
-    "s5",
-    "c6"
+    "s1",
+    "s13"
    ],
    "scenes": [
     "A bookmark you actually look forward to",
     "Log every book, rate it, remember it",
     "Reading-cafe weekends in Seoul"
+   ]
+  },
+  {
+   "id": "s14",
+   "cat": "stationery",
+   "name": "Seoul subway-map poster & postcards",
+   "brand": "Zero Per Zero",
+   "price": [
+    5000,
+    25000
+   ],
+   "tagline": "Seoul, drawn by the studio that redesigned its map.",
+   "story": [
+    "Zero Per Zero is a small Seoul graphic studio that became famous for redrawing city subway maps as art — Seoul as a heart, Tokyo, New York, Paris. Their Seoul map is the souvenir Koreans themselves buy for friends abroad.",
+    "Posters, postcard sets, notebooks and tape in their crisp geometric style are sold through their own shop and museum stores in Seoul. They are not stocked in the US."
+   ],
+   "highlights": [
+    {
+     "icon": "🗺️",
+     "title": "City as art",
+     "text": "Seoul's subway redrawn as a geometric heart."
+    },
+    {
+     "icon": "🖼️",
+     "title": "Poster or postcard",
+     "text": "A2 posters, A6 postcard sets, notebooks."
+    },
+    {
+     "icon": "🏙️",
+     "title": "Seoul studio",
+     "text": "Designed and printed in Seoul."
+    },
+    {
+     "icon": "✈️",
+     "title": "The real souvenir",
+     "text": "What Koreans give friends abroad."
+    }
+   ],
+   "specs": {
+    "Brand": "Zero Per Zero (제로퍼제로), Seoul",
+    "Products": "Poster A2 / A3, postcard set of 8, notebook",
+    "Paper": "Heavy matte art paper",
+    "Designs": "Seoul, Busan, Tokyo, New York and more",
+    "Where Koreans buy": "Zero Per Zero shop, Kyobo Hottracks, museum shops"
+   },
+   "heat": {
+    "score": 3,
+    "note": "A steady favourite in Seoul design shops; Seoul map reprints yearly."
+   },
+   "img": "img/shop/s14.jpg",
+   "scenes": [
+    "Seoul on your wall",
+    "Postcards from a city you love",
+    "Souvenir of a Seoul trip"
+   ],
+   "rank": 9,
+   "related": [
+    "s1",
+    "s13",
+    "s11"
    ]
   },
   {
@@ -598,8 +601,8 @@
    },
    "related": [
     "s6",
-    "s8",
-    "l10"
+    "l10",
+    "s1"
    ],
    "scenes": [
     "Stickers for laptops, bottles and phones",
@@ -608,594 +611,547 @@
    ]
   },
   {
-   "id": "c1",
-   "cat": "craft",
-   "rank": 1,
-   "name": "Beginner knitting / crochet kit",
-   "brand": "Yarn + needles + pattern",
-   "price": [
-    20000,
-    45000
-   ],
-   "img": "img/shop/c1.jpg",
-   "tagline": "Korea's #1 healing hobby, in one box.",
-   "story": [
-    "뜨개 (knitting and crochet) became the defining slow hobby of young Koreans in the mid-2020s: offline, screen-free, and with a finished object at the end to photograph. Kits removed the barrier — yarn, hook or needles, pattern and sometimes a video lesson in one package.",
-    "Typical first projects are a small bag, a scrunchie, a coaster set or a plush keyring. Dongdaemun's yarn market and Naver Smart Store sellers supply hundreds of variations."
-   ],
-   "highlights": [
-    {
-     "icon": "📦",
-     "title": "All in one box",
-     "text": "Yarn, needles or hook, pattern, often a QR video."
-    },
-    {
-     "icon": "🧘",
-     "title": "Healing hobby",
-     "text": "The slow, offline activity Korea picked up this decade."
-    },
-    {
-     "icon": "👜",
-     "title": "Finish in a weekend",
-     "text": "Bag, scrunchie, coaster, plush — small wins."
-    },
-    {
-     "icon": "🎨",
-     "title": "Colour choice",
-     "text": "Most kits let you pick the yarn colours."
-    }
-   ],
-   "specs": {
-    "Type": "Beginner kit — crochet or knitting",
-    "Contents": "Yarn, hook/needles, pattern, tapestry needle, stitch markers (varies)",
-    "Project": "Bag, scrunchie, coaster set or plush",
-    "Where Koreans buy": "Coupang, Naver Smart Store, Dongdaemun yarn shops"
-   },
-   "heat": {
-    "score": 5,
-    "note": "The most-searched hobby kit category in Korea in 2025–26."
-   },
-   "related": [
-    "c7",
-    "c4",
-    "c2"
-   ],
-   "scenes": [
-    "Knit a first scarf on the sofa",
-    "Yarn, needles and a pattern in one box",
-    "Wear what you made"
-   ]
-  },
-  {
-   "id": "c2",
-   "cat": "craft",
-   "rank": 2,
-   "name": "Bead keyring / bag charm DIY set",
-   "brand": "Beads + cord",
-   "price": [
-    8000,
-    20000
-   ],
-   "img": "img/shop/c2.jpg",
-   "tagline": "Make a charm for every bag.",
-   "story": [
-    "The Y2K bag-charm craze brought beads back. Korean DIY sets give you acrylic and glass beads, letters, a clasp and elastic or wire so you can make phone straps, bag charms and keyrings in an afternoon.",
-    "It's a social craft — friends make matching sets, and the finished charms go straight onto totes and phone cases."
-   ],
-   "highlights": [
-    {
-     "icon": "💎",
-     "title": "Mixed beads",
-     "text": "Acrylic, glass, letter beads, pearls."
-    },
-    {
-     "icon": "🔗",
-     "title": "Hardware included",
-     "text": "Clasps, rings, phone-strap loops."
-    },
-    {
-     "icon": "⏱️",
-     "title": "One afternoon",
-     "text": "No tools beyond scissors."
-    },
-    {
-     "icon": "👯",
-     "title": "Make-with-friends",
-     "text": "Matching charms are the point."
-    }
-   ],
-   "specs": {
-    "Type": "Beading DIY set",
-    "Contents": "Beads, elastic/wire, clasps, keyrings, phone-strap cords",
-    "Where Koreans buy": "Coupang, Artbox"
-   },
-   "heat": {
-    "score": 4,
-    "note": "Bag charms are everywhere in Seoul street style."
-   },
-   "related": [
-    "c10",
-    "c1",
-    "l6"
-   ],
-   "scenes": [
-    "Thread beads, tie, done in an evening",
-    "Clip the charm to a tote or backpack",
-    "Make one for your keys, one for a friend"
-   ]
-  },
-  {
-   "id": "c3",
-   "cat": "craft",
-   "rank": 3,
-   "name": "Colour-clay hand-building kit",
-   "brand": "Ceramics",
-   "price": [
-    30000,
-    60000
-   ],
-   "img": "img/shop/c3.jpg",
-   "tagline": "Pottery class, at your kitchen table.",
-   "story": [
-    "One-day pottery classes are booked out across Seoul, so brands turned the experience into a kit: coloured air-dry or oven-bake clay, basic tools, and a guide for building a cup, dish or incense holder by hand.",
-    "No wheel, no kiln. The coloured clay gives the marbled, pastel look that Korean ceramic Instagram loves."
-   ],
-   "highlights": [
-    {
-     "icon": "🏺",
-     "title": "No kiln needed",
-     "text": "Air-dry or home-oven clay."
-    },
-    {
-     "icon": "🌈",
-     "title": "Coloured clay",
-     "text": "Marble and swirl pastel tones."
-    },
-    {
-     "icon": "🛠️",
-     "title": "Tools included",
-     "text": "Wooden tools, sponge, varnish."
-    },
-    {
-     "icon": "☕",
-     "title": "Make a cup or dish",
-     "text": "Guided first projects."
-    }
-   ],
-   "specs": {
-    "Type": "Hand-building ceramics kit",
-    "Clay": "Air-dry or oven-bake polymer, several colours",
-    "Contents": "Clay, tools, sealing varnish, guide",
-    "Where Koreans buy": "Craft Practice, Class101"
-   },
-   "heat": {
-    "score": 3,
-    "note": "Spillover from Korea's pottery-class boom."
-   },
-   "related": [
-    "l4",
-    "c7",
-    "c10"
-   ],
-   "scenes": [
-    "Hand-build a cup at the kitchen table",
-    "Air-dry clay — no kiln needed",
-    "A trinket dish for rings and earrings"
-   ]
-  },
-  {
-   "id": "c4",
-   "cat": "craft",
-   "rank": 4,
-   "name": "Needlepoint / embroidery kit",
-   "brand": "Fabric + hoop + thread",
+   "id": "s15",
+   "cat": "stationery",
+   "name": "Hand-carved Hangul name seal (도장)",
+   "brand": "Korean seal makers",
    "price": [
     15000,
     40000
    ],
-   "img": "img/shop/c4.jpg",
-   "tagline": "Classic embroidery with a 2026 twist.",
+   "tagline": "Your name, carved in Korean.",
    "story": [
-    "French embroidery (프랑스자수) kits were already a bestseller in Korea; the 2026 twist is beads and sequins stitched into the design for a raised, glittering finish. Kits come with pre-printed fabric, a hoop, sorted threads and a stitch guide.",
-    "Finished pieces become brooches, pouches or framed wall pieces."
+    "In Korea a seal (dojang) still signs contracts and bank forms, and a carved personal seal is a classic coming-of-age or graduation gift. Seal shops in Insadong carve names in Hangul in minutes, in round or square styles, on boxwood, horn or stone.",
+    "We have your name transliterated into Hangul, carved, and shipped with a red ink pad — a small object that is unmistakably Korean and entirely yours. Use it on letters, books, art and planners."
    ],
    "highlights": [
     {
-     "icon": "🪡",
-     "title": "Pre-printed fabric",
-     "text": "Design is on the cloth; follow the lines."
+     "icon": "✍️",
+     "title": "Your name in Hangul",
+     "text": "Transliterated and checked before carving."
     },
     {
-     "icon": "✨",
-     "title": "Beads & sequins",
-     "text": "The 2026 raised, sparkling look."
+     "icon": "🪵",
+     "title": "Hand-carved",
+     "text": "Boxwood or stone, round or square face."
+    },
+    {
+     "icon": "🔴",
+     "title": "Red ink pad included",
+     "text": "Traditional vermilion stamp ink."
+    },
+    {
+     "icon": "🎁",
+     "title": "Comes in a pouch",
+     "text": "Fabric pouch — gift-ready."
+    }
+   ],
+   "specs": {
+    "Made in": "Seoul (Insadong seal workshops)",
+    "Material": "Boxwood, buffalo horn or soapstone",
+    "Face": "12–18 mm, round or square",
+    "Includes": "Seal, red ink pad, fabric pouch",
+    "Lead time": "Carved to order, +3 days"
+   },
+   "heat": {
+    "score": 3,
+    "note": "A tourist favourite that Koreans also gift for graduations and first jobs."
+   },
+   "img": "img/shop/s15.jpg",
+   "scenes": [
+    "Stamp your name on letters and books",
+    "Mark your books the Korean way",
+    "A personalised gift"
+   ],
+   "rank": 11,
+   "related": [
+    "s1",
+    "s13",
+    "s11"
+   ]
+  },
+  {
+   "id": "c11",
+   "cat": "craft",
+   "name": "Najeon mother-of-pearl DIY kit (자개)",
+   "brand": "Korean craft studios",
+   "price": [
+    25000,
+    60000
+   ],
+   "tagline": "Korea's shimmering lacquer craft, at home.",
+   "story": [
+    "Najeon chilgi — mother-of-pearl inlaid in black lacquer — decorated Korean wardrobes and jewellery boxes for a thousand years. In the last few years it has become the most-booked craft class in Seoul, as young Koreans rediscover it on trays, mirrors and phone grips.",
+    "The kit gives you a pre-lacquered base, cut shell pieces, tweezers and glue, and a pattern to follow — a crane, peonies, a tiger. Two quiet hours later you have a piece that catches the light like nothing sold in a US craft store."
+   ],
+   "highlights": [
+    {
+     "icon": "🐚",
+     "title": "Real shell",
+     "text": "Abalone and pearl-oyster pieces, pre-cut."
+    },
+    {
+     "icon": "🖤",
+     "title": "Lacquer base",
+     "text": "Tray, hand mirror, coaster or phone grip."
+    },
+    {
+     "icon": "🧰",
+     "title": "All in the box",
+     "text": "Tweezers, glue, pattern sheet, finishing coat."
+    },
+    {
+     "icon": "🏯",
+     "title": "1,000-year craft",
+     "text": "Korea's traditional inlay, made modern."
+    }
+   ],
+   "specs": {
+    "Craft": "Najeon chilgi (나전칠기) — mother-of-pearl inlay",
+    "Base options": "Round tray 15 cm, hand mirror, coaster set, griptok",
+    "Includes": "Lacquered base, shell pieces, tweezers, glue, pattern, top coat",
+    "Time": "About 2 hours",
+    "Where Koreans buy": "Class101 kits, Insadong craft shops, Naver Smart Store"
+   },
+   "heat": {
+    "score": 5,
+    "note": "The breakout craft of 2025–26; one-day classes in Seoul book out weeks ahead."
+   },
+   "img": "img/shop/c11.jpg",
+   "scenes": [
+    "Place shell pieces one by one",
+    "A shimmering tray for jewellery",
+    "Or make a griptok for your phone"
+   ],
+   "rank": 1,
+   "related": [
+    "c12",
+    "c14",
+    "c13"
+   ]
+  },
+  {
+   "id": "c12",
+   "cat": "craft",
+   "name": "Korean knot (매듭) keyring & norigae kit",
+   "brand": "Korean craft studios",
+   "price": [
+    12000,
+    30000
+   ],
+   "tagline": "Tie the knots that hang from hanbok.",
+   "story": [
+    "Maedeup is the Korean art of decorative knotting — the silk-cord knots and tassels that hang from a hanbok as a norigae. Each knot has a name (dragonfly, chrysanthemum, lotus) and a symmetry that looks impossible until your hands learn it.",
+    "This beginner kit has the cords, a tassel, a bead and step-by-step diagrams to tie a traditional knot into a keyring or bag charm. It is the kind of small, beautiful, very Korean object that US craft stores simply don't carry."
+   ],
+   "highlights": [
+    {
+     "icon": "🪢",
+     "title": "Traditional knots",
+     "text": "Dragonfly, chrysanthemum and lotus knots with diagrams."
     },
     {
      "icon": "🧵",
-     "title": "Sorted threads",
-     "text": "Floss pre-cut and numbered."
+     "title": "Silk-look cord",
+     "text": "Rayon cord in hanbok colours, plus tassel and bead."
+    },
+    {
+     "icon": "👜",
+     "title": "Keyring or charm",
+     "text": "Finish as a keyring, bag charm or norigae."
+    },
+    {
+     "icon": "⏳",
+     "title": "One evening",
+     "text": "Beginner-friendly, about 90 minutes."
+    }
+   ],
+   "specs": {
+    "Craft": "Maedeup (전통매듭) — Korean decorative knotting",
+    "Includes": "Cords in 2–3 colours, tassel, bead, key ring, diagram booklet",
+    "Finished size": "About 12–15 cm",
+    "Colours": "Red / teal / navy / pastel sets",
+    "Where Koreans buy": "Insadong craft shops, Naver Smart Store, Class101"
+   },
+   "heat": {
+    "score": 4,
+    "note": "Riding the bag-charm boom with a traditional twist."
+   },
+   "img": "img/shop/c12.jpg",
+   "scenes": [
+    "Tie traditional knots step by step",
+    "Hang it from a bag or keys",
+    "A norigae-style gift charm"
+   ],
+   "rank": 2,
+   "related": [
+    "c11",
+    "c14",
+    "c13"
+   ]
+  },
+  {
+   "id": "c14",
+   "cat": "craft",
+   "name": "Minhwa folk-painting kit (민화)",
+   "brand": "Korean craft studios",
+   "price": [
+    15000,
+    40000
+   ],
+   "tagline": "Tigers, magpies and peonies — Korean folk art you paint.",
+   "story": [
+    "Minhwa are the folk paintings of old Korea — a tiger grinning under a pine tree while a magpie scolds it, peonies for wealth, carp for success. Bold, funny and bright, they were painted by anonymous artists and hung in ordinary homes for luck.",
+    "The kit has pre-outlined designs on Korean paper, mineral-style paints and brushes, so you colour like a folk painter. Finished, it frames beautifully and is a conversation piece no US craft store can offer."
+   ],
+   "highlights": [
+    {
+     "icon": "🐯",
+     "title": "Tiger & magpie",
+     "text": "The most famous minhwa, plus peonies and carp."
+    },
+    {
+     "icon": "🖌️",
+     "title": "Outlined on paper",
+     "text": "Designs pre-drawn on hanji-style paper."
+    },
+    {
+     "icon": "🎨",
+     "title": "Paints & brushes",
+     "text": "Six colours in the traditional palette."
     },
     {
      "icon": "🖼️",
      "title": "Frame it",
-     "text": "Hoop doubles as a frame."
+     "text": "A4 size, fits a standard frame."
     }
    ],
    "specs": {
-    "Type": "Embroidery kit",
-    "Contents": "Printed fabric, hoop, floss, needles, beads/sequins (varies), guide",
-    "Where Koreans buy": "The Stitch Post, Coupang"
-   },
-   "heat": {
-    "score": 3,
-    "note": "Beaded embroidery is a rising sub-trend in Korean craft shops."
-   },
-   "related": [
-    "c5",
-    "c1",
-    "c7"
-   ],
-   "scenes": [
-    "Stitch a pattern in a hoop",
-    "Hang the hoop as wall art",
-    "Embroider a tote or a shirt pocket"
-   ]
-  },
-  {
-   "id": "c5",
-   "cat": "craft",
-   "rank": 5,
-   "name": "Punch needle / tufting starter",
-   "brand": "Textile",
-   "price": [
-    25000,
-    70000
-   ],
-   "img": "img/shop/c5.jpg",
-   "tagline": "Fast, forgiving, very photogenic.",
-   "story": [
-    "Punch needle is the fastest way to make something textile: push looped yarn through a stretched fabric and a design appears in an evening. Korean starter kits bundle the punch needle, monk's cloth, a frame and yarn for a coaster or small rug.",
-    "Tufting — the powered big-brother for rugs — exploded through Korean workshops; starter kits bring the small-scale version home."
-   ],
-   "highlights": [
-    {
-     "icon": "⚡",
-     "title": "Quick results",
-     "text": "A coaster in an evening."
-    },
-    {
-     "icon": "🔁",
-     "title": "Forgiving",
-     "text": "Pull out and re-punch mistakes."
-    },
-    {
-     "icon": "🧶",
-     "title": "Chunky texture",
-     "text": "Loop or cut pile."
-    },
-    {
-     "icon": "🖼️",
-     "title": "Frame included",
-     "text": "Fabric comes stretched or with frame."
-    }
-   ],
-   "specs": {
-    "Type": "Punch needle starter kit",
-    "Contents": "Punch needle, monk's cloth, frame/hoop, yarn, pattern",
-    "Where Koreans buy": "Coupang, Class101"
-   },
-   "heat": {
-    "score": 3,
-    "note": "Rug-making content keeps the category warm."
-   },
-   "related": [
-    "c4",
-    "c1",
-    "l5"
-   ],
-   "scenes": [
-    "Punch loops into fabric — fast and forgiving",
-    "Make a mini rug or a coaster",
-    "Photogenic from the first row"
-   ]
-  },
-  {
-   "id": "c6",
-   "cat": "craft",
-   "rank": 6,
-   "name": "Miniature book-nook kit",
-   "brand": "Wood model",
-   "price": [
-    30000,
-    60000
-   ],
-   "img": "img/shop/c6.jpg",
-   "tagline": "A tiny street that lives on your bookshelf.",
-   "story": [
-    "Book nooks are dioramas built to the size of a book, slid between novels on a shelf to reveal an alley, a bookshop, a train platform. Kits are laser-cut wood with paper details and LED lights; building one takes a weekend.",
-    "It's where Korea's book culture and its craft boom overlap — the perfect gift for a reader who already has every book."
-   ],
-   "highlights": [
-    {
-     "icon": "📚",
-     "title": "Fits on a shelf",
-     "text": "Sized to sit between books."
-    },
-    {
-     "icon": "💡",
-     "title": "LED lighting",
-     "text": "Battery-powered warm lights."
-    },
-    {
-     "icon": "🪵",
-     "title": "Laser-cut wood",
-     "text": "Pre-cut parts, glue included."
-    },
-    {
-     "icon": "🗓️",
-     "title": "Weekend build",
-     "text": "10–20 hours of calm."
-    }
-   ],
-   "specs": {
-    "Type": "DIY miniature diorama kit",
-    "Material": "Laser-cut wood, paper, acrylic, LED",
-    "Build time": "10–20 hours",
-    "Where Koreans buy": "Coupang, Kyobo Hottracks"
-   },
-   "heat": {
-    "score": 3,
-    "note": "Book-goods trend plus the craft boom."
-   },
-   "related": [
-    "s9",
-    "c7",
-    "c3"
-   ],
-   "scenes": [
-    "Build a tiny street piece by piece",
-    "Slides between books and lights up",
-    "A weekend project with a warm glow"
-   ]
-  },
-  {
-   "id": "c7",
-   "cat": "craft",
-   "rank": 7,
-   "name": "Needle-felting animal kit",
-   "brand": "Wool",
-   "price": [
-    10000,
-    25000
-   ],
-   "img": "img/shop/c7.jpg",
-   "tagline": "Stab wool until it becomes a cat.",
-   "story": [
-    "Needle felting needs nothing but wool roving and a barbed needle — you poke the fibre until it compacts into shape. Korean kits make small animals: cats, seals, hamsters, the occasional dumpling.",
-    "It's low-cost, quiet and oddly meditative, which is why it keeps showing up in Korean 'healing hobby' lists."
-   ],
-   "highlights": [
-    {
-     "icon": "🐱",
-     "title": "Make an animal",
-     "text": "Cats, seals, hamsters, bears."
-    },
-    {
-     "icon": "🧰",
-     "title": "Everything included",
-     "text": "Wool, needles, foam pad, eyes."
-    },
-    {
-     "icon": "🔇",
-     "title": "Quiet craft",
-     "text": "No machine, no mess."
-    },
-    {
-     "icon": "💸",
-     "title": "Low cost",
-     "text": "From ₩10,000."
-    }
-   ],
-   "specs": {
-    "Type": "Needle felting kit",
-    "Contents": "Wool roving, felting needles, foam mat, glass eyes, guide",
-    "Where Koreans buy": "Coupang, Daiso"
-   },
-   "heat": {
-    "score": 3,
-    "note": "Daiso's cheap kits put it in every household."
-   },
-   "related": [
-    "c1",
-    "c6",
-    "c4"
-   ],
-   "scenes": [
-    "Stab wool until it becomes a cat",
-    "Tiny wool animals for the windowsill",
-    "Wool, needles and a pad in one kit"
-   ]
-  },
-  {
-   "id": "c8",
-   "cat": "craft",
-   "rank": 8,
-   "name": "Artisan keycaps & tactile fidgets",
-   "brand": "Desk toys",
-   "price": [
-    5000,
-    30000
-   ],
-   "img": "img/shop/c8.jpg",
-   "tagline": "Kids' toys became adult collectibles.",
-   "story": [
-    "Trend Korea 2026 named it: toys for grown-ups. Hand-cast resin keycaps with tiny scenes inside, metal fidget sliders, squishy desk objects — things to touch during a long day at a desk.",
-    "Korean makers sell them through 29CM and Naver Smart Store in small drops, and the best designs go for far more than the keyboard they sit on."
-   ],
-   "highlights": [
-    {
-     "icon": "⌨️",
-     "title": "MX-compatible",
-     "text": "Fits standard mechanical keyboards."
-    },
-    {
-     "icon": "🧪",
-     "title": "Hand-cast resin",
-     "text": "Each cap slightly different."
-    },
-    {
-     "icon": "🫧",
-     "title": "Tactile",
-     "text": "Fidgets and squishies for desk hands."
-    },
-    {
-     "icon": "🗓️",
-     "title": "Small drops",
-     "text": "Limited runs from indie makers."
-    }
-   ],
-   "specs": {
-    "Type": "Artisan keycaps, desk fidgets",
-    "Fit": "Cherry MX stem (keycaps)",
-    "Material": "Resin, metal, silicone",
-    "Where Koreans buy": "29CM, Naver Smart Store"
+    "Craft": "Minhwa (민화) — Korean folk painting",
+    "Includes": "2–3 outlined designs, 6 paints, 2 brushes, palette, guide",
+    "Size": "A4",
+    "Themes": "Tiger & magpie, peonies, carp, lotus",
+    "Where Koreans buy": "Naver Smart Store, Class101, Insadong"
    },
    "heat": {
     "score": 4,
-    "note": "Named a 2026 consumer trend; adult toy spending rising."
+    "note": "Minhwa classes and kits boomed with the 'K-traditional' revival."
    },
-   "related": [
-    "l10",
-    "l7",
-    "c2"
-   ],
+   "img": "img/shop/c14.jpg",
    "scenes": [
-    "One artisan keycap makes a keyboard yours",
-    "A tactile fidget for long meetings",
-    "Collected and displayed like tiny sculptures"
+    "Paint a tiger and magpie",
+    "Frame it as folk art",
+    "A slow weekend project"
+   ],
+   "rank": 3,
+   "related": [
+    "c11",
+    "c12",
+    "c13"
    ]
   },
   {
-   "id": "c9",
+   "id": "c13",
    "cat": "craft",
-   "rank": 9,
-   "name": "Crayons & oil pastels for adults",
-   "brand": "Art supplies",
+   "name": "Hanji paper lamp kit (한지 무드등)",
+   "brand": "Korean craft studios",
+   "price": [
+    20000,
+    45000
+   ],
+   "tagline": "Soft light through Korean mulberry paper.",
+   "story": [
+    "Hanji is paper made from mulberry bark, strong enough to last centuries and translucent enough to glow. Korean houses once used it on every window and door, which is why Korean interior light is remembered as warm and soft.",
+    "This kit builds a small lamp: a wooden frame, sheets of natural and dyed hanji, glue and an LED bulb. Paper the frame, let it dry, and you have a bedside light with a glow US lamp stores can't match."
+   ],
+   "highlights": [
+    {
+     "icon": "📜",
+     "title": "Real hanji",
+     "text": "Mulberry paper from Jeonju, natural and dyed sheets."
+    },
+    {
+     "icon": "💡",
+     "title": "LED included",
+     "text": "Warm-white bulb, USB or battery."
+    },
+    {
+     "icon": "🪵",
+     "title": "Wooden frame",
+     "text": "Pre-cut frame, no tools needed."
+    },
+    {
+     "icon": "🌙",
+     "title": "Bedside glow",
+     "text": "Soft, diffused light for reading or sleep."
+    }
+   ],
+   "specs": {
+    "Craft": "Hanji (한지) paper craft",
+    "Includes": "Wooden frame, hanji sheets, glue, brush, LED light",
+    "Size": "About 15 × 15 × 20 cm",
+    "Power": "USB-powered warm LED",
+    "Where Koreans buy": "Jeonju Hanji shops, Naver Smart Store, Class101"
+   },
+   "heat": {
+    "score": 3,
+    "note": "A classic Korean craft that resurfaced with the mood-lamp trend."
+   },
+   "img": "img/shop/c13.jpg",
+   "scenes": [
+    "Build the frame and paper it",
+    "Warm, soft light for the bedside",
+    "A reading lamp with a paper glow"
+   ],
+   "rank": 4,
+   "related": [
+    "c11",
+    "c12",
+    "c14"
+   ]
+  },
+  {
+   "id": "c15",
+   "cat": "craft",
+   "name": "Jogakbo patchwork pouch kit (조각보)",
+   "brand": "Korean craft studios",
+   "price": [
+    20000,
+    45000
+   ],
+   "tagline": "Korean patchwork that looks like stained glass.",
+   "story": [
+    "Jogakbo is the Korean art of sewing leftover scraps of ramie and silk into wrapping cloths, with seams so fine and fabric so sheer that a finished piece hung in a window looks like stained glass. Once a thrifty household craft, it is now shown in museums.",
+    "This kit holds pre-cut squares of translucent fabric in soft colours, thread, a needle and a pattern for a small pouch or a window cloth. Slow, meditative hand-sewing, with a result that is unmistakably Korean."
+   ],
+   "highlights": [
+    {
+     "icon": "🪟",
+     "title": "Translucent fabric",
+     "text": "Ramie / sheer cotton squares in soft colours."
+    },
+    {
+     "icon": "🧵",
+     "title": "Fine seams",
+     "text": "Traditional flat-felled seam, taught step by step."
+    },
+    {
+     "icon": "👛",
+     "title": "Pouch or cloth",
+     "text": "Make a small pouch or a window hanging."
+    },
+    {
+     "icon": "🧘",
+     "title": "Slow craft",
+     "text": "A few calm evenings of hand-sewing."
+    }
+   ],
+   "specs": {
+    "Craft": "Jogakbo (조각보) — Korean patchwork",
+    "Includes": "Pre-cut fabric squares, thread, needle, pattern, lining",
+    "Finished size": "Pouch 12 × 18 cm or cloth 30 × 30 cm",
+    "Fabric": "Ramie or sheer cotton",
+    "Where Koreans buy": "Insadong, Naver Smart Store, Class101"
+   },
+   "heat": {
+    "score": 3,
+    "note": "Museum exhibitions and K-drama costumes brought jogakbo back into craft shops."
+   },
+   "img": "img/shop/c15.jpg",
+   "scenes": [
+    "Stitch squares into patchwork",
+    "A pouch for small things",
+    "Or hang it in a sunny window"
+   ],
+   "rank": 5,
+   "related": [
+    "c11",
+    "c12",
+    "c14"
+   ]
+  },
+  {
+   "id": "l9",
+   "cat": "lifestyle",
+   "rank": 1,
+   "name": "Seasonal keyrings & mini pouches",
+   "brand": "Starbucks Korea",
+   "price": [
+    15000,
+    30000
+   ],
+   "img": "img/shop/l9.jpg",
+   "tagline": "Korea's most-hyped merchandise.",
+   "story": [
+    "Starbucks Korea's MD (merchandise) is a phenomenon of its own: seasonal keyrings, Bearista bear charms, Peanuts and other collabs that sell out the morning they drop and reappear on resale sites by lunch.",
+    "The mini pouches and keyrings are the collectible, carry-everywhere pieces — Korea-only designs you won't find in any other Starbucks market."
+   ],
+   "highlights": [
+    {
+     "icon": "🐻",
+     "title": "Bearista & collabs",
+     "text": "Peanuts, seasonal and city editions."
+    },
+    {
+     "icon": "🇰🇷",
+     "title": "Korea-only",
+     "text": "Designs exclusive to the Korean market."
+    },
+    {
+     "icon": "⏰",
+     "title": "Sells out fast",
+     "text": "Often gone on release morning."
+    },
+    {
+     "icon": "🔑",
+     "title": "Carry-everywhere",
+     "text": "Keyrings and card-sized pouches."
+    }
+   ],
+   "specs": {
+    "Brand": "Starbucks Korea MD",
+    "Type": "Keyrings, mini pouches, charms",
+    "Release": "Seasonal drops",
+    "Where Koreans buy": "Starbucks Korea stores and app"
+   },
+   "heat": {
+    "score": 5,
+    "note": "Resale premiums on release day; the most-hyped MD in Korea."
+   },
+   "related": [
+    "l6",
+    "l1",
+    "l7"
+   ],
+   "scenes": [
+    "Clipped to a tumbler or a bag",
+    "Seasonal drops — autumn, holiday, cherry blossom",
+    "Collected season after season"
+   ]
+  },
+  {
+   "id": "l6",
+   "cat": "lifestyle",
+   "rank": 2,
+   "name": "Keyrings & mini pouches",
+   "brand": "Kitty Bunny Pony",
    "price": [
     10000,
     30000
    ],
-   "img": "img/shop/c9.jpg",
-   "tagline": "Nostalgia art, with better pigments.",
+   "img": "img/shop/l6.jpg",
+   "tagline": "Seoul's cult fabric studio.",
    "story": [
-    "At Korea's 2026 stationery fairs, crayon and pastel brands re-pitched their products to adults: richer pigments, muted palettes, sketchbook-friendly formats. Oil pastel drawing — thick, blended, imperfect — became a popular evening class and a social-media genre.",
-    "A set of 24–48 colours plus a pad is enough to start."
+    "Kitty Bunny Pony (KBP) has designed and printed its own fabrics in Seoul since 2008 — cheerful, slightly off-kilter patterns that became a signature. The small goods are the entry point: keyring pouches, card wallets, mini totes.",
+    "Everything is made from KBP's own textiles, so no two seasons look alike."
    ],
    "highlights": [
     {
-     "icon": "🖍️",
-     "title": "Adult palettes",
-     "text": "Muted and earthy tones, not just primaries."
+     "icon": "🧵",
+     "title": "Own fabrics",
+     "text": "Designed and printed in-house."
+    },
+    {
+     "icon": "🔑",
+     "title": "Keyring pouches",
+     "text": "Clip-on size for cards and coins."
     },
     {
      "icon": "🎨",
-     "title": "Blendable",
-     "text": "Soft oil pastels layer and smudge."
+     "title": "Signature prints",
+     "text": "Playful patterns, new each season."
     },
     {
-     "icon": "🧒",
-     "title": "Nostalgia",
-     "text": "The medium everyone used at six."
-    },
-    {
-     "icon": "📱",
-     "title": "Social genre",
-     "text": "Oil-pastel drawing is big on Korean Instagram."
+     "icon": "💸",
+     "title": "Affordable",
+     "text": "Most small goods under ₩30,000."
     }
    ],
    "specs": {
-    "Type": "Oil pastel or crayon set",
-    "Count": "24–48 colours typical",
-    "Where Koreans buy": "Kyobo Hottracks, Artbox"
+    "Brand": "Kitty Bunny Pony (키티버니포니), Seoul",
+    "Material": "Cotton, canvas (own prints)",
+    "Type": "Keyring pouches, card cases, mini bags",
+    "Where Koreans buy": "KBP store, 29CM"
    },
    "heat": {
-    "score": 3,
-    "note": "Oil-pastel classes and content surged in 2025–26."
+    "score": 4,
+    "note": "A Seongsu-tote staple; collabs sell out."
    },
    "related": [
-    "s7",
-    "c4",
-    "s9"
+    "l1",
+    "l7",
+    "l9"
    ],
    "scenes": [
-    "Draw with soft oil pastels like a kid again",
-    "Richer pigments than the school box",
-    "Weekend nostalgia art"
+    "Clipped to every tote in Seongsu",
+    "Transit card and coins, right at hand",
+    "Keys you can find in your bag"
    ]
   },
   {
-   "id": "c10",
-   "cat": "craft",
-   "rank": 10,
-   "name": "Resin keyring / charm kit",
-   "brand": "Resin + moulds",
+   "id": "l14",
+   "cat": "lifestyle",
+   "name": "Quokka character plush & goods",
+   "brand": "Dinotaeng (다이노탱)",
    "price": [
-    15000,
-    35000
+    10000,
+    40000
    ],
-   "img": "img/shop/c10.jpg",
-   "tagline": "Pour, cure, clip to your bag.",
+   "tagline": "Korea's cult indie character.",
    "story": [
-    "UV-resin kits let you make glossy charms at home: pour resin into a silicone mould, drop in glitter, dried flowers or a tiny photo, cure under a UV lamp, add a keyring. Korean kits are designed around phone charms and AirPods-case accessories.",
-    "Results look shop-bought, which is the whole appeal."
+    "Dinotaeng is a small Korean studio whose quokka character — round cheeks, half-closed eyes, permanently content — went from Instagram comics to a cult following. Its message is simple: it's fine to rest, it's fine to be slow.",
+    "Plush, keyrings, stickers, mugs and diaries are sold through the studio's Korean store and pop-ups that draw hours-long queues. Not sold in the US, and one of the most asked-for Korean character goods."
    ],
    "highlights": [
     {
-     "icon": "💧",
-     "title": "UV resin",
-     "text": "Cures in minutes under the included lamp."
+     "icon": "😊",
+     "title": "The quokka",
+     "text": "Korea's beloved 'it's okay' character."
     },
     {
-     "icon": "🧁",
-     "title": "Silicone moulds",
-     "text": "Hearts, stars, bears, letters."
+     "icon": "🧸",
+     "title": "Plush & keyrings",
+     "text": "Mini plush, keyrings, stickers, mugs."
     },
     {
-     "icon": "🌸",
-     "title": "Inclusions",
-     "text": "Glitter, dried flowers, foil."
+     "icon": "📍",
+     "title": "Pop-up culture",
+     "text": "Seoul pop-ups with hours-long queues."
     },
     {
-     "icon": "📱",
-     "title": "Phone & AirPods",
-     "text": "Hardware for straps and cases."
+     "icon": "💬",
+     "title": "Comforting comics",
+     "text": "Started as webcomics about slowing down."
     }
    ],
    "specs": {
-    "Type": "UV resin craft kit",
-    "Contents": "Resin, moulds, UV lamp, glitter/flowers, keyring hardware",
-    "Safety": "Use gloves and ventilation",
-    "Where Koreans buy": "Coupang"
+    "Brand": "Dinotaeng (다이노탱), Seoul",
+    "Character": "Quokka (쿼카)",
+    "Items": "Mini plush 15 cm, keyring, sticker pack, mug, diary",
+    "Material": "Polyester plush, acrylic, paper",
+    "Where Koreans buy": "Dinotaeng online store, pop-up stores, Kyobo Hottracks"
    },
    "heat": {
-    "score": 3,
-    "note": "Charm culture spillover from the bead-charm trend."
+    "score": 4,
+    "note": "Pop-ups in Seongsu and Hongdae drew queues of 2+ hours in 2026."
    },
-   "related": [
-    "c2",
-    "l6",
-    "c8"
-   ],
+   "img": "img/shop/l14.jpg",
    "scenes": [
-    "Pour resin into moulds with flowers inside",
-    "Cure, add a ring, clip to a bag",
-    "Make charms for friends"
+    "The happiest plush in Korea",
+    "Stickers and keyrings too",
+    "Everyone's photo buddy"
+   ],
+   "rank": 3,
+   "related": [
+    "l9",
+    "l6",
+    "l1"
    ]
   },
   {
    "id": "l1",
    "cat": "lifestyle",
-   "rank": 1,
+   "rank": 4,
    "name": "Doodle compact keyring pouch",
    "brand": "ICONIC",
    "price": [
@@ -1252,9 +1208,187 @@
    ]
   },
   {
+   "id": "l13",
+   "cat": "lifestyle",
+   "name": "Illustrated griptok phone grips",
+   "brand": "Korean illustrators",
+   "price": [
+    8000,
+    18000
+   ],
+   "tagline": "Korea's phone-grip culture, one illustrator at a time.",
+   "story": [
+    "In Korea the phone grip is called a griptok and it is a fashion item: every illustrator, character brand and K-pop fandom releases its own, and people own a handful and swap them with the season. The US has PopSockets; Korea has an entire griptok culture.",
+    "We pick griptoks from Korean indie illustrators — hand-drawn characters, foods, flowers — in smart-tok or 3M-adhesive styles. They fold flat, prop your phone up, and make it instantly recognisable as yours."
+   ],
+   "highlights": [
+    {
+     "icon": "🎨",
+     "title": "Indie illustrators",
+     "text": "Art from Korean independent artists."
+    },
+    {
+     "icon": "🤳",
+     "title": "Grip & stand",
+     "text": "Collapsible — hold one-handed or prop up."
+    },
+    {
+     "icon": "🔁",
+     "title": "Swappable",
+     "text": "Smart-tok style swaps designs in seconds."
+    },
+    {
+     "icon": "🇰🇷",
+     "title": "Korea-only culture",
+     "text": "Not a PopSocket — a griptok."
+    }
+   ],
+   "specs": {
+    "Product": "Griptok (그립톡) phone grip",
+    "Type": "Smart-tok (swappable) or 3M adhesive",
+    "Top": "Acrylic or epoxy dome with illustration, 40 mm",
+    "Compatible": "Any phone or case; works with MagSafe-style plates",
+    "Where Koreans buy": "Naver Smart Store, Artbox, illustration fairs"
+   },
+   "heat": {
+    "score": 4,
+    "note": "Every new illustrator drop sells out on Naver within days."
+   },
+   "img": "img/shop/l13.jpg",
+   "scenes": [
+    "A grip for one-handed scrolling",
+    "Doubles as a stand",
+    "Collect illustrator designs"
+   ],
+   "rank": 5,
+   "related": [
+    "l9",
+    "l6",
+    "l14"
+   ]
+  },
+  {
+   "id": "l11",
+   "cat": "lifestyle",
+   "name": "Korean spoon & chopsticks set (수저)",
+   "brand": "Korean tableware makers",
+   "price": [
+    20000,
+    60000
+   ],
+   "tagline": "The flat Korean spoon and chopsticks the US doesn't sell.",
+   "story": [
+    "Korea is the only country that eats with a long-handled spoon and flat metal chopsticks together — the sujeo. The spoon is for rice and soup, the chopsticks for side dishes, and the flat shape is a surprise to anyone used to round wooden ones.",
+    "Sets in stainless steel or traditional brass (yugi) come boxed and are the standard housewarming and wedding gift. If you cook Korean food in the US, this is the piece of the table you can't buy locally."
+   ],
+   "highlights": [
+    {
+     "icon": "🥄",
+     "title": "Long flat spoon",
+     "text": "For rice and soup — the Korean way."
+    },
+    {
+     "icon": "🥢",
+     "title": "Flat metal chopsticks",
+     "text": "Slim, flat, hygienic, lasts forever."
+    },
+    {
+     "icon": "✨",
+     "title": "Steel or brass",
+     "text": "Stainless everyday sets or traditional yugi brass."
+    },
+    {
+     "icon": "🎁",
+     "title": "Boxed gift set",
+     "text": "The classic housewarming gift."
+    }
+   ],
+   "specs": {
+    "Product": "Sujeo (수저) — spoon + chopsticks pair",
+    "Material": "18-10 stainless steel or yugi brass (방짜유기)",
+    "Length": "Spoon 20 cm, chopsticks 23 cm",
+    "Sets": "1, 2 or 4 pairs, boxed",
+    "Where Koreans buy": "29CM, department stores, Naver Smart Store"
+   },
+   "heat": {
+    "score": 4,
+    "note": "Brass yugi sets became a design-shop favourite in 2025–26."
+   },
+   "img": "img/shop/l11.jpg",
+   "scenes": [
+    "Set the table the Korean way",
+    "Flat chopsticks, a different grip",
+    "A wedding and housewarming gift"
+   ],
+   "rank": 6,
+   "related": [
+    "l9",
+    "l6",
+    "l14"
+   ]
+  },
+  {
+   "id": "l7",
+   "cat": "lifestyle",
+   "rank": 7,
+   "name": "\"Happy\" desk goods & keyrings",
+   "brand": "Oh,lolly day! (오롤리데이)",
+   "price": [
+    8000,
+    25000
+   ],
+   "img": "img/shop/l7.jpg",
+   "tagline": "Optimism as a brand.",
+   "story": [
+    "Oh,lolly day! started as a small Seoul design brand with one message — be happier — and grew into a lifestyle label with a flagship in Seongsu. Bright typography, smiling characters, stickers, keyrings and desk goods.",
+    "It's the brand Koreans buy when they want a small daily reminder to cheer up."
+   ],
+   "highlights": [
+    {
+     "icon": "😊",
+     "title": "Happy message",
+     "text": "Typography and characters built on optimism."
+    },
+    {
+     "icon": "🖥️",
+     "title": "Desk goods",
+     "text": "Pen trays, memo pads, mouse pads."
+    },
+    {
+     "icon": "🔑",
+     "title": "Keyrings",
+     "text": "Acrylic and rubber charms."
+    },
+    {
+     "icon": "📍",
+     "title": "Seongsu flagship",
+     "text": "A destination store in Seoul's design district."
+    }
+   ],
+   "specs": {
+    "Brand": "Oh,lolly day! (오롤리데이), Seoul",
+    "Type": "Desk goods, stickers, keyrings, pouches",
+    "Where Koreans buy": "Oh,lolly day! stores, 29CM"
+   },
+   "heat": {
+    "score": 3,
+    "note": "Strong Seongsu foot traffic and frequent collabs."
+   },
+   "related": [
+    "l6",
+    "l10",
+    "l9"
+   ],
+   "scenes": [
+    "A desk that smiles back",
+    "Optimism clipped to your bag",
+    "Small objects, better mood"
+   ]
+  },
+  {
    "id": "l2",
    "cat": "lifestyle",
-   "rank": 2,
+   "rank": 8,
    "name": "Table Talk ribbon mini pouch",
    "brand": "Antenna Shop",
    "price": [
@@ -1313,7 +1447,7 @@
   {
    "id": "l3",
    "cat": "lifestyle",
-   "rank": 3,
+   "rank": 9,
    "name": "Incense & scent objects",
    "brand": "29edition (이구에디션)",
    "price": [
@@ -1369,68 +1503,9 @@
    ]
   },
   {
-   "id": "l4",
-   "cat": "lifestyle",
-   "rank": 4,
-   "name": "Minimal ceramic cups & makgeolli set",
-   "brand": "Idoh (이도)",
-   "price": [
-    25000,
-    70000
-   ],
-   "img": "img/shop/l4.jpg",
-   "tagline": "Simple Korean tableware, done properly.",
-   "story": [
-    "Idoh (이도) is a Seoul ceramics house founded by a ceramic artist in the late 1980s, known for quiet, matte tableware that nods to traditional Korean forms without looking like a museum piece. Its makgeolli sets — a bowl-shaped kettle and small cups — and everyday mugs are 29CM gift favourites.",
-    "Stoneware, hand-finished glazes, dishwasher-friendly."
-   ],
-   "highlights": [
-    {
-     "icon": "🍶",
-     "title": "Makgeolli set",
-     "text": "Pouring bowl and cups for rice wine."
-    },
-    {
-     "icon": "☕",
-     "title": "Everyday cups",
-     "text": "Matte stoneware mugs and tea cups."
-    },
-    {
-     "icon": "🎨",
-     "title": "Soft glazes",
-     "text": "Warm whites, greys, celadon tones."
-    },
-    {
-     "icon": "🧼",
-     "title": "Dishwasher-safe",
-     "text": "Made for daily use."
-    }
-   ],
-   "specs": {
-    "Brand": "Idoh (이도), Seoul",
-    "Material": "Stoneware",
-    "Type": "Cups, mugs, makgeolli sets",
-    "Where Koreans buy": "29CM, Idoh stores"
-   },
-   "heat": {
-    "score": 3,
-    "note": "Korean tableware is a steady gift category; Idoh sets are 29CM exclusives."
-   },
-   "related": [
-    "l3",
-    "c3",
-    "l5"
-   ],
-   "scenes": [
-    "Makgeolli night with proper cups",
-    "Morning coffee in a quiet cup",
-    "Simple Korean tableware for everyday"
-   ]
-  },
-  {
    "id": "l5",
    "cat": "lifestyle",
-   "rank": 5,
+   "rank": 10,
    "name": "Home fabric — cushions & throws",
    "brand": "Okitt (오끼뜨)",
    "price": [
@@ -1478,7 +1553,7 @@
    "related": [
     "l4",
     "l3",
-    "c5"
+    "l9"
    ],
    "scenes": [
     "Dress the sofa with pattern",
@@ -1487,126 +1562,128 @@
    ]
   },
   {
-   "id": "l6",
+   "id": "l4",
    "cat": "lifestyle",
-   "rank": 6,
-   "name": "Keyrings & mini pouches",
-   "brand": "Kitty Bunny Pony",
+   "rank": 11,
+   "name": "Minimal ceramic cups & makgeolli set",
+   "brand": "Idoh (이도)",
    "price": [
-    10000,
-    30000
+    25000,
+    70000
    ],
-   "img": "img/shop/l6.jpg",
-   "tagline": "Seoul's cult fabric studio.",
+   "img": "img/shop/l4.jpg",
+   "tagline": "Simple Korean tableware, done properly.",
    "story": [
-    "Kitty Bunny Pony (KBP) has designed and printed its own fabrics in Seoul since 2008 — cheerful, slightly off-kilter patterns that became a signature. The small goods are the entry point: keyring pouches, card wallets, mini totes.",
-    "Everything is made from KBP's own textiles, so no two seasons look alike."
+    "Idoh (이도) is a Seoul ceramics house founded by a ceramic artist in the late 1980s, known for quiet, matte tableware that nods to traditional Korean forms without looking like a museum piece. Its makgeolli sets — a bowl-shaped kettle and small cups — and everyday mugs are 29CM gift favourites.",
+    "Stoneware, hand-finished glazes, dishwasher-friendly."
    ],
    "highlights": [
     {
-     "icon": "🧵",
-     "title": "Own fabrics",
-     "text": "Designed and printed in-house."
+     "icon": "🍶",
+     "title": "Makgeolli set",
+     "text": "Pouring bowl and cups for rice wine."
     },
     {
-     "icon": "🔑",
-     "title": "Keyring pouches",
-     "text": "Clip-on size for cards and coins."
+     "icon": "☕",
+     "title": "Everyday cups",
+     "text": "Matte stoneware mugs and tea cups."
     },
     {
      "icon": "🎨",
-     "title": "Signature prints",
-     "text": "Playful patterns, new each season."
+     "title": "Soft glazes",
+     "text": "Warm whites, greys, celadon tones."
     },
     {
-     "icon": "💸",
-     "title": "Affordable",
-     "text": "Most small goods under ₩30,000."
+     "icon": "🧼",
+     "title": "Dishwasher-safe",
+     "text": "Made for daily use."
     }
    ],
    "specs": {
-    "Brand": "Kitty Bunny Pony (키티버니포니), Seoul",
-    "Material": "Cotton, canvas (own prints)",
-    "Type": "Keyring pouches, card cases, mini bags",
-    "Where Koreans buy": "KBP store, 29CM"
-   },
-   "heat": {
-    "score": 4,
-    "note": "A Seongsu-tote staple; collabs sell out."
-   },
-   "related": [
-    "l1",
-    "l7",
-    "c2"
-   ],
-   "scenes": [
-    "Clipped to every tote in Seongsu",
-    "Transit card and coins, right at hand",
-    "Keys you can find in your bag"
-   ]
-  },
-  {
-   "id": "l7",
-   "cat": "lifestyle",
-   "rank": 7,
-   "name": "\"Happy\" desk goods & keyrings",
-   "brand": "Oh,lolly day! (오롤리데이)",
-   "price": [
-    8000,
-    25000
-   ],
-   "img": "img/shop/l7.jpg",
-   "tagline": "Optimism as a brand.",
-   "story": [
-    "Oh,lolly day! started as a small Seoul design brand with one message — be happier — and grew into a lifestyle label with a flagship in Seongsu. Bright typography, smiling characters, stickers, keyrings and desk goods.",
-    "It's the brand Koreans buy when they want a small daily reminder to cheer up."
-   ],
-   "highlights": [
-    {
-     "icon": "😊",
-     "title": "Happy message",
-     "text": "Typography and characters built on optimism."
-    },
-    {
-     "icon": "🖥️",
-     "title": "Desk goods",
-     "text": "Pen trays, memo pads, mouse pads."
-    },
-    {
-     "icon": "🔑",
-     "title": "Keyrings",
-     "text": "Acrylic and rubber charms."
-    },
-    {
-     "icon": "📍",
-     "title": "Seongsu flagship",
-     "text": "A destination store in Seoul's design district."
-    }
-   ],
-   "specs": {
-    "Brand": "Oh,lolly day! (오롤리데이), Seoul",
-    "Type": "Desk goods, stickers, keyrings, pouches",
-    "Where Koreans buy": "Oh,lolly day! stores, 29CM"
+    "Brand": "Idoh (이도), Seoul",
+    "Material": "Stoneware",
+    "Type": "Cups, mugs, makgeolli sets",
+    "Where Koreans buy": "29CM, Idoh stores"
    },
    "heat": {
     "score": 3,
-    "note": "Strong Seongsu foot traffic and frequent collabs."
+    "note": "Korean tableware is a steady gift category; Idoh sets are 29CM exclusives."
    },
    "related": [
-    "l6",
-    "l10",
-    "c8"
+    "l3",
+    "l5",
+    "l9"
    ],
    "scenes": [
-    "A desk that smiles back",
-    "Optimism clipped to your bag",
-    "Small objects, better mood"
+    "Makgeolli night with proper cups",
+    "Morning coffee in a quiet cup",
+    "Simple Korean tableware for everyday"
+   ]
+  },
+  {
+   "id": "l12",
+   "cat": "lifestyle",
+   "name": "Bojagi wrapping cloths (보자기)",
+   "brand": "Korean textile makers",
+   "price": [
+    8000,
+    30000
+   ],
+   "tagline": "Wrap gifts the Korean way — no paper, no waste.",
+   "story": [
+    "Bojagi is the square cloth Koreans have wrapped everything in for centuries — gifts, lunch, bedding, a baby. Folded and knotted, it becomes a bag; untied, it is a cloth you keep. Wedding gifts still arrive in bojagi today.",
+    "Modern bojagi come in silky polyester or cotton with traditional patterns and fresh colours, in sizes from a jewellery box to a wine bottle. They are reusable, beautiful, and simply not sold in US stores."
+   ],
+   "highlights": [
+    {
+     "icon": "🎁",
+     "title": "Gift wrap",
+     "text": "Three knots and the gift is wrapped — no tape."
+    },
+    {
+     "icon": "🍱",
+     "title": "Lunch & bottles",
+     "text": "Sizes for lunch boxes, books and wine."
+    },
+    {
+     "icon": "♻️",
+     "title": "Reusable",
+     "text": "The wrap becomes part of the gift."
+    },
+    {
+     "icon": "🎨",
+     "title": "Korean patterns",
+     "text": "Traditional saekdong stripes to modern minimal."
+    }
+   ],
+   "specs": {
+    "Product": "Bojagi (보자기) wrapping cloth",
+    "Material": "Silky polyester, cotton or ramie",
+    "Sizes": "45 / 60 / 75 / 90 cm square",
+    "Sets": "Single or sets of 3 in mixed colours",
+    "Where Koreans buy": "Insadong, Kyobo Hottracks, Naver Smart Store"
+   },
+   "heat": {
+    "score": 3,
+    "note": "Zero-waste gifting made bojagi fashionable again."
+   },
+   "img": "img/shop/l12.jpg",
+   "scenes": [
+    "Wrap a gift without paper",
+    "Carry a lunchbox or a gift",
+    "Reusable, beautiful, zero waste"
+   ],
+   "rank": 12,
+   "related": [
+    "l9",
+    "l6",
+    "l14"
    ]
   },
   {
    "id": "l8",
    "cat": "lifestyle",
-   "rank": 8,
+   "rank": 13,
    "name": "Slim bi-fold wallet",
    "brand": "Yeonwoo Leather, Matin Kim",
    "price": [
@@ -1663,68 +1740,9 @@
    ]
   },
   {
-   "id": "l9",
-   "cat": "lifestyle",
-   "rank": 9,
-   "name": "Seasonal keyrings & mini pouches",
-   "brand": "Starbucks Korea",
-   "price": [
-    15000,
-    30000
-   ],
-   "img": "img/shop/l9.jpg",
-   "tagline": "Korea's most-hyped merchandise.",
-   "story": [
-    "Starbucks Korea's MD (merchandise) is a phenomenon of its own: seasonal keyrings, Bearista bear charms, Peanuts and other collabs that sell out the morning they drop and reappear on resale sites by lunch.",
-    "The mini pouches and keyrings are the collectible, carry-everywhere pieces — Korea-only designs you won't find in any other Starbucks market."
-   ],
-   "highlights": [
-    {
-     "icon": "🐻",
-     "title": "Bearista & collabs",
-     "text": "Peanuts, seasonal and city editions."
-    },
-    {
-     "icon": "🇰🇷",
-     "title": "Korea-only",
-     "text": "Designs exclusive to the Korean market."
-    },
-    {
-     "icon": "⏰",
-     "title": "Sells out fast",
-     "text": "Often gone on release morning."
-    },
-    {
-     "icon": "🔑",
-     "title": "Carry-everywhere",
-     "text": "Keyrings and card-sized pouches."
-    }
-   ],
-   "specs": {
-    "Brand": "Starbucks Korea MD",
-    "Type": "Keyrings, mini pouches, charms",
-    "Release": "Seasonal drops",
-    "Where Koreans buy": "Starbucks Korea stores and app"
-   },
-   "heat": {
-    "score": 5,
-    "note": "Resale premiums on release day; the most-hyped MD in Korea."
-   },
-   "related": [
-    "l6",
-    "l1",
-    "l7"
-   ],
-   "scenes": [
-    "Clipped to a tumbler or a bag",
-    "Seasonal drops — autumn, holiday, cherry blossom",
-    "Collected season after season"
-   ]
-  },
-  {
    "id": "l10",
    "cat": "lifestyle",
-   "rank": 10,
+   "rank": 14,
    "name": "Character desk accessories",
    "brand": "ROMANE",
    "price": [
@@ -1771,7 +1789,7 @@
    "related": [
     "s10",
     "l7",
-    "c8"
+    "l9"
    ],
    "scenes": [
     "Character desk set for home office",
