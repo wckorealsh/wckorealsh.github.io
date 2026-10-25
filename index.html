@@ -3,86 +3,156 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Lees</title>
-  <meta name="description" content="Seungho's personal page — our family.">
+  <title>The Lees · Korea's hottest picks, lowest price guaranteed, shipped to the U.S.</title>
+  <meta name="description" content="The most popular design stationery, craft kits and lifestyle goods in Korea right now — lowest price guaranteed, shipped directly from Seoul to your door in the U.S.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <section class="hero">
-    <nav class="hero-nav"><a href="shopping.html">Shopping →</a></nav>
-    <img class="hero-img" src="img/family-1.jpg" alt="Our family of four standing on a golf course at dusk">
-    <div class="hero-overlay"></div>
-    <div class="hero-text">
-      <p class="eyebrow">Welcome to</p>
-      <h1>The Lees</h1>
-      <p class="sub">Seungho · and the three people who make everything worth it</p>
-      <a class="cta" href="shopping.html">🛍️ Browse our Korea shopping picks →</a>
-      <a class="scroll" href="#family" aria-label="Scroll down">↓</a>
+<body class="home">
+  <header class="topbar">
+    <a class="brand" href="index.html">The Lees</a>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="shopping.html">Shop</a>
+      <a href="#guarantee">Price guarantee</a>
+      <a href="#shipping">Shipping</a>
+    </nav>
+    <a class="btn primary" href="shopping.html">Shop the Top 30</a>
+  </header>
+
+  <section class="store-hero">
+    <div class="store-hero-text">
+      <p class="kicker">🇰🇷 → 🇺🇸 &nbsp;Seoul to your doorstep</p>
+      <h1>Korea's hottest picks.<br><span class="hl">Lowest price.</span><br>Guaranteed.</h1>
+      <p class="sub">The 30 things everyone in Korea is buying right now — design stationery, craft kits and small lifestyle objects — price-checked against Google Shopping and Naver Shopping, and shipped directly to the U.S.</p>
+      <div class="hero-actions">
+        <a class="cta" href="shopping.html">🛍️ Shop the Top 30</a>
+        <a class="ghost" href="#guarantee">How the guarantee works ↓</a>
+      </div>
+      <ul class="trust">
+        <li>✓ Lowest price guaranteed</li>
+        <li>✈️ Direct shipping to the U.S.</li>
+        <li>🔥 Trending in Korea this month</li>
+        <li>🔄 Prices re-checked weekly</li>
+      </ul>
+    </div>
+    <div class="store-hero-art" aria-hidden="true">
+      <img class="float a" src="img/shop/s1.jpg" alt="">
+      <img class="float b" src="img/shop/l6.jpg" alt="">
+      <img class="float c" src="img/shop/c8.jpg" alt="">
+      <img class="float d" src="img/shop/l9.jpg" alt="">
+      <span class="sticker">Top 30<br><small>Korea · Oct 2026</small></span>
     </div>
   </section>
 
-  <section id="family" class="family">
-    <h2><span class="script">Meet the crew</span></h2>
-    <p class="lead">Four of us, one camera roll that never ends.</p>
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>🔥 Monami 153 premium ballpoint</span><span>🔥 Wearingeul literature inks</span><span>🔥 Artisan keycaps</span><span>🔥 Kitty Bunny Pony pouches</span><span>🔥 Starbucks Korea keyrings</span><span>🔥 Beginner knitting kits</span><span>🔥 29edition incense</span><span>🔥 Appree leaf sticky notes</span>
+      <span>🔥 Monami 153 premium ballpoint</span><span>🔥 Wearingeul literature inks</span><span>🔥 Artisan keycaps</span><span>🔥 Kitty Bunny Pony pouches</span><span>🔥 Starbucks Korea keyrings</span><span>🔥 Beginner knitting kits</span><span>🔥 29edition incense</span><span>🔥 Appree leaf sticky notes</span>
+    </div>
+  </div>
 
-    <ul class="members">
-      <li class="member">
-        <div class="avatar" style="--bg:#f4c95d">👨‍💻</div>
-        <h3>Dad</h3>
-        <p>Seungho. Builds software for self-driving cars, loses at every board game.</p>
-      </li>
-      <li class="member">
-        <div class="avatar" style="--bg:#f28c8c">🌸</div>
-        <h3>Mom</h3>
-        <p>The planner, the photographer, the reason we ever leave the house on time.</p>
-      </li>
-      <li class="member">
-        <div class="avatar" style="--bg:#8fd3c7">🎨</div>
-        <h3>Big sister</h3>
-        <p>Quietly brilliant. Has opinions about music you haven't heard of yet.</p>
-      </li>
-      <li class="member">
-        <div class="avatar" style="--bg:#a7c7f2">⚡</div>
-        <h3>Little sister</h3>
-        <p>Biggest smile in every photo. Runs everywhere, walks nowhere.</p>
-      </li>
-    </ul>
+  <section id="hot" class="shop">
+    <div class="cat-head">
+      <h2><span class="script">Hot right now</span></h2>
+      <span class="count">6 of 30</span>
+    </div>
+    <p class="note">Our most-wanted picks this month. Red prices are the live lowest listing we found; grey is the typical range in Korea.</p>
+    <div class="grid">
+      <article class="card" data-id="s1">
+        <div class="card-img"><span class="badge hot">Best 1</span><img src="img/shop/s1.jpg" alt="" loading="lazy" width="640" height="480"></div>
+        <div class="card-body">
+          <p class="brand">Monami</p><h3>153 premium / limited-edition ballpoint</h3>
+          <p class="why">The 300-won classic reborn in metal and seasonal colours — Korea's most collectible pen</p>
+          <div class="card-foot"><span class="price">₩15,000–50,000</span><a class="add" href="shopping.html#stationery">View →</a></div>
+        </div>
+      </article>
+      <article class="card" data-id="s7">
+        <div class="card-img"><span class="badge hot">Hot</span><img src="img/shop/s7.jpg" alt="" loading="lazy" width="640" height="480"></div>
+        <div class="card-body">
+          <p class="brand">Wearingeul, Colorverse</p><h3>Literature-inspired fountain pen ink</h3>
+          <p class="why">Inks named after Korean and world novels — the gift every pen person in Seoul wants</p>
+          <div class="card-foot"><span class="price">₩18,000–35,000</span><a class="add" href="shopping.html#stationery">View →</a></div>
+        </div>
+      </article>
+      <article class="card" data-id="c8">
+        <div class="card-img"><span class="badge hot">Hot</span><img src="img/shop/c8.jpg" alt="" loading="lazy" width="640" height="480"></div>
+        <div class="card-body">
+          <p class="brand">Desk toys</p><h3>Artisan keycaps &amp; tactile fidgets</h3>
+          <p class="why">Hand-cast resin keycaps from Korean makers — one-of-a-kind desk jewellery</p>
+          <div class="card-foot"><span class="price">₩5,000–30,000</span><a class="add" href="shopping.html#craft">View →</a></div>
+        </div>
+      </article>
+      <article class="card" data-id="l6">
+        <div class="card-img"><span class="badge hot">Hot</span><img src="img/shop/l6.jpg" alt="" loading="lazy" width="640" height="480"></div>
+        <div class="card-body">
+          <p class="brand">Kitty Bunny Pony</p><h3>Keyrings &amp; mini pouches</h3>
+          <p class="why">Seoul's cult fabric brand — the pouch clipped to every tote bag in Seongsu</p>
+          <div class="card-foot"><span class="price">₩10,000–30,000</span><a class="add" href="shopping.html#lifestyle">View →</a></div>
+        </div>
+      </article>
+      <article class="card" data-id="l9">
+        <div class="card-img"><span class="badge hot">Hot</span><img src="img/shop/l9.jpg" alt="" loading="lazy" width="640" height="480"></div>
+        <div class="card-body">
+          <p class="brand">Starbucks Korea</p><h3>Seasonal keyrings &amp; mini pouches</h3>
+          <p class="why">Korea-only Starbucks merch that sells out the morning it drops</p>
+          <div class="card-foot"><span class="price">₩15,000–30,000</span><a class="add" href="shopping.html#lifestyle">View →</a></div>
+        </div>
+      </article>
+      <article class="card" data-id="c1">
+        <div class="card-img"><span class="badge hot">Hot</span><img src="img/shop/c1.jpg" alt="" loading="lazy" width="640" height="480"></div>
+        <div class="card-body">
+          <p class="brand">Yarn + needles + pattern</p><h3>Beginner knitting / crochet kit</h3>
+          <p class="why">Everything in one box — the hobby half of Korea picked up this year</p>
+          <div class="card-foot"><span class="price">₩20,000–45,000</span><a class="add" href="shopping.html#craft">View →</a></div>
+        </div>
+      </article>
+    </div>
+    <p class="teaser-more"><a href="shopping.html">See all 30 items →</a></p>
   </section>
 
-  <section id="moments" class="moments">
-    <h2><span class="script">Moments</span></h2>
-    <div class="polaroids">
-      <figure class="polaroid" style="--tilt:-3deg">
-        <img src="img/family-1.jpg" alt="Family on the golf course">
-        <figcaption>Golden hour, all in white</figcaption>
-      </figure>
-      <figure class="polaroid placeholder" style="--tilt:2deg">
-        <div class="ph">more photos<br>coming soon</div>
-        <figcaption>&nbsp;</figcaption>
-      </figure>
-      <figure class="polaroid placeholder" style="--tilt:-1.5deg">
-        <div class="ph">✦</div>
-        <figcaption>&nbsp;</figcaption>
-      </figure>
+  <section id="guarantee" class="pillars">
+    <div class="pillar">
+      <div class="pillar-icon">🏷️</div>
+      <h3>Lowest price, guaranteed</h3>
+      <p>Every item is checked weekly against Google Shopping and Naver Shopping, Korea's two biggest price engines, and you pay the lowest listing we found. See it cheaper at a Korean retailer within 7 days of ordering? Send the link and we refund the difference.</p>
+    </div>
+    <div class="pillar" id="shipping">
+      <div class="pillar-icon">✈️</div>
+      <h3>Direct from Seoul to the U.S.</h3>
+      <p>We buy in Korea and ship straight to your door — no forwarding service, no customs headache. Tracked air shipping, typically 5–10 business days to anywhere in the U.S.</p>
+    </div>
+    <div class="pillar">
+      <div class="pillar-icon">🔥</div>
+      <h3>Only what's actually hot</h3>
+      <p>Thirty items, not thirty thousand. The list is curated monthly from Korean trend reports and retailer round-ups, so everything here is something people in Korea are genuinely buying right now.</p>
     </div>
   </section>
 
-  <section id="shop-teaser" class="teaser">
-    <h2><span class="script">From Korea, with love</span></h2>
-    <p class="lead">Our picks of what's trending in Korea right now.</p>
+  <section class="steps">
+    <h2><span class="script">How it works</span></h2>
+    <ol>
+      <li><span class="num">1</span><h3>Pick</h3><p>Sign in, browse the Top 30, add to cart.</p></li>
+      <li><span class="num">2</span><h3>We buy in Korea</h3><p>At the lowest price we can find that week.</p></li>
+      <li><span class="num">3</span><h3>Ships to you</h3><p>Tracked, direct to your U.S. address.</p></li>
+    </ol>
+  </section>
+
+  <section class="teaser">
+    <h2><span class="script">Browse by category</span></h2>
     <div class="teaser-grid">
       <a href="shopping.html#stationery"><img src="img/shop/s3.jpg" alt=""><span>✏️ Design stationery</span></a>
       <a href="shopping.html#craft"><img src="img/shop/c1.jpg" alt=""><span>🧶 Hobby &amp; craft</span></a>
       <a href="shopping.html#lifestyle"><img src="img/shop/l3.jpg" alt=""><span>🕯️ Lifestyle &amp; design</span></a>
     </div>
-    <p class="teaser-more"><a href="shopping.html">See all 30 items →</a></p>
   </section>
 
   <footer>
-    <p>© <span id="year"></span> The Lees · <a href="shopping.html">Shopping</a> · <a href="https://github.com/wckorealsh">GitHub</a></p>
+    <p>© <span id="year"></span> The Lees · <a href="shopping.html">Shop</a> · <a href="family.html">About us</a> · <a href="https://github.com/wckorealsh">GitHub</a></p>
+    <p class="fine">Price guarantee covers the identical item sold by a Korean retailer, compared at the time of purchase, excluding shipping and promotions requiring membership. Live prices on this page refresh weekly; see each item for the date it was last checked.</p>
   </footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="js/prices.js"></script>
 </body>
 </html>

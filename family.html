@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Lees</title>
+  <meta name="description" content="Seungho's personal page — our family.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="hero">
+    <nav class="hero-nav"><a href="index.html">Shop →</a></nav>
+    <img class="hero-img" src="img/family-1.jpg" alt="Our family of four standing on a golf course at dusk">
+    <div class="hero-overlay"></div>
+    <div class="hero-text">
+      <p class="eyebrow">Welcome to</p>
+      <h1>The Lees</h1>
+      <p class="sub">Seungho · and the three people who make everything worth it</p>
+      <a class="cta" href="index.html">🛍️ Visit the shop →</a>
+      <a class="scroll" href="#family" aria-label="Scroll down">↓</a>
+    </div>
+  </section>
+
+  <section id="family" class="family">
+    <h2><span class="script">Meet the crew</span></h2>
+    <p class="lead">Four of us, one camera roll that never ends.</p>
+
+    <ul class="members">
+      <li class="member">
+        <div class="avatar" style="--bg:#f4c95d">👨‍💻</div>
+        <h3>Dad</h3>
+        <p>Seungho. Builds software for self-driving cars, loses at every board game.</p>
+      </li>
+      <li class="member">
+        <div class="avatar" style="--bg:#f28c8c">🌸</div>
+        <h3>Mom</h3>
+        <p>The planner, the photographer, the reason we ever leave the house on time.</p>
+      </li>
+      <li class="member">
+        <div class="avatar" style="--bg:#8fd3c7">🎨</div>
+        <h3>Big sister</h3>
+        <p>Quietly brilliant. Has opinions about music you haven't heard of yet.</p>
+      </li>
+      <li class="member">
+        <div class="avatar" style="--bg:#a7c7f2">⚡</div>
+        <h3>Little sister</h3>
+        <p>Biggest smile in every photo. Runs everywhere, walks nowhere.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="moments" class="moments">
+    <h2><span class="script">Moments</span></h2>
+    <div class="polaroids">
+      <figure class="polaroid" style="--tilt:-3deg">
+        <img src="img/family-1.jpg" alt="Family on the golf course">
+        <figcaption>Golden hour, all in white</figcaption>
+      </figure>
+      <figure class="polaroid placeholder" style="--tilt:2deg">
+        <div class="ph">more photos<br>coming soon</div>
+        <figcaption>&nbsp;</figcaption>
+      </figure>
+      <figure class="polaroid placeholder" style="--tilt:-1.5deg">
+        <div class="ph">✦</div>
+        <figcaption>&nbsp;</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="shop-teaser" class="teaser">
+    <h2><span class="script">From Korea, with love</span></h2>
+    <p class="lead">Our picks of what's trending in Korea right now.</p>
+    <div class="teaser-grid">
+      <a href="shopping.html#stationery"><img src="img/shop/s3.jpg" alt=""><span>✏️ Design stationery</span></a>
+      <a href="shopping.html#craft"><img src="img/shop/c1.jpg" alt=""><span>🧶 Hobby &amp; craft</span></a>
+      <a href="shopping.html#lifestyle"><img src="img/shop/l3.jpg" alt=""><span>🕯️ Lifestyle &amp; design</span></a>
+    </div>
+    <p class="teaser-more"><a href="shopping.html">See all 30 items →</a></p>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> The Lees · <a href="shopping.html">Shopping</a> · <a href="https://github.com/wckorealsh">GitHub</a></p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
