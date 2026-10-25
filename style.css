@@ -41,6 +41,8 @@ a { color: var(--accent); }
 .eyebrow { margin: 0; font-family: Caveat, cursive; font-size: 2rem; color: #ffd27a; }
 .hero h1 { margin: 0; font-size: clamp(3rem, 7vw, 6rem); line-height: 1; letter-spacing: -.02em; }
 .sub { margin: 1rem 0 0; font-size: 1.1rem; opacity: .85; max-width: 26rem; }
+.cta { display: inline-block; margin-top: 1.75rem; align-self: flex-start; background: #ffd27a; color: #1f232b; text-decoration: none; font-weight: 600; padding: .75rem 1.3rem; border-radius: 999px; transition: transform .2s, box-shadow .2s; }
+.cta:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(255,210,122,.35); }
 .scroll { position: absolute; left: 3rem; bottom: 1.5rem; color: #fff; text-decoration: none; font-size: 1.6rem; animation: bob 1.8s ease-in-out infinite; }
 @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
 @media (max-width: 760px) {
@@ -72,6 +74,13 @@ h2 { margin: 0; text-align: center; }
 .polaroid .ph { display: grid; place-items: center; text-align: center; color: #9a948a; font-family: Caveat, cursive; font-size: 1.5rem; line-height: 1.2; }
 .polaroid figcaption { font-family: Caveat, cursive; font-size: 1.3rem; text-align: center; margin-top: .6rem; }
 
+.teaser { max-width: 60rem; margin: 0 auto; padding: 2rem 1.5rem 3rem; }
+.teaser-grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+.teaser-grid a { position: relative; display: block; aspect-ratio: 4 / 3; border-radius: 16px; overflow: hidden; text-decoration: none; box-shadow: var(--shadow); }
+.teaser-grid img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s ease; }
+.teaser-grid a:hover img { transform: scale(1.06); }
+.teaser-grid span { position: absolute; inset: auto 0 0 0; padding: 2.5rem 1rem .9rem; color: #fff; font-weight: 600; font-size: 1.05rem; background: linear-gradient(to top, rgba(0,0,0,.65), rgba(0,0,0,0)); }
+.teaser-more { text-align: center; margin: 1.5rem 0 0; font-weight: 600; }
 footer { text-align: center; padding: 2rem 1.25rem 3rem; color: var(--muted); font-size: .9rem; }
 
 @media (prefers-reduced-motion: reduce) { .hero-img, .hero-text, .scroll { animation: none; } }
