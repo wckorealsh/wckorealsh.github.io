@@ -27,6 +27,20 @@ def plausible(prices):
     return [p for p in prices if p >= 0.35 * med] or prices
 
 
+def relevant(q, title):
+    """Drop off-topic results: the first query word (brand / core noun) must appear in the title."""
+    norm = lambda s: re.sub(r"\s+", "", s).casefold()
+    return norm(q.split()[0]) in norm(title)
+
+
+def pick(q, offers):
+    offers = [o for o in offers if relevant(q, o["title"])]
+    if not offers:
+        return None
+    keep = set(plausible([o["price"] for o in offers]))
+    return min((o for o in offers if o["price"] in keep), key=lambda o: o["price"])
+
+
 def naver(q):
     cid, sec = os.environ.get("NAVER_CLIENT_ID"), os.environ.get("NAVER_CLIENT_SECRET")
     if not cid or not sec:
@@ -35,11 +49,8 @@ def naver(q):
     items = json.loads(get(url, {"X-Naver-Client-Id": cid, "X-Naver-Client-Secret": sec}))["items"]
     offers = [{"price": int(i["lprice"]), "mall": i["mallName"] or "Naver", "title": re.sub("<.*?>", "", unescape(i["title"])), "link": i["link"]}
               for i in items if i.get("lprice") and int(i["lprice"]) > 0]
-    if not offers:
-        return None
-    keep = set(plausible([o["price"] for o in offers]))
-    best = min((o for o in offers if o["price"] in keep), key=lambda o: o["price"])
-    return {"engine": "naver", **best}
+    best = pick(q, offers)
+    return {"engine": "naver", **best} if best else None
 
 
 def google(q):
@@ -54,11 +65,8 @@ def google(q):
         m = re.search(r"[\d,]+", r.get("price", "") or "")
         if m:
             offers.append({"price": int(m.group().replace(",", "")), "mall": r.get("source", "Google"), "title": r.get("title", ""), "link": r.get("product_link") or r.get("link", "")})
-    if not offers:
-        return None
-    keep = set(plausible([o["price"] for o in offers]))
-    best = min((o for o in offers if o["price"] in keep), key=lambda o: o["price"])
-    return {"engine": "google", **best}
+    best = pick(q, offers)
+    return {"engine": "google", **best} if best else None
 
 
 
