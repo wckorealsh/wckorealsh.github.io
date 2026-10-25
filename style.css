@@ -179,3 +179,17 @@ dialog .err { color: #c0392b; font-size: .85rem; min-height: 1.2em; margin: 0 0 
 .drawer footer { display: flex; justify-content: space-between; padding: 1rem 0 .3rem; font-size: 1.05rem; border-top: 2px solid var(--border); margin-top: .5rem; color: var(--fg); }
 @media (max-width: 760px) { .topbar { flex-wrap: wrap; } #user-name { display: none; } }
 [hidden] { display: none !important; }
+
+/* live price block */
+.deal { border-top: 1px dashed var(--border); margin-top: .6rem; padding-top: .6rem; display: flex; flex-direction: column; gap: .35rem; }
+.deal-best { display: grid; grid-template-columns: auto 1fr; gap: 0 .5rem; align-items: baseline; text-decoration: none; color: inherit; }
+.deal-label { font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+.deal-label.muted { font-weight: 400; text-transform: none; letter-spacing: 0; }
+.deal-price { font-weight: 600; font-size: 1.05rem; color: #c0392b; }
+.deal-meta { grid-column: 1 / -1; font-size: .75rem; color: var(--muted); }
+.deal-best:hover .deal-price { text-decoration: underline; }
+.deal-compare { font-size: .74rem; color: var(--muted); }
+.deal-compare a { color: var(--accent); text-decoration: none; }
+.deal-compare a:hover { text-decoration: underline; }
+.price { color: var(--muted); font-weight: 400; font-size: .9rem; }
+@media (max-width: 480px) { .deal-compare { display: none; } }
