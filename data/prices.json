@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-03T01:09Z",
+ "updated": "2026-11-10T01:42Z",
  "items": {
   "s1": {
    "sources": {
     "google": {
      "engine": "google",
-     "price": 1800,
-     "mall": "펜카페",
-     "title": "모나미 153 퍼피(Puppy) 볼펜 5종세트(0.5mm)",
-     "link": "https://www.google.com/search?ibp=oshop&q=모나미 153 프리미엄 볼펜&prds=productid:15540529537078037909,headlineOfferDocid:15540529537078037909,imageDocid:11204939536443495097,rds:CID_2831467519878786005|PROD_CID_2831467519878786005,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 1960,
+     "mall": "메가피스",
+     "title": "[모나미] 153볼펜 카모 [0.5mm/5본세트]",
+     "link": "https://www.google.com/search?ibp=oshop&q=모나미 153 프리미엄 볼펜&prds=productid:5579529956780745122,headlineOfferDocid:5579529956780745122,imageDocid:6498643628835261481,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -22,11 +22,11 @@
    },
    "lowest": {
     "engine": "google",
-    "price": 1800,
-    "mall": "펜카페",
-    "title": "모나미 153 퍼피(Puppy) 볼펜 5종세트(0.5mm)",
-    "link": "https://www.google.com/search?ibp=oshop&q=모나미 153 프리미엄 볼펜&prds=productid:15540529537078037909,headlineOfferDocid:15540529537078037909,imageDocid:11204939536443495097,rds:CID_2831467519878786005|PROD_CID_2831467519878786005,pvt:hg&hl=ko&gl=kr&udm=28",
-    "checked": "2026-10-26T22:49Z"
+    "price": 1960,
+    "mall": "메가피스",
+    "title": "[모나미] 153볼펜 카모 [0.5mm/5본세트]",
+    "link": "https://www.google.com/search?ibp=oshop&q=모나미 153 프리미엄 볼펜&prds=productid:5579529956780745122,headlineOfferDocid:5579529956780745122,imageDocid:6498643628835261481,pvt:hg&hl=ko&gl=kr&udm=28",
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "모나미 153 프리미엄 볼펜"
   },
@@ -34,11 +34,11 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 3420,
-     "mall": "coupang.com",
-     "title": "6공 바인더 속지 육공 A5 다이어리 리필 내지 100P 2P",
-     "link": "https://www.google.com/search?ibp=oshop&q=6공 바인더 다이어리 A5&prds=productid:4958773920894179554,headlineOfferDocid:4958773920894179554,imageDocid:18291226967037534769,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 2100,
+     "mall": "텐바이텐",
+     "title": "[10매] 6공 포카 속지 4포켓 A5 육공 바인더 다이어리 포토카드",
+     "link": "https://www.google.com/search?ibp=oshop&q=6공 바인더 다이어리 A5&prds=productid:14866084828989344405,headlineOfferDocid:14866084828989344405,imageDocid:3760661558617348684,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -51,11 +51,11 @@
    },
    "lowest": {
     "engine": "google",
-    "price": 3420,
-    "mall": "coupang.com",
-    "title": "6공 바인더 속지 육공 A5 다이어리 리필 내지 100P 2P",
-    "link": "https://www.google.com/search?ibp=oshop&q=6공 바인더 다이어리 A5&prds=productid:4958773920894179554,headlineOfferDocid:4958773920894179554,imageDocid:18291226967037534769,pvt:hg&hl=ko&gl=kr&udm=28",
-    "checked": "2026-10-26T22:49Z"
+    "price": 2100,
+    "mall": "텐바이텐",
+    "title": "[10매] 6공 포카 속지 4포켓 A5 육공 바인더 다이어리 포토카드",
+    "link": "https://www.google.com/search?ibp=oshop&q=6공 바인더 다이어리 A5&prds=productid:14866084828989344405,headlineOfferDocid:14866084828989344405,imageDocid:3760661558617348684,pvt:hg&hl=ko&gl=kr&udm=28",
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "6공 바인더 다이어리 A5"
   },
@@ -63,11 +63,11 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 1800,
-     "mall": "문구네집",
-     "title": "인더라이브러리 in the library 1143 JR 슈아뜰리에 다이어리 다꾸 스티커",
-     "link": "https://www.google.com/search?ibp=oshop&q=다꾸 스티커 팩 수아뗄리에&prds=productid:12227401457213998253,headlineOfferDocid:12227401457213998253,imageDocid:16215886824655317314,rds:PC_7603441860864696276|PROD_PC_7603441860864696276,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 2500,
+     "mall": "bakha-retro.com",
+     "title": "[다꾸] 일본 스티커 /미니미 동물 스티커3 / 마인드웨이브 다이어리 꾸미기",
+     "link": "https://www.google.com/search?ibp=oshop&q=다꾸 스티커 팩 수아뗄리에&prds=productid:14738022417060447973,headlineOfferDocid:14738022417060447973,imageDocid:17728633734949105595,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -80,11 +80,11 @@
    },
    "lowest": {
     "engine": "google",
-    "price": 1800,
-    "mall": "문구네집",
-    "title": "인더라이브러리 in the library 1143 JR 슈아뜰리에 다이어리 다꾸 스티커",
-    "link": "https://www.google.com/search?ibp=oshop&q=다꾸 스티커 팩 수아뗄리에&prds=productid:12227401457213998253,headlineOfferDocid:12227401457213998253,imageDocid:16215886824655317314,rds:PC_7603441860864696276|PROD_PC_7603441860864696276,pvt:hg&hl=ko&gl=kr&udm=28",
-    "checked": "2026-10-26T22:49Z"
+    "price": 2500,
+    "mall": "bakha-retro.com",
+    "title": "[다꾸] 일본 스티커 /미니미 동물 스티커3 / 마인드웨이브 다이어리 꾸미기",
+    "link": "https://www.google.com/search?ibp=oshop&q=다꾸 스티커 팩 수아뗄리에&prds=productid:14738022417060447973,headlineOfferDocid:14738022417060447973,imageDocid:17728633734949105595,pvt:hg&hl=ko&gl=kr&udm=28",
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "다꾸 스티커 팩 수아뗄리에"
   },
@@ -97,20 +97,20 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 7500,
-     "mall": "덕플러스",
-     "title": "읽고 기록하다 독서기록 북마크 세트 브라운",
-     "link": "https://www.google.com/search?ibp=oshop&q=독서기록 노트 북마크&prds=productid:5162176276913825205,headlineOfferDocid:5162176276913825205,imageDocid:11343761495235673394,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 1600,
+     "mall": "YES24",
+     "title": "문구/GIFT 북스토리지 북마크노트 빈티지 독서기록장",
+     "link": "https://www.google.com/search?ibp=oshop&q=독서기록 노트 북마크&prds=productid:5818791278191080121,headlineOfferDocid:5818791278191080121,imageDocid:18354047034235615153,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     }
    },
    "lowest": {
     "engine": "google",
-    "price": 7500,
-    "mall": "덕플러스",
-    "title": "읽고 기록하다 독서기록 북마크 세트 브라운",
-    "link": "https://www.google.com/search?ibp=oshop&q=독서기록 노트 북마크&prds=productid:5162176276913825205,headlineOfferDocid:5162176276913825205,imageDocid:11343761495235673394,pvt:hg&hl=ko&gl=kr&udm=28",
-    "checked": "2026-10-26T22:49Z"
+    "price": 1600,
+    "mall": "YES24",
+    "title": "문구/GIFT 북스토리지 북마크노트 빈티지 독서기록장",
+    "link": "https://www.google.com/search?ibp=oshop&q=독서기록 노트 북마크&prds=productid:5818791278191080121,headlineOfferDocid:5818791278191080121,imageDocid:18354047034235615153,pvt:hg&hl=ko&gl=kr&udm=28",
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "독서기록 노트 북마크"
   },
@@ -118,11 +118,11 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 1040,
-     "mall": "CJ온스타일",
-     "title": "아트박스/블루마토 스티커4",
-     "link": "https://www.google.com/search?ibp=oshop&q=아트박스 캐릭터 스티커&prds=productid:2385710130069884094,headlineOfferDocid:2385710130069884094,imageDocid:6160727412904739818,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 1390,
+     "mall": "POOM",
+     "title": "아트박스 럭키아이렌 씰스티커 (04014274)",
+     "link": "https://www.google.com/search?ibp=oshop&q=아트박스 캐릭터 스티커&prds=productid:5872896503255626082,headlineOfferDocid:5872896503255626082,imageDocid:14770236211163298709,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -135,11 +135,11 @@
    },
    "lowest": {
     "engine": "google",
-    "price": 1040,
-    "mall": "CJ온스타일",
-    "title": "아트박스/블루마토 스티커4",
-    "link": "https://www.google.com/search?ibp=oshop&q=아트박스 캐릭터 스티커&prds=productid:2385710130069884094,headlineOfferDocid:2385710130069884094,imageDocid:6160727412904739818,pvt:hg&hl=ko&gl=kr&udm=28",
-    "checked": "2026-10-26T22:49Z"
+    "price": 1390,
+    "mall": "POOM",
+    "title": "아트박스 럭키아이렌 씰스티커 (04014274)",
+    "link": "https://www.google.com/search?ibp=oshop&q=아트박스 캐릭터 스티커&prds=productid:5872896503255626082,headlineOfferDocid:5872896503255626082,imageDocid:14770236211163298709,pvt:hg&hl=ko&gl=kr&udm=28",
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "아트박스 캐릭터 스티커"
   },
@@ -148,10 +148,10 @@
     "google": {
      "engine": "google",
      "price": 11480,
-     "mall": "oliveyoung.co.kr",
+     "mall": "올리브영",
      "title": "아이코닉 두들 에어팟 키링파우치",
-     "link": "https://www.google.com/search?ibp=oshop&q=아이코닉 두들 키링 파우치&prds=productid:9265535513181931821,headlineOfferDocid:9265535513181931821,imageDocid:11450252981938144714,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "link": "https://www.google.com/search?ibp=oshop&q=아이코닉 두들 키링 파우치&prds=productid:13941047077646936838,headlineOfferDocid:13941047077646936838,imageDocid:11450252981938144714,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -176,11 +176,11 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 34000,
+     "price": 30000,
      "mall": "하이모리 감성문구 편집샵",
-     "title": "안테나샵 몬스터 노트북파우치 13",
-     "link": "https://www.google.com/search?ibp=oshop&q=안테나샵 리본 파우치&prds=productid:12600235432623118589,headlineOfferDocid:12600235432623118589,imageDocid:3747839231884476778,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "title": "안테나샵 15 NOTEBOOK POUCH WATERPROOF CANVAS",
+     "link": "https://www.google.com/search?ibp=oshop&q=안테나샵 리본 파우치&prds=productid:7615897013575163019,headlineOfferDocid:7615897013575163019,imageDocid:9372712169465230170,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -210,11 +210,11 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 150690,
-     "mall": "텐바이텐",
-     "title": "시세이도 젠 EDP 100ml 관세별도",
-     "link": "https://www.google.com/search?ibp=oshop&q=이도 도자기 잔 세트&prds=productid:10213623945209400634,headlineOfferDocid:10213623945209400634,imageDocid:933642428543759361,rds:PC_3619255259454690523|PROD_PC_3619255259454690523,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 68000,
+     "mall": "박씨상방",
+     "title": "이도 3인 다기세트 도자기 다기잔 다도세트",
+     "link": "https://www.google.com/search?ibp=oshop&q=이도 도자기 잔 세트&prds=productid:100823299306724492,headlineOfferDocid:100823299306724492,imageDocid:4159544874866030080,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -246,9 +246,9 @@
      "engine": "google",
      "price": 7500,
      "mall": "29cm",
-     "title": "키티버니포니 메종 파우치 by 스몰 핸즈 스테디 워크 파우치",
-     "link": "https://www.google.com/search?ibp=oshop&q=키티버니포니 키링 파우치&prds=productid:9538232259887186288,headlineOfferDocid:9538232259887186288,imageDocid:17735980808743249736,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "title": "키티버니포니 밀러 그린 파우치 파우치",
+     "link": "https://www.google.com/search?ibp=oshop&q=키티버니포니 키링 파우치&prds=productid:9234460895658321132,headlineOfferDocid:9234460895658321132,imageDocid:9138639060744760834,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -263,9 +263,9 @@
     "engine": "google",
     "price": 7500,
     "mall": "29cm",
-    "title": "키티버니포니 메종 파우치 by 스몰 핸즈 스테디 워크 파우치",
-    "link": "https://www.google.com/search?ibp=oshop&q=키티버니포니 키링 파우치&prds=productid:9538232259887186288,headlineOfferDocid:9538232259887186288,imageDocid:17735980808743249736,pvt:hg&hl=ko&gl=kr&udm=28",
-    "checked": "2026-10-26T22:49Z"
+    "title": "키티버니포니 밀러 그린 파우치 파우치",
+    "link": "https://www.google.com/search?ibp=oshop&q=키티버니포니 키링 파우치&prds=productid:9234460895658321132,headlineOfferDocid:9234460895658321132,imageDocid:9138639060744760834,pvt:hg&hl=ko&gl=kr&udm=28",
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "키티버니포니 키링 파우치"
   },
@@ -277,7 +277,7 @@
      "mall": "linefriendssquare.com",
      "title": "오롤리데이 O,LD! 모양톡 VER.1 하늘못난이",
      "link": "https://www.google.com/search?ibp=oshop&q=오롤리데이 키링&prds=catalogid:7600510257169328975,productid:4226873656263029663,headlineOfferDocid:16664717041684570462,imageDocid:2036175528794805081,gpcid:10990068450724575649,mid:576462898608557804,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -311,7 +311,7 @@
      "mall": "별토끼마켓",
      "title": "스타벅스 중국 2023 썸머 리워드MD 미니파우치 키링 커피콩베어리 딸기베어리 2종택1 자동차 키홀더 열쇠고리 브라운커피콩베어리",
      "link": "https://www.google.com/search?ibp=oshop&q=스타벅스 키링 파우치&prds=productid:3671153885538626524,headlineOfferDocid:3671153885538626524,imageDocid:1109226048719125299,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-25T03:11Z"
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -340,7 +340,7 @@
      "mall": "LG전자",
      "title": "로마네 책상 140cm",
      "link": "https://www.google.com/search?ibp=oshop&q=로마네 데스크 정리함&prds=productid:4469655680181526148,headlineOfferDocid:4469655680181526148,imageDocid:6439747673230830442,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -370,15 +370,23 @@
      "title": "모트모트 텐미닛 플래너 100DAYS 화이트, 1개",
      "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=56263929131&cat_id=50003549&query=%EB%AA%A8%ED%8A%B8%EB%AA%A8%ED%8A%B8%20%ED%85%90%EB%AF%B8%EB%8B%9B%20%ED%94%8C%EB%9E%98%EB%84%88&t=mvzzq6sk&h=2c7aaec94efe2a56ddc9d7efa642f022ef6c20a4&frm=NVSCPRO",
      "checked": "2026-11-03T01:09Z"
+    },
+    "google": {
+     "engine": "google",
+     "price": 2900,
+     "mall": "YES24",
+     "title": "문구/GIFT [모트모트] 텐미닛 플래너 31DAYS - 럭키 스퀘어",
+     "link": "https://www.google.com/search?ibp=oshop&q=모트모트 텐미닛 플래너&prds=productid:6297089225414724501,headlineOfferDocid:6297089225414724501,imageDocid:15579842234547757497,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     }
    },
    "lowest": {
-    "engine": "naver",
-    "price": 5690,
-    "mall": "판매처 28",
-    "title": "모트모트 텐미닛 플래너 100DAYS 화이트, 1개",
-    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=56263929131&cat_id=50003549&query=%EB%AA%A8%ED%8A%B8%EB%AA%A8%ED%8A%B8%20%ED%85%90%EB%AF%B8%EB%8B%9B%20%ED%94%8C%EB%9E%98%EB%84%88&t=mvzzq6sk&h=2c7aaec94efe2a56ddc9d7efa642f022ef6c20a4&frm=NVSCPRO",
-    "checked": "2026-11-03T01:09Z"
+    "engine": "google",
+    "price": 2900,
+    "mall": "YES24",
+    "title": "문구/GIFT [모트모트] 텐미닛 플래너 31DAYS - 럭키 스퀘어",
+    "link": "https://www.google.com/search?ibp=oshop&q=모트모트 텐미닛 플래너&prds=productid:6297089225414724501,headlineOfferDocid:6297089225414724501,imageDocid:15579842234547757497,pvt:hg&hl=ko&gl=kr&udm=28",
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "모트모트 텐미닛 플래너"
   },
@@ -386,11 +394,11 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 4000,
-     "mall": "coupang.com",
-     "title": "아이엠문구 모나미 3000 플러스펜 0.3mm 12색 1타 수성펜 프러스펜 흑 적 청",
-     "link": "https://www.google.com/search?ibp=oshop&q=모나미 플러스펜 3000 36색 세트&prds=productid:5306541164849339257,headlineOfferDocid:5306541164849339257,imageDocid:4495332005382807877,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 1880,
+     "mall": "uriplan.com",
+     "title": "모나미 형광펜 칼라풀데이(5색세트)",
+     "link": "https://www.google.com/search?ibp=oshop&q=모나미 플러스펜 3000 36색 세트&prds=productid:166796092023883984,headlineOfferDocid:166796092023883984,imageDocid:3774207959472854789,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -403,11 +411,11 @@
    },
    "lowest": {
     "engine": "google",
-    "price": 4000,
-    "mall": "coupang.com",
-    "title": "아이엠문구 모나미 3000 플러스펜 0.3mm 12색 1타 수성펜 프러스펜 흑 적 청",
-    "link": "https://www.google.com/search?ibp=oshop&q=모나미 플러스펜 3000 36색 세트&prds=productid:5306541164849339257,headlineOfferDocid:5306541164849339257,imageDocid:4495332005382807877,pvt:hg&hl=ko&gl=kr&udm=28",
-    "checked": "2026-10-26T22:49Z"
+    "price": 1880,
+    "mall": "uriplan.com",
+    "title": "모나미 형광펜 칼라풀데이(5색세트)",
+    "link": "https://www.google.com/search?ibp=oshop&q=모나미 플러스펜 3000 36색 세트&prds=productid:166796092023883984,headlineOfferDocid:166796092023883984,imageDocid:3774207959472854789,pvt:hg&hl=ko&gl=kr&udm=28",
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "모나미 플러스펜 3000 36색 세트"
   },
@@ -419,7 +427,7 @@
      "mall": "YES24",
      "title": "문구/GIFT 카카오프렌즈 스터디 플래너 춘식이_꽃길",
      "link": "https://www.google.com/search?ibp=oshop&q=카카오프렌즈 춘식이 문구 세트&prds=productid:6729073611926857022,headlineOfferDocid:6729073611926857022,imageDocid:511869217990982174,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -444,11 +452,11 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 19000,
-     "mall": "오늘의집",
-     "title": "플로트X제로퍼제로 스탠다드 강아지 리드줄 2M 2종",
-     "link": "https://www.google.com/search?ibp=oshop&q=제로퍼제로 서울 지하철 노선도 포스터&prds=productid:5036498104076719665,headlineOfferDocid:5036498104076719665,imageDocid:15995270981491192340,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 5430,
+     "mall": "땡큐마켓",
+     "title": "제로퍼제로 A3 옵셋 포스터 21 다리사이로까꿍",
+     "link": "https://www.google.com/search?ibp=oshop&q=제로퍼제로 서울 지하철 노선도 포스터&prds=productid:17189547687211564058,headlineOfferDocid:17189547687211564058,imageDocid:2048691174791097054,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -461,11 +469,11 @@
    },
    "lowest": {
     "engine": "google",
-    "price": 19000,
-    "mall": "오늘의집",
-    "title": "플로트X제로퍼제로 스탠다드 강아지 리드줄 2M 2종",
-    "link": "https://www.google.com/search?ibp=oshop&q=제로퍼제로 서울 지하철 노선도 포스터&prds=productid:5036498104076719665,headlineOfferDocid:5036498104076719665,imageDocid:15995270981491192340,pvt:hg&hl=ko&gl=kr&udm=28",
-    "checked": "2026-10-26T22:49Z"
+    "price": 5430,
+    "mall": "땡큐마켓",
+    "title": "제로퍼제로 A3 옵셋 포스터 21 다리사이로까꿍",
+    "link": "https://www.google.com/search?ibp=oshop&q=제로퍼제로 서울 지하철 노선도 포스터&prds=productid:17189547687211564058,headlineOfferDocid:17189547687211564058,imageDocid:2048691174791097054,pvt:hg&hl=ko&gl=kr&udm=28",
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "제로퍼제로 서울 지하철 노선도 포스터"
   },
@@ -473,11 +481,11 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 38000,
-     "mall": "발자욱",
-     "title": "좋은글귀 캘리 수제도장 인감도장 졸업선물 아이도장 단체 외국인 한글도장 선물 한국 홍대",
-     "link": "https://www.google.com/search?ibp=oshop&q=한글 이름 수제 도장&prds=productid:8093422902592872767,headlineOfferDocid:8093422902592872767,imageDocid:3143741959852008785,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 10000,
+     "mall": "coupang.com",
+     "title": "개인 인감 도장 수제도장 아기도장 제작 만들기 한글 이름 도장, 1개, 기본돌 인감도장",
+     "link": "https://www.google.com/search?ibp=oshop&q=한글 이름 수제 도장&prds=productid:13254616401887077268,headlineOfferDocid:13254616401887077268,imageDocid:6616722970498190599,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -502,11 +510,11 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 4190,
-     "mall": "CJ온스타일",
-     "title": "자개공예 나전칠기 만들기 키트 DIY 자개 아크릴 거울 노리개 - 옵션",
-     "link": "https://www.google.com/search?ibp=oshop&q=자개 DIY 키트&prds=productid:18046330453777052939,headlineOfferDocid:18046330453777052939,imageDocid:17666896813306967234,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 4500,
+     "mall": "에듀팜몰",
+     "title": "스마트톡 자개 만들기 DIY 키트",
+     "link": "https://www.google.com/search?ibp=oshop&q=자개 DIY 키트&prds=productid:850725677915048015,headlineOfferDocid:850725677915048015,imageDocid:12155043512988712823,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -536,6 +544,14 @@
      "title": "맘아트 DIY 양말목 전통매듭 키링 만들기 키트",
      "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=57088755185&cat_id=50000570&query=%EC%A0%84%ED%86%B5%EB%A7%A4%EB%93%AD%20%ED%82%A4%EB%A7%81%20DIY%20%ED%82%A4%ED%8A%B8&t=mvzzqhii&h=f3e04e96b053ea5d165b1f4a3ffdc249afb968b8&frm=NVSCPRO",
      "checked": "2026-11-03T01:09Z"
+    },
+    "google": {
+     "engine": "google",
+     "price": 7950,
+     "mall": "Korea No.1 Makers Portal 더핸즈",
+     "title": "DIY 전통매듭 가죽키링 키트 노리개 태슬 가시꽃 포인트",
+     "link": "https://www.google.com/search?ibp=oshop&q=전통매듭 키링 DIY 키트&prds=productid:18400699381661298707,headlineOfferDocid:18400699381661298707,imageDocid:8894725586390626490,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     }
    },
    "lowest": {
@@ -552,11 +568,11 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 5500,
-     "mall": "tenny-ten.com",
-     "title": "LED 전통 한지 무드등 만들기 DIY 키트",
-     "link": "https://www.google.com/search?ibp=oshop&q=한지 무드등 DIY 키트&prds=productid:695095884499398445,headlineOfferDocid:695095884499398445,imageDocid:1246135383779489545,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 4950,
+     "mall": "ssg.com",
+     "title": "DIY 호랑이 동물 한지등갓 만들기 키트 전구포함_P402236077",
+     "link": "https://www.google.com/search?ibp=oshop&q=한지 무드등 DIY 키트&prds=productid:6978061003655243902,headlineOfferDocid:6978061003655243902,imageDocid:15494997852557191375,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -581,11 +597,11 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 5700,
-     "mall": "101BOX",
-     "title": "[민화샵] 크리스마스 페인팅 오너먼트 만들기 (5개입)",
-     "link": "https://www.google.com/search?ibp=oshop&q=민화 그리기 키트&prds=productid:5375212001960943677,headlineOfferDocid:5375212001960943677,imageDocid:399021885367538318,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 4500,
+     "mall": "diykityanolja",
+     "title": "민화 스텐실 크로스백 만들기 DIY 키트 어린이 교육 돌봄 늘봄 초등 방과후 유치원 납품 스텐실 T18",
+     "link": "https://www.google.com/search?ibp=oshop&q=민화 그리기 키트&prds=productid:9472195239556405553,headlineOfferDocid:9472195239556405553,imageDocid:7774313754377795753,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -598,11 +614,11 @@
    },
    "lowest": {
     "engine": "google",
-    "price": 5700,
-    "mall": "101BOX",
-    "title": "[민화샵] 크리스마스 페인팅 오너먼트 만들기 (5개입)",
-    "link": "https://www.google.com/search?ibp=oshop&q=민화 그리기 키트&prds=productid:5375212001960943677,headlineOfferDocid:5375212001960943677,imageDocid:399021885367538318,pvt:hg&hl=ko&gl=kr&udm=28",
-    "checked": "2026-10-26T22:49Z"
+    "price": 4500,
+    "mall": "diykityanolja",
+    "title": "민화 스텐실 크로스백 만들기 DIY 키트 어린이 교육 돌봄 늘봄 초등 방과후 유치원 납품 스텐실 T18",
+    "link": "https://www.google.com/search?ibp=oshop&q=민화 그리기 키트&prds=productid:9472195239556405553,headlineOfferDocid:9472195239556405553,imageDocid:7774313754377795753,pvt:hg&hl=ko&gl=kr&udm=28",
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "민화 그리기 키트"
   },
@@ -610,11 +626,11 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 39000,
-     "mall": "hclassic.com",
-     "title": "DIY생초명주조각보패키지01 30x30",
-     "link": "https://www.google.com/search?ibp=oshop&q=조각보 파우치 DIY 키트&prds=productid:8628561965233044894,headlineOfferDocid:8628561965233044894,imageDocid:11544624527513423957,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 7990,
+     "mall": "샵오브코리아",
+     "title": "누비 조각보파우치-흑색",
+     "link": "https://www.google.com/search?ibp=oshop&q=조각보 파우치 DIY 키트&prds=productid:12098174872502248465,headlineOfferDocid:12098174872502248465,imageDocid:9626568311727767628,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -627,11 +643,11 @@
    },
    "lowest": {
     "engine": "google",
-    "price": 39000,
-    "mall": "hclassic.com",
-    "title": "DIY생초명주조각보패키지01 30x30",
-    "link": "https://www.google.com/search?ibp=oshop&q=조각보 파우치 DIY 키트&prds=productid:8628561965233044894,headlineOfferDocid:8628561965233044894,imageDocid:11544624527513423957,pvt:hg&hl=ko&gl=kr&udm=28",
-    "checked": "2026-10-26T22:49Z"
+    "price": 7990,
+    "mall": "샵오브코리아",
+    "title": "누비 조각보파우치-흑색",
+    "link": "https://www.google.com/search?ibp=oshop&q=조각보 파우치 DIY 키트&prds=productid:12098174872502248465,headlineOfferDocid:12098174872502248465,imageDocid:9626568311727767628,pvt:hg&hl=ko&gl=kr&udm=28",
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "조각보 파우치 DIY 키트"
   },
@@ -639,20 +655,20 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 24140,
-     "mall": "라이프온",
-     "title": "광명유기 수저세트",
-     "link": "https://www.google.com/search?ibp=oshop&q=유기 수저 세트 선물&prds=catalogid:10313245522950062378,productid:2019585274650212393,headlineOfferDocid:7310805494917613465,imageDocid:6638716286093757785,gpcid:17922701775766934302,mid:576462896415685606,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 46800,
+     "mall": "놋반",
+     "title": "놋반 안성맞춤 방짜유기 2인 수저세트 프리미엄 선물세트 궁중 500개 이상",
+     "link": "https://www.google.com/search?ibp=oshop&q=유기 수저 세트 선물&prds=catalogid:16429933391059801586,productid:5349513897445157206,headlineOfferDocid:3383190532229328648,imageDocid:5456078259852414088,gpcid:10340759356789307744,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     }
    },
    "lowest": {
     "engine": "google",
-    "price": 24140,
-    "mall": "라이프온",
-    "title": "광명유기 수저세트",
-    "link": "https://www.google.com/search?ibp=oshop&q=유기 수저 세트 선물&prds=catalogid:10313245522950062378,productid:2019585274650212393,headlineOfferDocid:7310805494917613465,imageDocid:6638716286093757785,gpcid:17922701775766934302,mid:576462896415685606,pvt:hg&hl=ko&gl=kr&udm=28",
-    "checked": "2026-10-26T22:49Z"
+    "price": 46800,
+    "mall": "놋반",
+    "title": "놋반 안성맞춤 방짜유기 2인 수저세트 프리미엄 선물세트 궁중 500개 이상",
+    "link": "https://www.google.com/search?ibp=oshop&q=유기 수저 세트 선물&prds=catalogid:16429933391059801586,productid:5349513897445157206,headlineOfferDocid:3383190532229328648,imageDocid:5456078259852414088,gpcid:10340759356789307744,pvt:hg&hl=ko&gl=kr&udm=28",
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "유기 수저 세트 선물"
   },
@@ -664,7 +680,7 @@
      "mall": "동원몰",
      "title": "이제주 황금향 선물세트 1.5kg(8과내외) 보자기 포장",
      "link": "https://www.google.com/search?ibp=oshop&q=보자기 선물포장 세트&prds=productid:5510103942684650356,headlineOfferDocid:5510103942684650356,imageDocid:14915305854474774110,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "checked": "2026-11-10T01:42Z"
     }
    },
    "lowest": {
@@ -673,7 +689,7 @@
     "mall": "동원몰",
     "title": "이제주 황금향 선물세트 1.5kg(8과내외) 보자기 포장",
     "link": "https://www.google.com/search?ibp=oshop&q=보자기 선물포장 세트&prds=productid:5510103942684650356,headlineOfferDocid:5510103942684650356,imageDocid:14915305854474774110,pvt:hg&hl=ko&gl=kr&udm=28",
-    "checked": "2026-10-26T22:49Z"
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "보자기 선물포장 세트"
   },
@@ -685,7 +701,7 @@
      "mall": "로펠",
      "title": "과자 우유 일러스트 그립 톡스마트 톡",
      "link": "https://www.google.com/search?ibp=oshop&q=일러스트 그립톡&prds=catalogid:16959295196210434204,productid:9295768504754714468,headlineOfferDocid:11104992055718087238,imageDocid:16720930078812520538,gpcid:17027236886670532045,mid:576462898601445811,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -710,11 +726,11 @@
    "sources": {
     "google": {
      "engine": "google",
-     "price": 10000,
-     "mall": "무신사",
-     "title": "다이노탱DINOTAENG COCOCUP Clicky Pen",
-     "link": "https://www.google.com/search?ibp=oshop&q=다이노탱 쿼카 인형&prds=productid:16920371366323741626,headlineOfferDocid:16920371366323741626,imageDocid:13026115314212748740,pvt:hg&hl=ko&gl=kr&udm=28",
-     "checked": "2026-10-26T22:49Z"
+     "price": 5000,
+     "mall": "linefriendssquare.com",
+     "title": "다이노탱 마쉬빌 스탬프 LINE FRIENDS SQUARE ver.1",
+     "link": "https://www.google.com/search?ibp=oshop&q=다이노탱 쿼카 인형&prds=catalogid:2328443659555393570,productid:8831502221610823516,headlineOfferDocid:12496202060289628313,imageDocid:13171484754967038508,gpcid:11223036781874671437,mid:576462861253863382,pvt:hg&hl=ko&gl=kr&udm=28",
+     "checked": "2026-11-10T01:42Z"
     },
     "naver": {
      "engine": "naver",
@@ -727,11 +743,11 @@
    },
    "lowest": {
     "engine": "google",
-    "price": 10000,
-    "mall": "무신사",
-    "title": "다이노탱DINOTAENG COCOCUP Clicky Pen",
-    "link": "https://www.google.com/search?ibp=oshop&q=다이노탱 쿼카 인형&prds=productid:16920371366323741626,headlineOfferDocid:16920371366323741626,imageDocid:13026115314212748740,pvt:hg&hl=ko&gl=kr&udm=28",
-    "checked": "2026-10-26T22:49Z"
+    "price": 5000,
+    "mall": "linefriendssquare.com",
+    "title": "다이노탱 마쉬빌 스탬프 LINE FRIENDS SQUARE ver.1",
+    "link": "https://www.google.com/search?ibp=oshop&q=다이노탱 쿼카 인형&prds=catalogid:2328443659555393570,productid:8831502221610823516,headlineOfferDocid:12496202060289628313,imageDocid:13171484754967038508,gpcid:11223036781874671437,mid:576462861253863382,pvt:hg&hl=ko&gl=kr&udm=28",
+    "checked": "2026-11-10T01:42Z"
    },
    "q": "다이노탱 쿼카 인형"
   }
