@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T01:42Z",
+ "updated": "2026-11-17T01:56Z",
  "items": {
   "s1": {
    "sources": {
@@ -13,11 +13,11 @@
     },
     "naver": {
      "engine": "naver",
-     "price": 2600,
-     "mall": "모나미몰",
-     "title": "[모나미] 153 펄 (Pearl) / 2본입",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=83312298005&cat_id=50003568&query=%EB%AA%A8%EB%82%98%EB%AF%B8%20153%20%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EB%B3%BC%ED%8E%9C&t=mvzzpebp&h=82fcb0c4a64a46643b7258f2b3f0e264aa10107a&frm=NVSCSPN",
-     "checked": "2026-11-03T01:09Z"
+     "price": 4000,
+     "mall": "판매처 256",
+     "title": "모나미 153 블랙 앤 화이트 볼펜",
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=17223664931&cat_id=50003568&query=%EB%AA%A8%EB%82%98%EB%AF%B8%20153%20%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EB%B3%BC%ED%8E%9C&t=mwk1jplz&h=bc1c0b61b1e52698e402f592786f8cef7f33c8d6&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
@@ -42,11 +42,11 @@
     },
     "naver": {
      "engine": "naver",
-     "price": 10500,
-     "mall": "목화 빌라",
-     "title": "빈티지 가죽 6공 다이어리 A5 미니 만년 무지 바인더",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=85064494444&cat_id=50003550&query=6%EA%B3%B5%20%EB%B0%94%EC%9D%B8%EB%8D%94%20%EB%8B%A4%EC%9D%B4%EC%96%B4%EB%A6%AC%20A5&t=mvzzpg3n&h=1b3d133020a70c070796b5a3938e79d5d5e43e4d&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "price": 9460,
+     "mall": "포피스몰",
+     "title": "6공 다이어리 90종 주문제작 회사 기업 홍보",
+     "link": "https://ader.naver.com/v1/Ii33Pj_HMe98qPt29SiE2-E3Vkp7k_1NNxp0n55b8zx6vHjcADdGcmmNOSzL68CkQL9dASXccLvRmBe5ZLsUtI4VE6IgGFbS-9XUWD3ynHpbrPoR0uqITubKnzsrOwNiEnSdcPVj35JhABH8JN-IUCbldulxPfWj63wfszvXdbxOg2nHiENCxTB7XBy-2gtL__LhIRIAW59w8qlPNjjY7gBPbdYX5ToHFEm4SqZn2zn_oddmEilLPNJRXsElBp1F-W5BTV1xNdqybVnYvB9ncG6fcmUNMMKVYBFk8hRrjv_rHK637GCJpr7EDQtll8nFl5ZicTk9HLEK3O4hgYSETjpVZ1k3fOxkEabGl5vOIdc=?c=naver.search.pc.npla&t=0&ui=GUIDE",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
@@ -74,8 +74,8 @@
      "price": 7000,
      "mall": "허니 마켓",
      "title": "하프팩 / 수아 5월의신부 4종 +특전 엽서 동양풍 인물 스티커 빈티지 여자 다꾸 / 닿케",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=91120045956&cat_id=50007608&query=%EB%8B%A4%EA%BE%B8%20%EC%8A%A4%ED%8B%B0%EC%BB%A4%20%ED%8C%A9%20%EC%88%98%EC%95%84%EB%97%84%EB%A6%AC%EC%97%90&t=mvzzpi1f&h=7c9bb9d74ce667649521bdfaa65dc9806bbc00f5&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=91120045956&cat_id=50007608&query=%EB%8B%A4%EA%BE%B8%20%EC%8A%A4%ED%8B%B0%EC%BB%A4%20%ED%8C%A9%20%EC%88%98%EC%95%84%EB%97%84%EB%A6%AC%EC%97%90&t=mwk1jtsm&h=7cbae6b0b00e6e44cf97e5e9b5151d7934f2661c&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
@@ -102,6 +102,14 @@
      "title": "문구/GIFT 북스토리지 북마크노트 빈티지 독서기록장",
      "link": "https://www.google.com/search?ibp=oshop&q=독서기록 노트 북마크&prds=productid:5818791278191080121,headlineOfferDocid:5818791278191080121,imageDocid:18354047034235615153,pvt:hg&hl=ko&gl=kr&udm=28",
      "checked": "2026-11-10T01:42Z"
+    },
+    "naver": {
+     "engine": "naver",
+     "price": 8520,
+     "mall": "판매처 284",
+     "title": "아이코닉디자인 아이코닉 독서기록장 나의작은도서관",
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=27278660747&cat_id=50003556&query=%EB%8F%85%EC%84%9C%EA%B8%B0%EB%A1%9D%20%EB%85%B8%ED%8A%B8%20%EB%B6%81%EB%A7%88%ED%81%AC&t=mwk1jxah&h=e7e2e298e0294c5a56a5feaaa4fbde9e1b74f8bc&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
@@ -128,9 +136,9 @@
      "engine": "naver",
      "price": 2320,
      "mall": "ARTBOX",
-     "title": "아트박스 토끼 왁스스티커 (04013794)",
-     "link": "https://ader.naver.com/v1/jHz02NOVJCaUs2fSU5WPsXKQQ8QiqhwDLDCSfX41iONLMso8T1A0Q8iW2NsWmz7Lt7AkCAZM6PAqOGRj4wve8J-XerJiTy4bPYtWuamsgGI5DCH4alvglN7-JP_yZ1Qq0lvzuC0ROGgH4tTtPnZG_Jvflv1tFsQbd_M2Wt8kd5RenOPhjueW-e6LZ8kHBebbH_ry_LvR5NeRUeWZnWaRKTu4PmufJuX9_1verHtoLK6CT2p6a1iV3rsqiKhFceDfZgyg0jDVS8tQdaYwkNOXhSoAy64p3LFJafg0yZA8RaMWReRyabSCvs1fFPnxom4zKIz1UW3ikckOAp4Ef2vTwTTv5lV8FJd52BrQocyRr-7xQzaYfwDWNDhVQTFAlHo0ZVEUyiE9yap1yOnAtbO0tYULyL3R3x3HOIBgmiF4A9xJrLw8U7vyYdoSuRZQvDcboqmpr_oq9uV2IZ56iJTDFTMP-HhBY5M8weR2nmdVVMbFR0-yZVFyIx4PN2-gDAedb72o6E1FyLwTUZmcm3FlUPf_84AJpRbm8BSunzclWGYuslXtaK3KRYNyfF_d4mM2meFirATtLiYDEZocGafOF4xhaOuN2BbLiYtlVnNrQSk=?c=naver.search.pc.npla&t=0&ui=GUIDE",
-     "checked": "2026-11-03T01:09Z"
+     "title": "아트박스 씰링왁스 스티커 포유 (20012799)",
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=54873413824&cat_id=50007608&query=%EC%95%84%ED%8A%B8%EB%B0%95%EC%8A%A4%20%EC%BA%90%EB%A6%AD%ED%84%B0%20%EC%8A%A4%ED%8B%B0%EC%BB%A4&t=mwk1jzaj&h=ab1966f80ca0b9f69f7cb53f7637b183a71fcd62&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
@@ -155,20 +163,20 @@
     },
     "naver": {
      "engine": "naver",
-     "price": 8900,
-     "mall": "판매처 49",
+     "price": 9840,
+     "mall": "판매처 46",
      "title": "아이코닉 두들 키링파우치 버즈 에어팟케이스",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=57255061812&cat_id=50000643&query=%EC%95%84%EC%9D%B4%EC%BD%94%EB%8B%89%20%EB%91%90%EB%93%A4%20%ED%82%A4%EB%A7%81%20%ED%8C%8C%EC%9A%B0%EC%B9%98&t=mvzzppmh&h=7af3a992167c75122ec19c49b026111418762a4b&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=57255061812&cat_id=50000643&query=%EC%95%84%EC%9D%B4%EC%BD%94%EB%8B%89%20%EB%91%90%EB%93%A4%20%ED%82%A4%EB%A7%81%20%ED%8C%8C%EC%9A%B0%EC%B9%98&t=mwk1k163&h=9196fd60242a97fb71c551d01ab11f59545dec2d&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
     "engine": "naver",
-    "price": 8900,
-    "mall": "판매처 49",
+    "price": 9840,
+    "mall": "판매처 46",
     "title": "아이코닉 두들 키링파우치 버즈 에어팟케이스",
-    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=57255061812&cat_id=50000643&query=%EC%95%84%EC%9D%B4%EC%BD%94%EB%8B%89%20%EB%91%90%EB%93%A4%20%ED%82%A4%EB%A7%81%20%ED%8C%8C%EC%9A%B0%EC%B9%98&t=mvzzppmh&h=7af3a992167c75122ec19c49b026111418762a4b&frm=NVSCPRO",
-    "checked": "2026-11-03T01:09Z"
+    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=57255061812&cat_id=50000643&query=%EC%95%84%EC%9D%B4%EC%BD%94%EB%8B%89%20%EB%91%90%EB%93%A4%20%ED%82%A4%EB%A7%81%20%ED%8C%8C%EC%9A%B0%EC%B9%98&t=mwk1k163&h=9196fd60242a97fb71c551d01ab11f59545dec2d&frm=NVSCPRO",
+    "checked": "2026-11-17T01:56Z"
    },
    "q": "아이코닉 두들 키링 파우치"
   },
@@ -184,20 +192,20 @@
     },
     "naver": {
      "engine": "naver",
-     "price": 7000,
-     "mall": "성원애드피아몰",
-     "title": "[안테나샵] 테이블토크 리본 미니 파우치",
-     "link": "https://ader.naver.com/v1/q8ixYFVNiOOd5I2uUhSlcU2Bv1gYJQtIqOpVRe3R97Q0yQaNn1zQc1d9Ok1BIa_6o6xxpvpOUQZHLxEj2Zn0i9OAYQA0qVElRCDlQQqGjqMas8clpbZhuhG9P7B0dPw86TQCENeD-hrYdB3GGIpf53lSklnVpHP47OECxTUVkHY6i_XY1MwU_BB4zRUZv1WduPntQm-jsPRHrnJyG6GTv0ovHgOUzlPSsnhQvjbEh02RhLvr40GE5Mk5Qo32RrYG2mbR1i8174hzZE_Zw5HudLBKrHsUccmErqhuYBmmkSpFiJrwb4yvkM-BpZoDgwfyIsPXU_3UXzMEtt7kPuPwNl25nGg04Kte2LmUn1kt8AO9l83hdgU-ODmsDKd1fbF0eTotOBQa2OHLcEiRPQetCw==?c=naver.search.pc.npla&NaPm=1&ui=GUIDE",
-     "checked": "2026-11-03T01:09Z"
+     "price": 7500,
+     "mall": "솜솜랩",
+     "title": "안테나샵 테이블토크 파우치 리본 미니 사각 파우치 블랙",
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=89586520652&cat_id=50000643&query=%EC%95%88%ED%85%8C%EB%82%98%EC%83%B5%20%EB%A6%AC%EB%B3%B8%20%ED%8C%8C%EC%9A%B0%EC%B9%98&t=mwk1k355&h=e89404a89e2a9a971abe6335cc7fc6b78aeecc43&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
     "engine": "naver",
-    "price": 7000,
-    "mall": "성원애드피아몰",
-    "title": "[안테나샵] 테이블토크 리본 미니 파우치",
-    "link": "https://ader.naver.com/v1/q8ixYFVNiOOd5I2uUhSlcU2Bv1gYJQtIqOpVRe3R97Q0yQaNn1zQc1d9Ok1BIa_6o6xxpvpOUQZHLxEj2Zn0i9OAYQA0qVElRCDlQQqGjqMas8clpbZhuhG9P7B0dPw86TQCENeD-hrYdB3GGIpf53lSklnVpHP47OECxTUVkHY6i_XY1MwU_BB4zRUZv1WduPntQm-jsPRHrnJyG6GTv0ovHgOUzlPSsnhQvjbEh02RhLvr40GE5Mk5Qo32RrYG2mbR1i8174hzZE_Zw5HudLBKrHsUccmErqhuYBmmkSpFiJrwb4yvkM-BpZoDgwfyIsPXU_3UXzMEtt7kPuPwNl25nGg04Kte2LmUn1kt8AO9l83hdgU-ODmsDKd1fbF0eTotOBQa2OHLcEiRPQetCw==?c=naver.search.pc.npla&NaPm=1&ui=GUIDE",
-    "checked": "2026-11-03T01:09Z"
+    "price": 7500,
+    "mall": "솜솜랩",
+    "title": "안테나샵 테이블토크 파우치 리본 미니 사각 파우치 블랙",
+    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=89586520652&cat_id=50000643&query=%EC%95%88%ED%85%8C%EB%82%98%EC%83%B5%20%EB%A6%AC%EB%B3%B8%20%ED%8C%8C%EC%9A%B0%EC%B9%98&t=mwk1k355&h=e89404a89e2a9a971abe6335cc7fc6b78aeecc43&frm=NVSCPRO",
+    "checked": "2026-11-17T01:56Z"
    },
    "q": "안테나샵 리본 파우치"
   },
@@ -218,20 +226,20 @@
     },
     "naver": {
      "engine": "naver",
-     "price": 29500,
-     "mall": "온더마켓몰",
-     "title": "말차 차선 세트 차센 브러시 대나무 찻잔 이도 거친 도자기 찻주걱 스탠드+백본 스탠드",
-     "link": "https://ader.naver.com/v1/i5N0zat12Z4MD8d20pTUhl_exYwHG8IXyV_pd0H8nh-7zY6wwDL3elCaL9hCSJzPEP7yp8lFJ1lor9T2bWCweFQrQzC9F1HWTZQEA5U8amJhvH4BLMdXKIg8DgwdKCj_QVilubvIAdG4mIj9_LmKEqhP5OS3TCoGjaQeaIJ1NSEpJ0PYJLjNNuq17dSqTNe59xxBkdGTtOKhqRWH19DUIXbZqdutwo59NZF2rF9SuRL8eI6KTsXKuy4MVN9BmNNURrKyKbqTZAzbD-e7xDozJb_rOK2vZVAjIvUj5yiyJhOG5qV5HTJyBps7JHcIHf7L1aHXEvRWsOUuVID5P3uxT3G41nZibXqr22AxadmhwTQy_RGILqyfhSvExzrylKh5REkCaz5ilCh8yeNr-ygFWg==?c=naver.search.pc.npla&t=0&ui=GUIDE",
-     "checked": "2026-11-03T01:09Z"
+     "price": 23250,
+     "mall": "판매처 4",
+     "title": "이도도자기 이도 소담잔 2P",
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=55253754090&cat_id=50004536&query=%EC%9D%B4%EB%8F%84%20%EB%8F%84%EC%9E%90%EA%B8%B0%20%EC%9E%94%20%EC%84%B8%ED%8A%B8&t=mwk1k6zw&h=7c755f1919a9cdfcaf43b13184e45c98402aae0c&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
     "engine": "naver",
-    "price": 29500,
-    "mall": "온더마켓몰",
-    "title": "말차 차선 세트 차센 브러시 대나무 찻잔 이도 거친 도자기 찻주걱 스탠드+백본 스탠드",
-    "link": "https://ader.naver.com/v1/i5N0zat12Z4MD8d20pTUhl_exYwHG8IXyV_pd0H8nh-7zY6wwDL3elCaL9hCSJzPEP7yp8lFJ1lor9T2bWCweFQrQzC9F1HWTZQEA5U8amJhvH4BLMdXKIg8DgwdKCj_QVilubvIAdG4mIj9_LmKEqhP5OS3TCoGjaQeaIJ1NSEpJ0PYJLjNNuq17dSqTNe59xxBkdGTtOKhqRWH19DUIXbZqdutwo59NZF2rF9SuRL8eI6KTsXKuy4MVN9BmNNURrKyKbqTZAzbD-e7xDozJb_rOK2vZVAjIvUj5yiyJhOG5qV5HTJyBps7JHcIHf7L1aHXEvRWsOUuVID5P3uxT3G41nZibXqr22AxadmhwTQy_RGILqyfhSvExzrylKh5REkCaz5ilCh8yeNr-ygFWg==?c=naver.search.pc.npla&t=0&ui=GUIDE",
-    "checked": "2026-11-03T01:09Z"
+    "price": 23250,
+    "mall": "판매처 4",
+    "title": "이도도자기 이도 소담잔 2P",
+    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=55253754090&cat_id=50004536&query=%EC%9D%B4%EB%8F%84%20%EB%8F%84%EC%9E%90%EA%B8%B0%20%EC%9E%94%20%EC%84%B8%ED%8A%B8&t=mwk1k6zw&h=7c755f1919a9cdfcaf43b13184e45c98402aae0c&frm=NVSCPRO",
+    "checked": "2026-11-17T01:56Z"
    },
    "q": "이도 도자기 잔 세트"
   },
@@ -253,10 +261,10 @@
     "naver": {
      "engine": "naver",
      "price": 7500,
-     "mall": "판매처 3",
+     "mall": "판매처 1",
      "title": "키티버니포니 해피 버니 파우치",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=61003747074&cat_id=50000643&query=%ED%82%A4%ED%8B%B0%EB%B2%84%EB%8B%88%ED%8F%AC%EB%8B%88%20%ED%82%A4%EB%A7%81%20%ED%8C%8C%EC%9A%B0%EC%B9%98&t=mvzzpy7w&h=56eb8ad4850963bf4cef609176d5ba64c9d7a4e9&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=61003747074&cat_id=50000643&query=%ED%82%A4%ED%8B%B0%EB%B2%84%EB%8B%88%ED%8F%AC%EB%8B%88%20%ED%82%A4%EB%A7%81%20%ED%8C%8C%EC%9A%B0%EC%B9%98&t=mwk1kaul&h=efa9b86c1330d9b17c5d708c07668789dd730e12&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
@@ -281,20 +289,20 @@
     },
     "naver": {
      "engine": "naver",
-     "price": 3500,
-     "mall": "봄날의고양이",
-     "title": "오롤리데이 O,LD! 스트랩 키링_3종류",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=90742578168&cat_id=50000264&query=%EC%98%A4%EB%A1%A4%EB%A6%AC%EB%8D%B0%EC%9D%B4%20%ED%82%A4%EB%A7%81&t=mvzzpzun&h=4a4fa639429bef82928b7aa97781bfc8c6c87ccc&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "price": 6170,
+     "mall": "29CM",
+     "title": "[오롤리데이] O,LD! message key ring_ver.1",
+     "link": "https://ader.naver.com/v1/I8DPQ8-51U5vieLYS7mUyfOtSOBbs5WphyyevIx3-gwu6p0YZ8hCNR9gOeM9DJ8Xdtwwiz2utMLRRrQI618m_H3yS2JxrpJDahg4gdWaizA9JwMHCd-FzXwOR63sBIxhQUuntSKa84vWsEh50e6Tzj-eRSK3D_bB8yCB9I8bXKYnLlC-TPFUc9P0asQca3wiEzSlL5oU5cjb4BV8RfRLnXogvkAeDvGSj5BHmlLVls4xUSoRnqEaTPt1hMjMNGd3fkwDkXWLDKr4Hs7kqxKxLfI8cVoA6xoK9lUnSEUHcAkty2sulpdWens4b5wmMMAbqM5pzOP88gY4o54TlDx2ykPhbn6MFpWa2mVTn9dNopMEOe2WJNiorOLx-5baqaYXCimGJT-c2dFknDlC7wa2dt7hbb9JkbcRJHbwNuANYv6bNxqyHXzQibPkongWXOzknJdjDVBox_wX05cD8BlJcIOTjwPeajzcZ6bhVRhuRXtWV74cRZyTJ2YwIssIPjruaBMV1zmTHQdZL96d6jKpgiX4HCziw9QkXD4l5Sd5q3GQRmoEN8ydPRI901zWKFkbpOSi0Zj54cKJFdw-ev7IUh1iNd1M7ZLcoS7PHaHxCdc=?c=naver.search.pc.npla&t=0&ui=GUIDE",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
     "engine": "naver",
-    "price": 3500,
-    "mall": "봄날의고양이",
-    "title": "오롤리데이 O,LD! 스트랩 키링_3종류",
-    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=90742578168&cat_id=50000264&query=%EC%98%A4%EB%A1%A4%EB%A6%AC%EB%8D%B0%EC%9D%B4%20%ED%82%A4%EB%A7%81&t=mvzzpzun&h=4a4fa639429bef82928b7aa97781bfc8c6c87ccc&frm=NVSCPRO",
-    "checked": "2026-11-03T01:09Z"
+    "price": 6170,
+    "mall": "29CM",
+    "title": "[오롤리데이] O,LD! message key ring_ver.1",
+    "link": "https://ader.naver.com/v1/I8DPQ8-51U5vieLYS7mUyfOtSOBbs5WphyyevIx3-gwu6p0YZ8hCNR9gOeM9DJ8Xdtwwiz2utMLRRrQI618m_H3yS2JxrpJDahg4gdWaizA9JwMHCd-FzXwOR63sBIxhQUuntSKa84vWsEh50e6Tzj-eRSK3D_bB8yCB9I8bXKYnLlC-TPFUc9P0asQca3wiEzSlL5oU5cjb4BV8RfRLnXogvkAeDvGSj5BHmlLVls4xUSoRnqEaTPt1hMjMNGd3fkwDkXWLDKr4Hs7kqxKxLfI8cVoA6xoK9lUnSEUHcAkty2sulpdWens4b5wmMMAbqM5pzOP88gY4o54TlDx2ykPhbn6MFpWa2mVTn9dNopMEOe2WJNiorOLx-5baqaYXCimGJT-c2dFknDlC7wa2dt7hbb9JkbcRJHbwNuANYv6bNxqyHXzQibPkongWXOzknJdjDVBox_wX05cD8BlJcIOTjwPeajzcZ6bhVRhuRXtWV74cRZyTJ2YwIssIPjruaBMV1zmTHQdZL96d6jKpgiX4HCziw9QkXD4l5Sd5q3GQRmoEN8ydPRI901zWKFkbpOSi0Zj54cKJFdw-ev7IUh1iNd1M7ZLcoS7PHaHxCdc=?c=naver.search.pc.npla&t=0&ui=GUIDE",
+    "checked": "2026-11-17T01:56Z"
    },
    "q": "오롤리데이 키링"
   },
@@ -318,8 +326,8 @@
      "price": 5500,
      "mall": "판매처 22",
      "title": "스타벅스 베어리스타 파우치 키링",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=57845194762&cat_id=50000570&query=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%82%A4%EB%A7%81%20%ED%8C%8C%EC%9A%B0%EC%B9%98&t=mvzzq3b5&h=f12cc9468b8e6d1a5fec30115007869c8365ca34&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=57845194762&cat_id=50000570&query=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%82%A4%EB%A7%81%20%ED%8C%8C%EC%9A%B0%EC%B9%98&t=mwk1kgkf&h=af73aacce3c2ac19be64ab4651b7761d381127ac&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
@@ -327,8 +335,8 @@
     "price": 5500,
     "mall": "판매처 22",
     "title": "스타벅스 베어리스타 파우치 키링",
-    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=57845194762&cat_id=50000570&query=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%82%A4%EB%A7%81%20%ED%8C%8C%EC%9A%B0%EC%B9%98&t=mvzzq3b5&h=f12cc9468b8e6d1a5fec30115007869c8365ca34&frm=NVSCPRO",
-    "checked": "2026-11-03T01:09Z"
+    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=57845194762&cat_id=50000570&query=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%82%A4%EB%A7%81%20%ED%8C%8C%EC%9A%B0%EC%B9%98&t=mwk1kgkf&h=af73aacce3c2ac19be64ab4651b7761d381127ac&frm=NVSCPRO",
+    "checked": "2026-11-17T01:56Z"
    },
    "q": "스타벅스 키링 파우치"
   },
@@ -344,20 +352,20 @@
     },
     "naver": {
      "engine": "naver",
-     "price": 16340,
+     "price": 21590,
      "mall": "판매처 1",
-     "title": "로마네 MARKS x Brunch Brother 트레이",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=61735617344&cat_id=50006877&query=%EB%A1%9C%EB%A7%88%EB%84%A4%20%EB%8D%B0%EC%8A%A4%ED%81%AC%20%EC%A0%95%EB%A6%AC%ED%95%A8&t=mvzzq59w&h=1636a358183d7fdbaaeb4c3ee51e57d365e1aa8e&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "title": "로마네 이즈워즈 브런치 브라더 맥세이프 카드 케이스",
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=55835283718&cat_id=50006877&query=%EB%A1%9C%EB%A7%88%EB%84%A4%20%EB%8D%B0%EC%8A%A4%ED%81%AC%20%EC%A0%95%EB%A6%AC%ED%95%A8&t=mwk1kijb&h=8499556e769740c14b85e02875b12a0594bce1d3&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
     "engine": "naver",
-    "price": 16340,
+    "price": 21590,
     "mall": "판매처 1",
-    "title": "로마네 MARKS x Brunch Brother 트레이",
-    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=61735617344&cat_id=50006877&query=%EB%A1%9C%EB%A7%88%EB%84%A4%20%EB%8D%B0%EC%8A%A4%ED%81%AC%20%EC%A0%95%EB%A6%AC%ED%95%A8&t=mvzzq59w&h=1636a358183d7fdbaaeb4c3ee51e57d365e1aa8e&frm=NVSCPRO",
-    "checked": "2026-11-03T01:09Z"
+    "title": "로마네 이즈워즈 브런치 브라더 맥세이프 카드 케이스",
+    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=55835283718&cat_id=50006877&query=%EB%A1%9C%EB%A7%88%EB%84%A4%20%EB%8D%B0%EC%8A%A4%ED%81%AC%20%EC%A0%95%EB%A6%AC%ED%95%A8&t=mwk1kijb&h=8499556e769740c14b85e02875b12a0594bce1d3&frm=NVSCPRO",
+    "checked": "2026-11-17T01:56Z"
    },
    "q": "로마네 데스크 정리함"
   },
@@ -365,11 +373,11 @@
    "sources": {
     "naver": {
      "engine": "naver",
-     "price": 5690,
-     "mall": "판매처 28",
+     "price": 4800,
+     "mall": "판매처 33",
      "title": "모트모트 텐미닛 플래너 100DAYS 화이트, 1개",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=56263929131&cat_id=50003549&query=%EB%AA%A8%ED%8A%B8%EB%AA%A8%ED%8A%B8%20%ED%85%90%EB%AF%B8%EB%8B%9B%20%ED%94%8C%EB%9E%98%EB%84%88&t=mvzzq6sk&h=2c7aaec94efe2a56ddc9d7efa642f022ef6c20a4&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=56263929131&cat_id=50003549&query=%EB%AA%A8%ED%8A%B8%EB%AA%A8%ED%8A%B8%20%ED%85%90%EB%AF%B8%EB%8B%9B%20%ED%94%8C%EB%9E%98%EB%84%88&t=mwk1kk7t&h=162d87091475e9458626a6ab209cb7f236fdd8c3&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     },
     "google": {
      "engine": "google",
@@ -402,11 +410,11 @@
     },
     "naver": {
      "engine": "naver",
-     "price": 4870,
-     "mall": "판매처 632",
+     "price": 4750,
+     "mall": "판매처 602",
      "title": "모나미 프러스펜 24색 세트",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=60056047328&cat_id=50003570&query=%EB%AA%A8%EB%82%98%EB%AF%B8%20%ED%94%8C%EB%9F%AC%EC%8A%A4%ED%8E%9C%203000%2036%EC%83%89%20%EC%84%B8%ED%8A%B8&t=mvzzq8mi&h=86eb51dd73f61e69d0eb5fe331512d73c116f0af&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=60056047328&cat_id=50003570&query=%EB%AA%A8%EB%82%98%EB%AF%B8%20%ED%94%8C%EB%9F%AC%EC%8A%A4%ED%8E%9C%203000%2036%EC%83%89%20%EC%84%B8%ED%8A%B8&t=mwk1km2s&h=d9bc65358e6dae2dabb60fa5a9e035f414a340e8&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
@@ -432,19 +440,19 @@
     "naver": {
      "engine": "naver",
      "price": 4200,
-     "mall": "판매처 222",
+     "mall": "판매처 208",
      "title": "아이콘스 카카오프렌즈 라이언 어피치 문구세트 1개",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=59899004757&cat_id=50007969&query=%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%94%84%EB%A0%8C%EC%A6%88%20%EC%B6%98%EC%8B%9D%EC%9D%B4%20%EB%AC%B8%EA%B5%AC%20%EC%84%B8%ED%8A%B8&t=mvzzqacw&h=11d0051f0ea6226ec0083472ff75fc85d45009d3&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=59899004757&cat_id=50007969&query=%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%94%84%EB%A0%8C%EC%A6%88%20%EC%B6%98%EC%8B%9D%EC%9D%B4%20%EB%AC%B8%EA%B5%AC%20%EC%84%B8%ED%8A%B8&t=mwk1knx9&h=d08bf65d88703d096c59819373d884bae23bfc3e&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
     "engine": "naver",
     "price": 4200,
-    "mall": "판매처 222",
+    "mall": "판매처 208",
     "title": "아이콘스 카카오프렌즈 라이언 어피치 문구세트 1개",
-    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=59899004757&cat_id=50007969&query=%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%94%84%EB%A0%8C%EC%A6%88%20%EC%B6%98%EC%8B%9D%EC%9D%B4%20%EB%AC%B8%EA%B5%AC%20%EC%84%B8%ED%8A%B8&t=mvzzqacw&h=11d0051f0ea6226ec0083472ff75fc85d45009d3&frm=NVSCPRO",
-    "checked": "2026-11-03T01:09Z"
+    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=59899004757&cat_id=50007969&query=%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%94%84%EB%A0%8C%EC%A6%88%20%EC%B6%98%EC%8B%9D%EC%9D%B4%20%EB%AC%B8%EA%B5%AC%20%EC%84%B8%ED%8A%B8&t=mwk1knx9&h=d08bf65d88703d096c59819373d884bae23bfc3e&frm=NVSCPRO",
+    "checked": "2026-11-17T01:56Z"
    },
    "q": "카카오프렌즈 춘식이 문구 세트"
   },
@@ -463,8 +471,8 @@
      "price": 19800,
      "mall": "판매처 1",
      "title": "제로퍼제로 서울 레일웨이 포스터",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=61494030756&cat_id=50000376&query=%EC%A0%9C%EB%A1%9C%ED%8D%BC%EC%A0%9C%EB%A1%9C%20%EC%84%9C%EC%9A%B8%20%EC%A7%80%ED%95%98%EC%B2%A0%20%EB%85%B8%EC%84%A0%EB%8F%84%20%ED%8F%AC%EC%8A%A4%ED%84%B0&t=mvzzqcao&h=af2cb75ad71a51ca17e568138fa3ce964de8e2b9&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=61494030756&cat_id=50000376&query=%EC%A0%9C%EB%A1%9C%ED%8D%BC%EC%A0%9C%EB%A1%9C%20%EC%84%9C%EC%9A%B8%20%EC%A7%80%ED%95%98%EC%B2%A0%20%EB%85%B8%EC%84%A0%EB%8F%84%20%ED%8F%AC%EC%8A%A4%ED%84%B0&t=mwk1kpof&h=6570edf50ed1d70896f64040fee860f9ca86537d&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
@@ -492,8 +500,8 @@
      "price": 6800,
      "mall": "수제 도장 만들기 주문제작",
      "title": "개인 인감도장 아기 아이 법인 낙관 한글 어린이 막도장 유치원 졸업 선물 기본체 음각",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=90866950057&cat_id=50007769&query=%ED%95%9C%EA%B8%80%20%EC%9D%B4%EB%A6%84%20%EC%88%98%EC%A0%9C%20%EB%8F%84%EC%9E%A5&t=mvzzqdxi&h=837754e96f7a98d2f876a65b5dbc8de19ed33835&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=90866950057&cat_id=50007769&query=%ED%95%9C%EA%B8%80%20%EC%9D%B4%EB%A6%84%20%EC%88%98%EC%A0%9C%20%EB%8F%84%EC%9E%A5&t=mwk1kra5&h=6b54190f0153249ea7981b2fca6b979615ecef03&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
@@ -501,8 +509,8 @@
     "price": 6800,
     "mall": "수제 도장 만들기 주문제작",
     "title": "개인 인감도장 아기 아이 법인 낙관 한글 어린이 막도장 유치원 졸업 선물 기본체 음각",
-    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=90866950057&cat_id=50007769&query=%ED%95%9C%EA%B8%80%20%EC%9D%B4%EB%A6%84%20%EC%88%98%EC%A0%9C%20%EB%8F%84%EC%9E%A5&t=mvzzqdxi&h=837754e96f7a98d2f876a65b5dbc8de19ed33835&frm=NVSCPRO",
-    "checked": "2026-11-03T01:09Z"
+    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=90866950057&cat_id=50007769&query=%ED%95%9C%EA%B8%80%20%EC%9D%B4%EB%A6%84%20%EC%88%98%EC%A0%9C%20%EB%8F%84%EC%9E%A5&t=mwk1kra5&h=6b54190f0153249ea7981b2fca6b979615ecef03&frm=NVSCPRO",
+    "checked": "2026-11-17T01:56Z"
    },
    "q": "한글 이름 수제 도장"
   },
@@ -518,20 +526,20 @@
     },
     "naver": {
      "engine": "naver",
-     "price": 2500,
-     "mall": "주은교구",
-     "title": "자개족자만들기 (2종) 전통 민속 키트 패키지 diy",
-     "link": "https://ader.naver.com/v1/bZRgyODjiJpttenLsjcAR3cY2cNdqxMiVhfeWyr1Y2YMVGt26yYkwAcHr3UJqokVk2qXCOcQ_g3-tR1BW1ZuLAqqgZoDi10Och-F1KODkKWsVhJCrxenDjuQs3WhhQh4EVcYQQU9_sAKRsIGApLbOof7BfKgzO_JtURxE_8G8jR9oBNIjkBUKK_SqEIOWKJUi90XXKbtU_NXNHrVeJf_F9tfUBeSGzU-b7_7k0baNdvGEu4RA9Q74JHzvNVELw9O7z1WTO4-Vrg2LYWxPIfWIoQo77ThJO60Wwm7_ClB3SO20jlVpB2nF1Yho-H-vZw9w5vtQmcNJw80KBIe78x7PbSBM77njNAMfyV_xERHDdupaXcQRDTrsnPZS4R8s7ZS13rwZIuJ7aVzWgYv01oV9KzPN74emCw9ySRlLL9ycM3rmYaaPpORTkJ9iaaS6XeMvLDpTUjwc9kAC1GnSXON_c02TcmKrZ6QT-pTHOMNgTYI-xa2psLQXqjDKsEFogE6?c=naver.search.pc.npla&t=0&ui=GUIDE",
-     "checked": "2026-11-03T01:09Z"
+     "price": 3000,
+     "mall": "미술공장",
+     "title": "도자기모양 전통 자개 스티커 키링 만들기 DIY키트 한국기념품 자개공예재료",
+     "link": "https://ader.naver.com/v1/l7J9NU1PzzzQ0qy2YIFQvwnGpRzTnGCYNschQx0dIbJyRI0l3svj1Crpk0gRK8UbhyT6EbFROghoVb9MxmB_QMDd6Xia1I5oPZHyXAy1ljjn-C7QvCVD9ATE9bylgdedySpgssKiNSxFIf9QZ3xkeK4va8TZ1wMzR8ZjwEI5-R9mRLWqKUBPyCx4EI7TlwtNfz0_y3IIGepCOAwI062gFoJ_m5zH92kKiVqyow47i6IUrWp2-ZlfLW5X8CQMrC7gF6fm9XRdlngkM3KrOL0-rhwP4VNn9BnqSXpXwUk0a4Yz70pVZ6LzTeAzxVZZAxH-?c=naver.search.pc.npla&t=0&ui=GUIDE",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
     "engine": "naver",
-    "price": 2500,
-    "mall": "주은교구",
-    "title": "자개족자만들기 (2종) 전통 민속 키트 패키지 diy",
-    "link": "https://ader.naver.com/v1/bZRgyODjiJpttenLsjcAR3cY2cNdqxMiVhfeWyr1Y2YMVGt26yYkwAcHr3UJqokVk2qXCOcQ_g3-tR1BW1ZuLAqqgZoDi10Och-F1KODkKWsVhJCrxenDjuQs3WhhQh4EVcYQQU9_sAKRsIGApLbOof7BfKgzO_JtURxE_8G8jR9oBNIjkBUKK_SqEIOWKJUi90XXKbtU_NXNHrVeJf_F9tfUBeSGzU-b7_7k0baNdvGEu4RA9Q74JHzvNVELw9O7z1WTO4-Vrg2LYWxPIfWIoQo77ThJO60Wwm7_ClB3SO20jlVpB2nF1Yho-H-vZw9w5vtQmcNJw80KBIe78x7PbSBM77njNAMfyV_xERHDdupaXcQRDTrsnPZS4R8s7ZS13rwZIuJ7aVzWgYv01oV9KzPN74emCw9ySRlLL9ycM3rmYaaPpORTkJ9iaaS6XeMvLDpTUjwc9kAC1GnSXON_c02TcmKrZ6QT-pTHOMNgTYI-xa2psLQXqjDKsEFogE6?c=naver.search.pc.npla&t=0&ui=GUIDE",
-    "checked": "2026-11-03T01:09Z"
+    "price": 3000,
+    "mall": "미술공장",
+    "title": "도자기모양 전통 자개 스티커 키링 만들기 DIY키트 한국기념품 자개공예재료",
+    "link": "https://ader.naver.com/v1/l7J9NU1PzzzQ0qy2YIFQvwnGpRzTnGCYNschQx0dIbJyRI0l3svj1Crpk0gRK8UbhyT6EbFROghoVb9MxmB_QMDd6Xia1I5oPZHyXAy1ljjn-C7QvCVD9ATE9bylgdedySpgssKiNSxFIf9QZ3xkeK4va8TZ1wMzR8ZjwEI5-R9mRLWqKUBPyCx4EI7TlwtNfz0_y3IIGepCOAwI062gFoJ_m5zH92kKiVqyow47i6IUrWp2-ZlfLW5X8CQMrC7gF6fm9XRdlngkM3KrOL0-rhwP4VNn9BnqSXpXwUk0a4Yz70pVZ6LzTeAzxVZZAxH-?c=naver.search.pc.npla&t=0&ui=GUIDE",
+    "checked": "2026-11-17T01:56Z"
    },
    "q": "자개 DIY 키트"
   },
@@ -539,11 +547,11 @@
    "sources": {
     "naver": {
      "engine": "naver",
-     "price": 1930,
+     "price": 1890,
      "mall": "판매처 8",
      "title": "맘아트 DIY 양말목 전통매듭 키링 만들기 키트",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=57088755185&cat_id=50000570&query=%EC%A0%84%ED%86%B5%EB%A7%A4%EB%93%AD%20%ED%82%A4%EB%A7%81%20DIY%20%ED%82%A4%ED%8A%B8&t=mvzzqhii&h=f3e04e96b053ea5d165b1f4a3ffdc249afb968b8&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=57088755185&cat_id=50000570&query=%EC%A0%84%ED%86%B5%EB%A7%A4%EB%93%AD%20%ED%82%A4%EB%A7%81%20DIY%20%ED%82%A4%ED%8A%B8&t=mwk1kuzm&h=291354a9a0bbcb6ff128790696ea7fff04d7a127&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     },
     "google": {
      "engine": "google",
@@ -556,11 +564,11 @@
    },
    "lowest": {
     "engine": "naver",
-    "price": 1930,
+    "price": 1890,
     "mall": "판매처 8",
     "title": "맘아트 DIY 양말목 전통매듭 키링 만들기 키트",
-    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=57088755185&cat_id=50000570&query=%EC%A0%84%ED%86%B5%EB%A7%A4%EB%93%AD%20%ED%82%A4%EB%A7%81%20DIY%20%ED%82%A4%ED%8A%B8&t=mvzzqhii&h=f3e04e96b053ea5d165b1f4a3ffdc249afb968b8&frm=NVSCPRO",
-    "checked": "2026-11-03T01:09Z"
+    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=57088755185&cat_id=50000570&query=%EC%A0%84%ED%86%B5%EB%A7%A4%EB%93%AD%20%ED%82%A4%EB%A7%81%20DIY%20%ED%82%A4%ED%8A%B8&t=mwk1kuzm&h=291354a9a0bbcb6ff128790696ea7fff04d7a127&frm=NVSCPRO",
+    "checked": "2026-11-17T01:56Z"
    },
    "q": "전통매듭 키링 DIY 키트"
   },
@@ -576,20 +584,20 @@
     },
     "naver": {
      "engine": "naver",
-     "price": 2500,
-     "mall": "조앤안",
-     "title": "할로윈 무드등 만들기 한지 공예 호박 조명 미술만들기 재료 kit",
-     "link": "https://ader.naver.com/v1/PeMyWW_ZmAxqv78l1jztkvswm-aWTdiDh0nipfThUZuwbhIt_RXbHj4VixzSv6A7YR8c3NNFsmDwge_bGWd34Mz8k5o5kf09L0lSu0IxdfKAYplWqhjOH_Bt4M16CojiKJLuJBBULw3ypxihG4MSsZLK_bZ4UKLelIWXZN51B7KER8XKK1OXE-7caaGpv-9Izvbc6bK9ZrB10h-E4VX6iL5rqvbGPhaq4DElSrxg2WNcNBvd-GBboKdAIo80xAaHS3311K04Q6-qJek0NoLH62aRVyU1k2MaCeCQcpa1tWg3ccMm3U5GQLIzQGJSkhgwkBOX0-uxhFEdba9G9DO0xVqOC3V5ZfZItwcTkA5Fnzs9Fh9cjaUDmQULw-zPITZTSSRX_G_YOnc7pEuAF-LguQ==?c=naver.search.pc.npla&t=0&ui=GUIDE",
-     "checked": "2026-11-03T01:09Z"
+     "price": 3500,
+     "mall": "키트랑스토어",
+     "title": "전통 한지 소원을 비는 소원등 만들기 DIY 키트",
+     "link": "https://ader.naver.com/v1/N3qpNrGbKeMXLdY2c0HfQ1DpjTFM9Gd64ruBZViDc2PX_ynRd_xyKjCGkorYfrwxYbHhCqxe5i7FnGZqN7wUg17lOSA-lj3RSM8pMDfu8zcxpNEB0c2Ijk9mkU-Petk2qzD_E5_JZYdGZDUuTXNO_yt_a3GjqIpav1aX9zD0fzOAZA5gMIApEQuwubQ7RFXxw1_CsIomHRaVrnZ9yPwkYwxD4SpRX16Yd4kJ-lhABsDzGS3TORJ5IJUWQc2ywaaDdQvBygDe1dk6bAwEStFcYvHca1peWUYyfGYkJ5HrG3r1YzWw_wcAGHbfsQEvd5Bq-rRP72DQO8ROTsvLfw2fKOKlKKjXSvj3Xumds7q0jxCFWZe3aR-5sYvTQEwLISbh_Dw0cWV9nyaKLI2W1s6J1Cxe3ZdadGezA_xUnXb-K4WBoRoe88QCPF_JmG_tHSbk_lgOZha2hvpmWh8XA7O50pzrytA9FNDjv3TreExzKX43r9nD4SIkzeegBmI8t-ZfhvD5sumZAnzWDc3xhijL-g==?c=naver.search.pc.npla&t=0&ui=GUIDE",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
     "engine": "naver",
-    "price": 2500,
-    "mall": "조앤안",
-    "title": "할로윈 무드등 만들기 한지 공예 호박 조명 미술만들기 재료 kit",
-    "link": "https://ader.naver.com/v1/PeMyWW_ZmAxqv78l1jztkvswm-aWTdiDh0nipfThUZuwbhIt_RXbHj4VixzSv6A7YR8c3NNFsmDwge_bGWd34Mz8k5o5kf09L0lSu0IxdfKAYplWqhjOH_Bt4M16CojiKJLuJBBULw3ypxihG4MSsZLK_bZ4UKLelIWXZN51B7KER8XKK1OXE-7caaGpv-9Izvbc6bK9ZrB10h-E4VX6iL5rqvbGPhaq4DElSrxg2WNcNBvd-GBboKdAIo80xAaHS3311K04Q6-qJek0NoLH62aRVyU1k2MaCeCQcpa1tWg3ccMm3U5GQLIzQGJSkhgwkBOX0-uxhFEdba9G9DO0xVqOC3V5ZfZItwcTkA5Fnzs9Fh9cjaUDmQULw-zPITZTSSRX_G_YOnc7pEuAF-LguQ==?c=naver.search.pc.npla&t=0&ui=GUIDE",
-    "checked": "2026-11-03T01:09Z"
+    "price": 3500,
+    "mall": "키트랑스토어",
+    "title": "전통 한지 소원을 비는 소원등 만들기 DIY 키트",
+    "link": "https://ader.naver.com/v1/N3qpNrGbKeMXLdY2c0HfQ1DpjTFM9Gd64ruBZViDc2PX_ynRd_xyKjCGkorYfrwxYbHhCqxe5i7FnGZqN7wUg17lOSA-lj3RSM8pMDfu8zcxpNEB0c2Ijk9mkU-Petk2qzD_E5_JZYdGZDUuTXNO_yt_a3GjqIpav1aX9zD0fzOAZA5gMIApEQuwubQ7RFXxw1_CsIomHRaVrnZ9yPwkYwxD4SpRX16Yd4kJ-lhABsDzGS3TORJ5IJUWQc2ywaaDdQvBygDe1dk6bAwEStFcYvHca1peWUYyfGYkJ5HrG3r1YzWw_wcAGHbfsQEvd5Bq-rRP72DQO8ROTsvLfw2fKOKlKKjXSvj3Xumds7q0jxCFWZe3aR-5sYvTQEwLISbh_Dw0cWV9nyaKLI2W1s6J1Cxe3ZdadGezA_xUnXb-K4WBoRoe88QCPF_JmG_tHSbk_lgOZha2hvpmWh8XA7O50pzrytA9FNDjv3TreExzKX43r9nD4SIkzeegBmI8t-ZfhvD5sumZAnzWDc3xhijL-g==?c=naver.search.pc.npla&t=0&ui=GUIDE",
+    "checked": "2026-11-17T01:56Z"
    },
    "q": "한지 무드등 DIY 키트"
   },
@@ -605,11 +613,11 @@
     },
     "naver": {
      "engine": "naver",
-     "price": 9990,
-     "mall": "옐로우블랙화이트",
-     "title": "컬러링 민화 그리기 족자 전통 그림 도안 키트",
-     "link": "https://ader.naver.com/v1/ZpnurCEfyxVICgrnYP0Ih8hybQrT5oJkQJVpFF2EtdnOzI3Lldj2KYM1yShllE5siM4ibF1ghhpfQSAoPtlY4lF9qOmJJHjRO0zfyDvT0lhZ1OyN3zLW97dZm2R9yj6oxcBN4Q-H7vq21o1dzyxd-pYLuVtGuwTRGBHpM6XKK0-iYJl1E7Ot885EmL7JTjVbPFDrzJAvY2j8b5KwZfmB7zZEUi1WdQjn75e-VrHVr2x3rDvXeFtqbTCBU-MVRsGumFU1L9WIckCIxifEf4by_qGlA72UKTVDpnqHfXMLBx7S2v1HW76c6gizWFdKWgWCncHMSIF9b1EebNrzsyF3AtVAaC4QyZnYi03wMTb9p4aXdj3OF8YUOz77BWNShUI_-rSsUxykrUcjNTGtQXGuyQ==?c=naver.search.pc.npla&t=0&ui=GUIDE",
-     "checked": "2026-11-03T01:09Z"
+     "price": 4900,
+     "mall": "랑드아마켓",
+     "title": "민화 캔버스 액자 그리기 만들기 DIY 키트 초등 돌봄 방과후 수업 미술 색칠 놀이 모란",
+     "link": "https://ader.naver.com/v1/OZRiPPmh316a6ylpytqKLAMQUopzDPpZvZW3aubmmNguR5WOu7inQLvr6Fo-veFe7gGfijIOQlSkrrpTlWagIuPHD9NbAAvThpH3j71e919lQWL7uShb5pslTPU6KXkvv5yvRo4Xaj-1Buk3jxr5GzNGU9AxFHinJqYXOFQmmXFXUr3sqA1EvJBLNkS8XMnLJtyNahnFKUemmx_uYeMOCN28nG_g8FZDEtay_IYpUD8WHKYO-nNJFV3ymGIj5EBrziR1qt1udB7IujKpxhhsI63d2xIbmZaD1sqJA3Dqwb-kCY9XrbatnPlDRg31yJe8xIiU3UvFsDCVQuy1al_t6Q==?c=naver.search.pc.npla&t=0&ui=GUIDE",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
@@ -637,8 +645,8 @@
      "price": 42000,
      "mall": "조각보앤스타일",
      "title": "DIYKIT 모시조각보패키지03 규방공예 퀼트 조각보만들기 수업용",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82124364526&cat_id=50003668&query=%EC%A1%B0%EA%B0%81%EB%B3%B4%20%ED%8C%8C%EC%9A%B0%EC%B9%98%20DIY%20%ED%82%A4%ED%8A%B8&t=mvzzqnh6&h=3c1db9009f9a822a320908ec0fda4ec330fbce7b&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82124364526&cat_id=50003668&query=%EC%A1%B0%EA%B0%81%EB%B3%B4%20%ED%8C%8C%EC%9A%B0%EC%B9%98%20DIY%20%ED%82%A4%ED%8A%B8&t=mwk1l0zp&h=5c5398a9cab28d748eef409ffdacd7f8aca50916&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
@@ -708,8 +716,8 @@
      "price": 3510,
      "mall": "픽모아 생활잡화",
      "title": "귀여운 스마트폰 거치대 핸드폰 스마트 톡 홀더 일러스트 그립톡",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=91330113052&cat_id=50000255&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%20%EA%B7%B8%EB%A6%BD%ED%86%A1&t=mvzzqsz6&h=255fd626f4cd8bdba88abec101253f4c07614377&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=91330113052&cat_id=50000255&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%20%EA%B7%B8%EB%A6%BD%ED%86%A1&t=mwk1l6xb&h=5ed2e6a4a01277fdd386c40eeab3519878fdd7bc&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
@@ -717,8 +725,8 @@
     "price": 3510,
     "mall": "픽모아 생활잡화",
     "title": "귀여운 스마트폰 거치대 핸드폰 스마트 톡 홀더 일러스트 그립톡",
-    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=91330113052&cat_id=50000255&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%20%EA%B7%B8%EB%A6%BD%ED%86%A1&t=mvzzqsz6&h=255fd626f4cd8bdba88abec101253f4c07614377&frm=NVSCPRO",
-    "checked": "2026-11-03T01:09Z"
+    "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=91330113052&cat_id=50000255&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%20%EA%B7%B8%EB%A6%BD%ED%86%A1&t=mwk1l6xb&h=5ed2e6a4a01277fdd386c40eeab3519878fdd7bc&frm=NVSCPRO",
+    "checked": "2026-11-17T01:56Z"
    },
    "q": "일러스트 그립톡"
   },
@@ -736,9 +744,9 @@
      "engine": "naver",
      "price": 15000,
      "mall": "판매처 3",
-     "title": "누우띠 다이노탱 쿼카 삑삑이 1개",
-     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=61566567912&cat_id=50006675&query=%EB%8B%A4%EC%9D%B4%EB%85%B8%ED%83%B1%20%EC%BF%BC%EC%B9%B4%20%EC%9D%B8%ED%98%95&t=mvzzquu0&h=52f6a618a96722f5840d5fef4f749d365886a8a9&frm=NVSCPRO",
-     "checked": "2026-11-03T01:09Z"
+     "title": "다이노탱 인형 손거울 1개",
+     "link": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=60887092466&cat_id=50003240&query=%EB%8B%A4%EC%9D%B4%EB%85%B8%ED%83%B1%20%EC%BF%BC%EC%B9%B4%20%EC%9D%B8%ED%98%95&t=mwk1l8yc&h=b664e963bd38c46ad93021fa27fc11705a6fc270&frm=NVSCPRO",
+     "checked": "2026-11-17T01:56Z"
     }
    },
    "lowest": {
